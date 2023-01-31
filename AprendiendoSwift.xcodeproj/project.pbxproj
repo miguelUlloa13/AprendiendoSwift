@@ -51,6 +51,7 @@
 		78BD48082988D06C00E9AF4A /* AprendiendoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendiendoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD480C2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoSwiftUITests.swift; sourceTree = "<group>"; };
 		78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		78BD481D2988D3D800E9AF4A /* Clase 1.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 1.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +102,7 @@
 		78BD47E72988D06B00E9AF4A /* AprendiendoSwift */ = {
 			isa = PBXGroup;
 			children = (
+				78BD481B2988D36500E9AF4A /* Mis PlayGrounds */,
 				78BD47E82988D06B00E9AF4A /* AppDelegate.swift */,
 				78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */,
 				78BD47EC2988D06B00E9AF4A /* ViewController.swift */,
@@ -128,6 +130,14 @@
 				78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */,
 			);
 			path = AprendiendoSwiftUITests;
+			sourceTree = "<group>";
+		};
+		78BD481B2988D36500E9AF4A /* Mis PlayGrounds */ = {
+			isa = PBXGroup;
+			children = (
+				78BD481D2988D3D800E9AF4A /* Clase 1.playground */,
+			);
+			path = "Mis PlayGrounds";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
