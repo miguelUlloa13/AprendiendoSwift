@@ -4,7 +4,7 @@ import UIKit
 
 // Funciones
 
-        // Funiones sin parametros
+        // Funciones sin parametros
 
             // Ejemplo de funcion "print"
 
