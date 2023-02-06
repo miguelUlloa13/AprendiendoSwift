@@ -34,7 +34,7 @@ let myCharacter2 = "\u{24}"
 let myString3 = "Probando\ncaracteres\rde\tswift"
 
 // Emojis
-let myEmoji =  "😡" //Se puede poner un emojo con ascii code o con "ctrl + cmd + SPACE"
+let myEmoji =  "😡" //Se puede poner un emoji con ascii code o con "ctrl + cmd + SPACE"
 
 //*************************************************************************
 
