@@ -20,7 +20,7 @@ var personaNamedTuples = (nombre2: "Angel", apellido2: "Ulloa", edad: 24, estatu
 personaNamedTuples.nombre2
 
 
-typealias ConferencePropertiesTuple = (pavilionName: String, auditoryName: String, letter: String)
+typealias ConferencePropertiesTuple = (pavilionName: String, auditoryName: String, letterPavilion: String)
     // Arreglo de pabellones
 var auditoryAndPavilionsValues: [ConferencePropertiesTuple] = [
     ("Pabellon A", "Auditorio Alfa", "A"),
@@ -36,6 +36,9 @@ for (pavilion, auditory, letter) in auditoryAndPavilionsValues {
     print("\(pavilion) --- \(auditory) --- \(letter)")
     
 }
+
+auditoryAndPavilionsValues[5].auditoryName
+
 
 //*************************************************************************
 
