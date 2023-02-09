@@ -17,6 +17,8 @@ print("Mi calificacion promedio fue de: \(miPrimeroClosure(100,22,88))")
 
     // Struct
 
+        // Ejemplo 1 Estructura con propiedades por default
+
 struct cuadrados{
         // Propiedades
     var ancho = 10
@@ -38,10 +40,59 @@ var areaCuadrado = miCuadrado.ancho * miCuadrado.alto
     // Ejemplo de area con un metodo
 miCuadrado.area()
 
+
+// Ejemplo 2 Estructura con inicializador (Constructor)
+
+struct ShoppingCart {
+
+    var totalPrice: Double
+    var numberOfItems: Int
+
+        // Constructor
+    init(totalPrice: Double = 0, numberOfItems: Int = 0) {
+        self.totalPrice = totalPrice
+        self.numberOfItems = numberOfItems
+    }
+
+}
+
+let shoppingCart = ShoppingCart()
+
+
+    // Ejemplo 3 Estructura sin constructor
+
+    // Se define una estructura de tipo User
+struct User {
+
+    // MARK: - Properties
+        // Se declara una propiedad constante de tipo String sin inicializar
+    let name: String
+
+    // MARK: - Instance Methods
+
+    func greeting() -> String {
+        "Hello \(name)"
+    }
+
+}
+
+    // El compilador genera un inicializador (memberwise initializer) porque no se definio un inicializador personalizado.
+let miguel = User(name: "miguel")
+let jane = User(name: "Jane")
+
+jane.greeting()
+miguel.greeting()
+
+
+
+
 //*************************************************************************
 
 // Clase
 
+    // La clases no tienen un constructor automático para inicializar las clases; se debe crear uno personalizado.
+
+    // Se define la clase Tipo automovil
 class automovil {
         // propiedades
     var color = "negro"
@@ -68,6 +119,11 @@ miObjetoMazda.precio
 miObjetoMazda.precio = 150000
 
 print(miObjetoMazda.precio)
+
+
+
+
+
 
 //*************************************************************************
 
