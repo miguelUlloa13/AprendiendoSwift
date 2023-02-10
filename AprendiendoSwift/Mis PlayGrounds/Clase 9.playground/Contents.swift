@@ -92,6 +92,8 @@ miguel.greeting()
 
     // La clases no tienen un constructor automático para inicializar las clases; se debe crear uno personalizado.
 
+        // Ejemplo 1 con propiedades con valores por default
+
     // Se define la clase Tipo automovil
 class automovil {
         // propiedades
@@ -122,8 +124,71 @@ print(miObjetoMazda.precio)
 
 
 
+        // Ejemplo 2 con propiedades con valores por default
+
+class cuadarado {
+    
+        // propiedades
+    let numLados: Int
+    let medidaLado: Int
+    
+    init(medidaLado: Int) {
+        self.numLados = 4
+        self.medidaLado = medidaLado
+    }
+    
+        // metodos
+    
+    func area() -> Int {
+        
+        var result:Int?
+        result = medidaLado * medidaLado
+        
+        return result!
+        
+    }
+    
+    func perimetro() -> Int {
+        
+        var result:Int?
+        result = medidaLado * numLados
+        
+        return result!
+        
+    }
+
+}
+
+let miCuadrado2 = cuadarado(medidaLado: 10)
+miCuadrado2.area()
+miCuadrado2.perimetro()
 
 
+//*************************************************************************
+
+    // Atributos y métodos estáticos (static)
+
+        /*Swift llama a estos atributos compartidos "atributos estáticos", y se pueden crear usando solamente el modificador static */
+
+struct NetworkingProvider {
+    static let link = "http://www.redsocial.com"
+    
+    var email:String
+    var password:String
+    
+    init(email:String, password:String) {
+        self.email = email
+        self.password = password
+    }
+
+    func getUser() {
+        print("logeandose")
+    }
+    
+}
+
+let miguelUser: NetworkingProvider = NetworkingProvider(email: "miguel@email.com", password: "1234")
+print(NetworkingProvider.link)
 
 //*************************************************************************
 
