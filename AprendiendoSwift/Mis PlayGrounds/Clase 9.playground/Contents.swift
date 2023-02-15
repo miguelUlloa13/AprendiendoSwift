@@ -1,19 +1,6 @@
 import UIKit
 
-//*************************************************************************
 
-            // Closures
-                    // Los closures Bloque autocontenido de codigo que se puede pasar/usar alrededor de la aplicacion
-
-let miPrimeroClosure = {(materiaUno:Double,materiaDos:Double,materiaTres:Double) -> Double in
-    return (materiaUno + materiaDos + materiaTres)/3
-}
-
-print("Mi calificacion promedio fue de: \(miPrimeroClosure(100,22,88))")
-
-        // Los closures son como las funciones
-
-//*************************************************************************
 
     // Struct
 
@@ -39,6 +26,8 @@ var areaCuadrado = miCuadrado.ancho * miCuadrado.alto
 
     // Ejemplo de area con un metodo
 miCuadrado.area()
+print(type(of: miCuadrado.area()))
+print(miCuadrado.ancho)
 
 
 // Ejemplo 2 Estructura con inicializador (Constructor)
@@ -163,6 +152,48 @@ let miCuadrado2 = cuadarado(medidaLado: 10)
 miCuadrado2.area()
 miCuadrado2.perimetro()
 
+//*************************************************************************
+
+    // Sobrecarga de funciones
+        // Se le llama sobrecarga de funciones o métodos a la creación de varias funciones dentro de nuestro programa, que tienen el mismo nombre, pero sus argumentos son distintos y realizan distinta acción.
+
+class Coche{
+   //Atributos
+    var marca: String
+    var anio: Int
+
+   //Métodos
+        //Método Constructor
+    
+    // Método Constructor Sobrecargado
+     init (marca: String, anio: Int){
+        self.marca = marca
+        self.anio = anio
+     }
+    
+    init(marca: String) {
+        self.anio = 0
+        self.marca = marca
+    }
+    
+
+
+
+   // Método modelo
+    public func modelo(){
+       print("La marca es  \(marca) y no tiene modelo")
+    }
+
+   // Método modelo sobrecargado
+    public func modelo(modelo: String){
+       print("La marca es  \(marca), y el modelo es de  \(marca)")
+    }
+}
+
+let miCoche1 = Coche(marca: "Volkswawen")
+let miCoche2 = Coche(marca: "Chevrolet", anio: 2009)
+
+
 
 //*************************************************************************
 
@@ -189,6 +220,59 @@ struct NetworkingProvider {
 
 let miguelUser: NetworkingProvider = NetworkingProvider(email: "miguel@email.com", password: "1234")
 print(NetworkingProvider.link)
+
+//*************************************************************************
+
+    // Singleton
+
+/*
+    Los singletons son objetos que solo deben crearse una vez y luego compartirse en todos los lugares donde deben usarse. Son comunes en las plataformas de Apple: FileManager, UserDefaults, UIApplication y UIAccelerometer se utilizan principalmente a través de sus implementaciones singleton.
+
+    La implementación básica de un singleton Swift se ve así:
+*/
+
+class FileManager{
+
+     // create a singleton
+     static let fileObj = FileManager()
+
+     // create a private initializer
+    private init() {
+  
+    }
+
+     // method to request file
+    func checkFileAccess(user: String) {
+
+          // condition to check username
+          if user == ("@programiz.com") {
+
+            print("Access Granted")
+          }
+
+          else {
+            print(" Access Denied")
+          }
+    }
+}
+
+let userName = "@programiz.com"
+
+// access method
+// Mism objeto
+let file = FileManager.fileObj
+let file2 = FileManager.fileObj
+
+
+file.checkFileAccess(user: userName)
+file2.checkFileAccess(user: userName)
+
+/*
+ 
+ Agregar un inicializador privado es importante, porque evita que otras partes de nuestro código intenten crear una instancia de clase de Configuración. Sin embargo, la clase crea su propia instancia de sí misma como una variable estática, lo que significa que la única instancia de la clase Configuración es la que creó: Configuración.compartida.
+ 
+ */
+
 
 //*************************************************************************
 
