@@ -97,6 +97,8 @@ print("8 * 16 = \(arithmeticOperation(8, 16))")
 
     // MARK: - Closure como parámetros y valores de Retorno
 
+    // MARK: Ejemplo 1 Closure como parametro
+
     // Se define la funcion RunClosure con un parametro de entrada (closure) que no recibe y no retorna nada
 func runClosure(_ closure: () -> Void) {
     
@@ -110,8 +112,67 @@ let greetingMessage = {
     
     print("Hola!")
     
-} // greetingMessage
+}
 
     // Se pasa a la funcion "runClosure" como parametro el closure "greetingMessage"
 runClosure(greetingMessage)
 
+
+    // MARK: Ejemplo 2
+
+func runClosure2(myClosure: () -> Void) {
+    
+    myClosure()
+    
+}
+
+runClosure2(myClosure: greetingMessage)
+
+
+
+    // MARK: - Función que retorna un closure
+
+
+func returnClosure() -> () -> Void {
+    
+    return {
+        
+        () -> Void in
+        
+        print("Hola, Miguel!")
+        
+    } // return
+    
+} // returnClosure
+
+let Returnclosure = returnClosure()
+
+//print(returnClosure)
+//print(returnClosure())
+print(Returnclosure())
+//print(Returnclosure)
+
+
+// MARK: - Closure capturando valores
+
+func travel() -> (String) -> Void {
+    
+    var counter = 0
+    
+    return {
+        
+        (destination: String) -> Void in
+        
+        counter += 1
+        
+        print("Has viajado \(counter) \(counter > 1 ? "veces" : "vez") a \(destination)")
+        
+    } // return
+    
+} // returnClosure
+
+let spainTravel = travel()
+
+spainTravel("España")
+spainTravel("España")
+spainTravel("España")

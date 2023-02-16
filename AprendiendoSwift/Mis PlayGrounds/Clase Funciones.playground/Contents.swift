@@ -172,3 +172,5 @@ func divmod(_ a: Int, _ b:Int) -> (Int, Int) {
 print(divmod(7, 3))
 print(divmod(5, 2))
 print(divmod(12,4))
+
+print(type(of: divmod(9, 9)))

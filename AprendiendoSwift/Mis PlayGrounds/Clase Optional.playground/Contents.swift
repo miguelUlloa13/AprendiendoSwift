@@ -1,5 +1,34 @@
 import UIKit
 
+
+//*************************************************************************
+
+    // Optionals
+        /* Los optionals manejan las ausencias de valor representando las ausencias de valor
+        
+        */
+            // Variable optional
+
+let myStringNumber = "100"
+let myIntNumber = Int(myStringNumber)
+
+let myWrongStringNumber = "Miguel"
+let myWorngIntNumber: Int? = Int(myWrongStringNumber)
+
+var myOptionalString: String?
+print(myOptionalString)
+/* Al momento de escribir un dato con un interrogante se va a iniciallizar como nulo
+   ya que no tiene un valor, ademas puedes no tenerlo
+*/
+
+// myOptionalString = "Hola mundo"
+
+if myOptionalString != nil {
+    print ("Varable con valor distinto a nulo")
+} else{
+    print("Variable nula")
+}
+
 //*************************************************************************
 
         // Optional binding || Encadenamiento de enlaces opcionales
