@@ -174,3 +174,34 @@ print(divmod(5, 2))
 print(divmod(12,4))
 
 print(type(of: divmod(9, 9)))
+
+    // Funciones anidadas
+
+func makeIncrementer(forIncrement amount: Int) -> () -> Int {
+    
+    var runningTotal = 0
+    
+    func incrementer() -> Int {
+        
+        runningTotal += amount
+        
+        return runningTotal
+        
+    } // incrementer
+    
+    return incrementer
+    
+} // makeIncrementer
+
+let incrementByTen = makeIncrementer(forIncrement: 10)
+
+print(incrementByTen())
+print(incrementByTen())
+print(incrementByTen())
+
+let alsoIncrementByTen = incrementByTen
+
+print(alsoIncrementByTen())
+print(alsoIncrementByTen())
+print(incrementByTen())
+

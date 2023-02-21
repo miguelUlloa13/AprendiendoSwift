@@ -153,8 +153,8 @@ print(Returnclosure())
 //print(Returnclosure)
 
 
-// MARK: - Closure capturando valores
-
+    // MARK: - Closure capturando valores del entorno
+    
 func travel() -> (String) -> Void {
     
     var counter = 0
@@ -176,3 +176,5 @@ let spainTravel = travel()
 spainTravel("España")
 spainTravel("España")
 spainTravel("España")
+
+    // Esto es posible debido a que los closures, así como las funciones anidadas, toman las variables o constantes de su entorno como referencias
