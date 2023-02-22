@@ -175,7 +175,8 @@ print(divmod(12,4))
 
 print(type(of: divmod(9, 9)))
 
-    // Funciones anidadas
+
+    // MARK: - Funciones anidadas
 
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
     
@@ -205,3 +206,20 @@ print(alsoIncrementByTen())
 print(alsoIncrementByTen())
 print(incrementByTen())
 
+    // Ambas constantes (incrementByTen, alsoIncrementByTen) son referencias a una misma posición de memoria, donde se encuentra la funcion anidada junto a la variable capturada runningTotal.
+
+    // Por este motivo, cuando ejecutámos alsoIncrementByTen estamos actuando sobre la misma variable runningTotal, básicamente porque ejecutando el código asoiado al segmento de memoria inicializado por incrementByTen y ahora referenciado también por alsoIncrementByTen.
+
+    // En dado caso que solo se quiera usar el valor por copia se haria lo siguiente
+
+let incrementByTwelve = makeIncrementer(forIncrement: 20)
+
+print(incrementByTwelve())
+print(incrementByTwelve())
+print(incrementByTwelve())
+
+let alsoIncrementByTwelve = makeIncrementer(forIncrement: 20)
+
+print(alsoIncrementByTwelve())
+print(alsoIncrementByTwelve())
+print(incrementByTwelve())
