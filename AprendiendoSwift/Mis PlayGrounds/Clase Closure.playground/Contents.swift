@@ -1,6 +1,6 @@
 import UIKit
 
-    // MARK: - Closures -
+    // MARK: - Closures Non Escaping -
 
     // Los closures son Bloque autocontenido de codigo que se puede pasar/usar alrededor de la aplicacion.
 
@@ -54,11 +54,17 @@ let myClosure2 = { (value: Int) -> Void in
     
 }
 
-    // MARK: - Closure que no recibe y no retorna nada
+    // MARK: - Closure que no recibe y no retorna nada de manera implicita
 
 let hello = { () -> Void in
     
     print("Hello!")
+    
+}
+
+let bye = { () -> () in
+    
+    print("Bye!")
     
 }
 
@@ -72,17 +78,17 @@ print(type(of: myClosure2))
 print(hello)
 print(type(of: hello))
 
-    // MARK: - Primero instanciar el closure y despues asociarlo
+    // MARK: - Primero definir el closure y despues asociarlo
 
-    // MARK: Ejemplo 1
+    // MARK: Ejemplo 1 Closure declaración de manera explicita
 
     // Primero se define el closure
 var arithmeticOperation: (Double, Double) -> Double
 
-    // A la misma instancia "arithmeticOperation" se le asocio dos closure: uno que suma y otro que multiplica.
+    // A la misma definicion "arithmeticOperation" se le asocio dos closure: uno que suma y otro que multiplica.
 
     // Se asocia el closure que suma
-arithmeticOperation = {
+arithmeticOperation = { // Inicializacion del closure
     
     (lNumber: Double, rNumber: Double) -> Double in
     
@@ -106,29 +112,24 @@ arithmeticOperation = {
 
 print("8 * 16 = \(arithmeticOperation(8, 16))")
 
-    
-    // MARK: Ejemplo 2
+    // MARK: Ejemplo 2 Closure declaración de manera implicita
 
-var sumaDosNumerosClosure: ((Int, Int) -> Void)?    // Se instancia el closure
-
-    // La funcion recibe como parametro un closure
-func imprimirResutado(myClosure: @escaping (Int, Int) -> Void) {
-    
-    sumaDosNumerosClosure = myClosure   // Se le asigna al closure sumaDosNumerosClosure el closure de parametro de entrada
-    
+let giveAnInt = {
+    return 18
 }
 
-    // Se le asocia a la funcion imprimirResutado el closure
-imprimirResutado{ (numeroUno, numeroDos) in
-    
-    var resultado = numeroUno + numeroDos
-    
-    print("La suma de los numeros es: \(resultado)")
-    
+print(2 + giveAnInt())
+
+
+    // MARK: Ejemplo 3 Closure mas simplicado
+
+
+let giveAnInt2 = {
+    20
 }
 
-    // Se manda a llamar la funcion
-sumaDosNumerosClosure!(2,2)
+print(2 + giveAnInt2())
+
 
 
     // MARK: - Closure como parámetros y valores de Retorno
@@ -150,6 +151,7 @@ let greetingMessage = {
     
 }
 
+
     // Se pasa a la funcion "runClosure" como parametro el closure "greetingMessage"
 runClosure(greetingMessage)
 
@@ -163,6 +165,31 @@ func runClosure2(myClosure: () -> Void) {
 }
 
 runClosure2(myClosure: greetingMessage)
+
+
+// MARK: Ejemplo 3 Usando scaping closure
+
+var sumarDosNumerosClosure: ((Int, Int) -> Void)?    // Se define el closure
+
+// La funcion recibe como parametro un closure
+func imprimirResutado(myClosure: @escaping (Int, Int) -> Void) {
+
+sumarDosNumerosClosure = myClosure   // Se le asigna al closure "sumaDosNumerosClosure" el closure de parametro de entrada "myClosure"
+
+}
+
+// Se le asocia a la funcion imprimirResutado el closure
+imprimirResutado{ (numeroUno, numeroDos) in
+
+var resultado = numeroUno + numeroDos
+
+print("La suma de los numeros es: \(resultado)")
+
+}
+
+// Se inicializa el closure
+sumarDosNumerosClosure!(2,2)
+
 
 
 
@@ -219,7 +246,8 @@ spainTravel("España")
 
 
 
-    // MARK: - El atributo @escaping
+
+    // MARK: - El atributo @escaping -
 
     // MARK: - El ciclo de vida de un closure @escaping es el siguiente:
 
@@ -244,28 +272,36 @@ spainTravel("España")
 
     // MARK: Ejemplo 1 Closure de manera síncrona
 
-var closureStorage: ((Int) -> Void)?    // Instancia de closure
+var closureStorage: ((Int) -> Void)?    // Se define el closure "closureStorage"
 
-func someFunction1(closure: @escaping (Int) -> Void) {
+    // Se define la funcion "someFunction1" con parametro de entrada un closure "localClosure"
+func someFunction1(localClosure: @escaping (Int) -> Void) {
 
-    closureStorage = closure
+    // Al "closureStorage" se le asigna "localClosure"
+    closureStorage = localClosure
         
-} // someFunction
+} // close someFunction1
 
+    // Se asocia el closure a la funcion "someFunction1"
 someFunction1 { (number) in
         
     print("El valor de la variable number es \(number)")
         
 } // closure
 
+    // Se ejecuta el closure "closureStorage"
 closureStorage?(50)
 
 print("¡Punto de referencia!")
 
+    // En este ejemplo hemos pasado un closure como parámetro de la función someFunction, dentro de esta almacenamos el closure en la variable closureStorage.
+
+    // Luego de finalizada la ejecución de la función y pasado el closure imprimimos un mensaje de referencia, acto seguido ejecutamos el closure que tenemos almacenado en closureStorage.
+
 
     // MARK: Ejemplo 2 Closure de manera asíncrona
 
-func someFunction(closure: @escaping (Int) -> Void) {
+func someFunction2(closure: @escaping (Int) -> Void) {
     
     var number = 20
     
@@ -279,10 +315,18 @@ func someFunction(closure: @escaping (Int) -> Void) {
     
 } // someFunction
 
-someFunction { (number) in
+someFunction2 { (number2) in
 
-    print("El valor de la variable number es \(number)")
+    print("El valor de la variable 2 number es \(number2)")
 
 } // closure
 
-print("¡Punto de referencia!")
+print("¡Punto de referencia 2!")
+
+// Se imprime el mensaje de referencia y la última línea se muestra 2 segundos en el futuro.
+
+// Cada vez que necesitemos que un closure pasado como parámetro sea almacenado fuera del ambito de la función (o método) lo establecemos como @escaping, o algo mucho más común:
+
+
+    
+    // MARK: - Ejercicios -
