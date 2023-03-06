@@ -6,6 +6,8 @@ import UIKit
 
     // Cuando se pasa un closure a una función este se ejecuta dentro del ambito de la misma, cumple su objetivo y poco más.
 
+    // Los closures pueden capturar y almacenar referencias de cualquier constante o variable del contexto en el cual fueron definidas.
+
 
     // MARK: - El ciclo de vida por defecto es el siguiente:
  
@@ -46,9 +48,16 @@ let myClosure = { (value: Int) -> Int in
     
 }
 
+    
+let myClosure2 = { (value: Int) -> Int in
+    
+    value   // cuando tenemos una única línea de nuestro closure y queremos devolver un valor, no hace falta poner el return. 
+    
+}
+
     // MARK: - Closure que recibe y no retorna nada (Void)
 
-let myClosure2 = { (value: Int) -> Void in
+let myClosure3 = { (value: Int) -> Void in
     
     print(value)
     
@@ -132,7 +141,7 @@ print(2 + giveAnInt2())
 
 
 
-    // MARK: - Closure como parámetros y valores de Retorno
+    // MARK: - Trailing Closures (Closure como parámetros y valores de Retorno)
 
     // MARK: Ejemplo 1 Closure como parametro
 
@@ -328,5 +337,115 @@ print("¡Punto de referencia 2!")
 // Cada vez que necesitemos que un closure pasado como parámetro sea almacenado fuera del ambito de la función (o método) lo establecemos como @escaping, o algo mucho más común:
 
 
+
+    // MARK: - Formas de un Closure
+
+        // Primera forma de un closure
+
+func calculateOne(expression: () -> Int) -> Int {
     
-    // MARK: - Ejercicios -
+    return expression()
+    
+} // calculate
+
+let resultOne = calculateOne(expression: {
+    
+    () -> Int in
+    
+    5 + 5
+    
+}) // closure
+
+print("La suma de 5 + 5 es igual a \(resultOne)")
+
+
+        // Segunda forma de un closure
+
+func calculate(expression: () -> Int) -> Int {
+    
+    return expression()
+    
+} // calculate
+
+let result = calculate { () -> Int in
+    
+    5 + 5
+    
+} // closure
+
+print("La suma de 5 + 5 es igual a \(result)")
+
+        //En la llamada a la función calculate hemos eliminado los paréntesis y el nombre del parámetro expression. Todo esto es deducido por el compilador.
+
+
+
+// MARK: - Ejercicios -
+
+// MARK: - Sort
+
+    // La libreria standard de Swift proporciona un método llamado sorted(by:), el cual ordena una array.
+    // El método sorted(by:) acepta un closure que espera dos argumentos del mismo tipo y retorna un booleano. El booleano será true si el primer valor debe aparecer antes que el segundo valor, y será false en caso contrario.
+
+var names = ["Chris", "Alex", "SwiftBeta", "iOS", "Apple"]
+
+    // Primera manera. Definiendo una condicion custom
+names.sorted { (firstValue: String, secondValue: String) -> Bool in
+    return firstValue < secondValue
+}
+
+    // Segunda manera. Forma mas simplificada
+names.sorted { firstValue, secondValue in
+    firstValue < secondValue
+}
+
+    // Tercera manera. Usando los atajos $0 y $1
+print(names.sorted { $0 < $1 })
+        // $0 es un atajo que significa "primer argumento" en un closure. El número 0 indica si es el primer parámetro, el 1 si es el segundo, etc.
+        // $0 es el firstValue y el $1 el secondValue
+
+    // Cuarta manera
+names.sorted(by: <)
+
+    // Sexta manera
+names.sorted()  // El array se acomoda del menor a mayor sin necesidad de poner una condicion custom
+
+    // Septima manera. Usando una funcion como parametro
+func backward(_ stringOne: String, _ stringTwo: String) -> Bool {
+    return stringOne < stringTwo
+}
+
+var reversedNames = names.sorted(by: backward)
+
+    // Octava manera. Usando un closure como parametro
+let closureSorted = { (firstValue: String, secondValue: String) -> Bool in
+    
+    firstValue < secondValue
+    
+}
+
+var reversedNames2 = names.sorted(by: closureSorted)
+
+
+
+    // Novena manera. Definiedo el closure despues
+var reversedNames3 = names.sorted { firstValue, secondValue in
+    firstValue < secondValue
+}
+
+
+// Todos los ejemplos anteriores son distintas maneras de acomodar un arreglo de menor a mayor
+
+
+
+
+names.sorted { firstValue, secondValue in
+    true    // cuando es "true" sin poner una condicion, el arreglo empieza del ultimo calor y termina en el primero
+}
+
+names.sorted { firstValue, secondValue in
+    false    // cuando es "true"
+}
+
+
+
+
