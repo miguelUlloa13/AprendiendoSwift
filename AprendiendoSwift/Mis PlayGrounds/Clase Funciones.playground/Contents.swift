@@ -178,6 +178,8 @@ print(type(of: divmod(9, 9)))
 
     // MARK: - Funciones anidadas
 
+    // En Swift la manera más simple de capturar valores es con el anidado de funciones. Una función anidada puede capturar cualquier variable o constante de su función padre.
+
 func makeIncrementer(forIncrement amount: Int) -> () -> Int {
     
     var runningTotal = 0

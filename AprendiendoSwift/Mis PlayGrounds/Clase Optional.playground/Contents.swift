@@ -21,7 +21,7 @@ print(myOptionalString)
    ya que no tiene un valor, ademas puedes no tenerlo
 */
 
-// myOptionalString = "Hola mundo"
+//myOptionalString = "Hola mundo"
 
 if myOptionalString != nil {
     print ("Varable con valor distinto a nulo")
@@ -31,27 +31,39 @@ if myOptionalString != nil {
 
 //*************************************************************************
 
-        // Optional binding || Encadenamiento de enlaces opcionales
+        // Optional binding || Encadenamiento de enlaces opcionales || if let
             // Sirve para comprobar de forma segura que las variable no son nulas
 
-var myOptionalString: String?
+var myOptionalString1: String?
 var myOptionalString2: String?
 var myOptionalString3: String?
 
-myOptionalString = "Miguel"
+myOptionalString1 = "Miguel"
 myOptionalString2 = "Angel"
 myOptionalString3 = "23"
 
-if let myString = myOptionalString, let myString2 = myOptionalString2, let myString3 = myOptionalString3  {
+if let myString1 = myOptionalString1, let myString2 = myOptionalString2, let myString3 = myOptionalString3  {
     // Este bloque de condigo se ejecutara cuando el valor de myOptionalString,
     // myOptionalString2 y myOptionalString3 sea distinto de nulo
-    print("\(myString) \(myString2) \(myString3)")
-}else if let myString = myOptionalString {
+    print("\(myString1) \(myString2) \(myString3)")
+}else if let myString1 = myOptionalString1 {
     // Este bloque de condigo se ejecutara cuando el valor de myOptionalString sea
     // distinto de nulo
-    print("myOptionalString posee un valor no nulo = \(myString)")
+    print("myOptionalString posee un valor no nulo = \(myString1)")
 }else{
     print("Alguna variable es nula")
+}
+
+
+
+var edad : Int?
+edad = 25
+
+if let muestroEdad = edad {
+    // Este bloque se ejecutara cuando la variable sea distinto de nulo.
+    print(muestroEdad)
+} else {
+    // Este bloque se ejecutara cuando la variable sea nulo.
 }
 
 //*************************************************************************

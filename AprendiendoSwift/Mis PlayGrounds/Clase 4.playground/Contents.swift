@@ -105,3 +105,27 @@ enum rawinformacionPersonal3: String {
 
 rawinformacionPersonal3.nombre.rawValue
 
+
+enum CompassPoint {
+    case north
+    case south
+    case east
+    case west
+}
+
+var pointOne: CompassPoint = .north
+var pointTwo = CompassPoint.north
+
+switch pointTwo {
+case .north:
+    print("Lots of planets have a north")
+case .south:
+    print("Watch out for penguins")
+case .east:
+    print("Where the sun rises")
+case .west:
+    print("Where the skies are blue")
+}
+
+
+

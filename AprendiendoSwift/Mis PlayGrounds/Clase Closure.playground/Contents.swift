@@ -436,8 +436,7 @@ var reversedNames3 = names.sorted { firstValue, secondValue in
 // Todos los ejemplos anteriores son distintas maneras de acomodar un arreglo de menor a mayor
 
 
-
-
+    // Probando Sort
 names.sorted { firstValue, secondValue in
     true    // cuando es "true" sin poner una condicion, el arreglo empieza del ultimo calor y termina en el primero
 }
@@ -448,4 +447,30 @@ names.sorted { firstValue, secondValue in
 
 
 
+// MARK: - Múltiples Closures en una función
 
+enum BackendError {
+    case customError
+}
+
+func getDataFromBackend(status: String,
+                        onSuccess: () -> Void,
+                        onFailure:(BackendError) -> Void) {
+    if status == "OK" {
+        onSuccess()
+    } else {
+        onFailure(.customError)
+    }
+}
+
+getDataFromBackend(status: "qq", onSuccess: {
+    print("Todo OK")
+}) { (error) in
+    print("Error \(error)")
+}
+
+
+
+
+
+// El resultado que aparece por pantalla es "Todo OK"
