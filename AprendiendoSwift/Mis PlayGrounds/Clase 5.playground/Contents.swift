@@ -96,4 +96,12 @@ if edad >= 18 {
 }
 
 
+let isTrue: Bool = false
+
+if isTrue {
+    // No es necesario poner la codicion para ejecutar esta seccion
+    print("Es verdadero")
+} else {
+    print("Es falso")
+}
 

@@ -70,8 +70,9 @@ if let muestroEdad = edad {
 
     // Desempaquetado forzado
             // Sirve para obligar a la variable mostrar sus valor, solo se usa
-            // en cierto punto del programa se esta seguro que la variable tiene
-            // un valor
+            // en cierto punto del programa se esta seguro que la variable tiene un valor
+
+/*
 
 print(myOptionalString!)
 
@@ -81,6 +82,8 @@ if myOptionalString2 != nil {
     
 }
 
+ */
+ 
 //*************************************************************************
 
     // Optional chaining || cadenas de opcionales
@@ -121,12 +124,12 @@ if let pages = myStudent.book?.page, let name = myStudent.name{
 
 //*************************************************************************
 
-    // Guard let || Salida rapida
+    // Guard let || Sentencia de salida rapida
             // Guarda let: permite detener la ejecucion del programa
             /*
-                Con if let: cuando una variable es distinta de nula se ejecutara
-                el bloque de codigo. Pero on Guard let, se ejecuta el bloque de
-                codigo cuando es nula la varaible
+                Con if let se ejecuta el bloque de codigo cuando una variable es distinta de nula. Pero con Guard let, se ejecuta el bloque de codigo cuando es nula la variable
+             
+                El guard let debe ir dentro de una funcion
             */
 var myOptionalString4: String?
 
@@ -143,7 +146,23 @@ func myFunc() {
 
 myFunc()
 
-myOptionalString = "Hola mundo"
+myOptionalString4 = "Hola mundo"
 
 myFunc()
+
+
+func checkAge() {
+    
+      var age: Int? = 22
+
+      guard let myAge = age else {
+            print("Age is undefined")
+            return
+      }
+
+  print("My age is \(myAge)")
+}
+
+checkAge()
+
 

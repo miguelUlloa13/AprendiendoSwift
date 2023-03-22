@@ -2,6 +2,8 @@ import UIKit
 
 // Manejo de errores
 
+    // Para que una funcion pueda lanzar errores se escribe la palabra reservada "throws"
+
 func sum(firstNumber: Int?, secondNumber: Int?) throws -> Int {
     
     if firstNumber == nil{
@@ -18,7 +20,7 @@ func sum(firstNumber: Int?, secondNumber: Int?) throws -> Int {
 }
 
 // Definicion de Tipo de errores
-                // Se llama al protocol de Error
+                // Se llama al protocolo de Error
 enum SumError: Error {
     // Todos los case que se definan a la ENUM van a pertencer a Error
     case firstNumberNil
@@ -39,6 +41,56 @@ do {
 } catch SumError.numberNegative(let firstNumber, let secondtNumber) {
     print("Hay algun numero negativo. firstNumber: \(firstNumber), secondNumber \(secondtNumber)")
 }
+
+
+
+    // Pasos para declarar una funcion que sea capaz de lanzar errores
+
+        // 1. Seguido de los parametros de entrada, escribir la palabra reservada "throws"
+func doSomething(everythingIsFine: Bool = false) throws -> String {
+
+  if everythingIsFine == true {
+            // Bloque con condion True
+        // 2. Declarar las condiciones o controles
+      print("Everything is ok")
+      return "Everything is ok"
+  } else {
+            // Bloque con condion False
+        // 5. Dentrp de este bloque de codigo se lanzara el error mediante la palabra reservada "throw" seguida del tipo de error, por ejemplo:
+                // throw nombreEnum.tipoErro(parametros)
+      throw ThrowableError.badError(howBad: 4)
+  }
+}
+
+    // 3. Definir tipos de errores
+        // Mediante un enum que utiliza el protocolo Error
+        // Todos los cases van a pertenecer a un error
+enum ThrowableError: Error {
+
+    // 4. Definir los errores
+    
+    case badError(howBad: Int)
+        // Un error puede recibir parametros para especificar con mayor detalle el error
+}
+
+    // 6. Propagacion de errores
+        // Debido que la funcion doSomething() puede lanzar errores se escribe antes la palabra reservada "try", es decir, intentar ejecutar la funcion
+
+    // 7. Para controlar las funciones se utiliza la clausula do...catch
+do {
+    let result = try doSomething()
+}
+catch ThrowableError.badError(let howBad) {
+    
+    // 8. despues de cada catch se escribe el tipo de error y asi sucesivamente. Ademas se piede agregar el codigo que se debe realizar al producirse este error
+    print("Bad Error (How Bad Level: \(howBad))")
+
+   
+}
+
+
+
+
 
 //*************************************************************************
 
@@ -86,6 +138,5 @@ for item in myArray {
         print("Item es de tipo MyClass y tiene el valor \(myItemMyClass.name!) y \(myItemMyClass.age!)")
     }
 }
-
 
 

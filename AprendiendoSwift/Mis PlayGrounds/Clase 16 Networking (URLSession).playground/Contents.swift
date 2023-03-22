@@ -262,7 +262,7 @@ let data6 = """
 ]
 """.data(using: .utf8)!
 
-struct Student: Codable {
+struct Student: Decodable {
     let name: String
     let grade: Int
 }
@@ -277,18 +277,195 @@ students.forEach { student in
 
 
     // MARK: - Manejo de errores con decodeIfPresent
+        
 
 let data7 = """
     {
         "name": "Miguel",
-        "job": 24
+        "job": "Programmer",
+        "age": null
     }
     """.data(using: .utf8)!
 
-struct Worker: Codable {
+struct Worker: Decodable {
     let name: String
-    let job: Int
+    let job: String
+    let age: Int?
 }
 
-let worker = try JSONDecoder().decode([Worker].self, from: data7)
-worker.name
+let workers = try JSONDecoder().decode(Worker.self, from: data7)
+workers.name
+workers.age     // La aplicación sufre un crash porque desde backend no se envia la key "age" o se envia con valor nulo. Para evitar ello se coloca como opcional la propiendad en nuestro dominio, se prepara a la propiedad para recibir o no la key
+
+    // Ejemplo inicializado el decodable
+
+let data8 = """
+    {
+        "name": "Miguel",
+        "job": "Programmer",
+        "age": null
+    }
+    """.data(using: .utf8)!
+
+struct WorkerTwo: Decodable {
+    let name: String
+    let job: String
+    let age: Int?
+    
+    enum CodingKeyss: String, CodingKey {
+        case name
+        case job
+        case age
+    }
+    
+    init(from decoder: Decoder) throws {
+        let myContainer = try decoder.container(keyedBy: CodingKeyss.self)
+        self.name = try myContainer.decode(String.self, forKey: .name)
+        self.job = try myContainer.decode(String.self, forKey: .job)
+        self.age = try myContainer.decodeIfPresent(Int.self, forKey: .age)
+    }
+}
+
+let workersTwo = try JSONDecoder().decode(WorkerTwo.self, from: data8)
+workersTwo.name
+workersTwo.age
+
+
+
+    // MARK: - Mapeo de datos anidados y nestedContainer
+
+let data9 = """
+    {
+        "status": "ok",
+        "totalResults": 34,
+        "articles": [
+            {
+            "source": {
+            "id": "google-news",
+            "name": "Google News"
+            },
+            "author": "Diario Deportivo Récord",
+            "title": "Santi Giménez pelea liderato de goleo con Rashford en la Europa League - Diario Deportivo Récord",
+            "description": null,
+            "url": "https://news.google.com/rss/articles/CBMiemh0dHBzOi8vd3d3LnJlY29yZC5jb20ubXgvZnV0Ym9sLWZ1dGJvbC1pbnRlcm5hY2lvbmFsLW1leGljYW5vcy1lbi1lbC1leHRyYW5qZXJvL3NhbnRpLWdpbWVuZXotcGVsZWEtbGlkZXJhdG8tZGUtZ29sZW8tY29u0gF-aHR0cHM6Ly93d3cucmVjb3JkLmNvbS5teC9mdXRib2wtZnV0Ym9sLWludGVybmFjaW9uYWwtbWV4aWNhbm9zLWVuLWVsLWV4dHJhbmplcm8vc2FudGktZ2ltZW5lei1wZWxlYS1saWRlcmF0by1kZS1nb2xlby1jb24_YW1w?oc=5",
+            "urlToImage": null,
+            "publishedAt": "2023-03-16T20:46:09Z",
+            "content": null
+            }
+        ]
+    }
+    """.data(using: .utf8)!
+
+struct Source: Decodable {
+    let id: String
+    let name: String
+}
+
+struct Articles: Decodable {
+    let source: Source
+    let author: String?
+    let title: String?
+    let description: String?
+    let url: String?
+    let urlToImage: String?
+    let publishedAt: String?
+    let content: String?
+}
+
+struct NewsResponse: Decodable {
+    let status: String
+    let totalResults: Int
+    let articles: [Articles]
+}
+
+let news = try JSONDecoder().decode(NewsResponse.self, from: data9)
+news.articles.forEach{ new in
+    print("ℹ️: \(new.description ?? "No title")")
+}
+
+    // Ejemplo
+
+let data10 = """
+{
+    "name_of_user": "SwiftBeta",
+    "age": 30,
+    "address": {
+        "city": "Barcelona",
+        "zip": "12345",
+        "street": "Paseo SwiftBeta, Número 1"
+    }
+}
+""".data(using: .utf8)!
+
+struct Address: Decodable {
+    let city: String
+    let zip: String
+}
+
+struct UserInfo: Decodable {
+    let name: String
+    let age: Int
+    let address: Address
+    
+    enum CodingKeys: String, CodingKey {
+        case name = "name_of_user"
+        case age
+        case address
+    }
+    
+    init(from decoder: Decoder) throws {
+        let conainer = try decoder.container(keyedBy: CodingKeys.self)
+        self.name = try conainer.decode(String.self, forKey: .name)
+        self.age = try conainer.decode(Int.self, forKey: .age)
+        self.address = try conainer.decode(Address.self, forKey: .address)
+    }
+}
+
+let userInfo = try JSONDecoder().decode(UserInfo.self, from: data10)
+userInfo.address.city // Barcelona
+
+
+    // Ejemplo de mapeo sin crear nuevos modelos (nestedContainer)
+
+let data11 = """
+{
+    "name_of_user": "SwiftBeta",
+    "age": 30,
+    "address": {
+        "city": "Barcelona",
+        "zip": "12345",
+        "street": "Paseo SwiftBeta, Número 1"
+    }
+}
+""".data(using: .utf8)!
+
+
+struct UserInfoTwo: Decodable {
+    let name: String
+    let age: Int
+    let city: String
+    
+    enum CodingKeys: String, CodingKey {
+        case name = "name_of_user"
+        case age
+        case address
+        case city
+    }
+    
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.age = try container.decode(Int.self, forKey: .age)
+        
+        let address = try container.nestedContainer(keyedBy: CodingKeys.self, forKey: .address)
+                // se accede a la informacion de la key address
+        self.city = try address.decode(String.self, forKey: .city)
+    }
+    
+    // Dos container:
+        // 1ro El general: name, age
+        // 2do El de address
+}
+
+let userInfoTwo = try JSONDecoder().decode(UserInfoTwo.self, from: data11)
+userInfoTwo.city // Barcelona
