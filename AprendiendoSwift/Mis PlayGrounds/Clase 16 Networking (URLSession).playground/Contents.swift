@@ -3,6 +3,7 @@ import UIKit
     // MARK: - Clase URLSession
         // Clase para realizar metodos Http
 
+        // Realizando un GET (Recibir datos)
 class myModel {
     
     func executeApi() {
@@ -36,6 +37,7 @@ class myModel {
         }
             
         }.resume()
+        // Cuando se crea una session o task inicialmente esta en un estado suspendido (No se realiza el request), es por ello que se debe agregar manualmente la funcion .resume() para realizar el request
         
     }
     
@@ -276,7 +278,7 @@ students.forEach { student in
 
 
 
-    // MARK: - Manejo de errores con decodeIfPresent
+    // MARK: - decodeIfPresent
         
 
 let data7 = """
@@ -469,3 +471,106 @@ struct UserInfoTwo: Decodable {
 
 let userInfoTwo = try JSONDecoder().decode(UserInfoTwo.self, from: data11)
 userInfoTwo.city // Barcelona
+
+
+
+
+
+    // MARK: - Consumiendo una API
+
+/*
+ 
+ url: https://pokeapi.co/api/v2/pokemon/
+ 
+ {
+    "count":1281,
+    "next":"https://pokeapi.co/api/v2/pokemon/?offset=20&limit=20",
+    "previous":null,
+    "results":[
+       {
+          "name":"bulbasaur",
+          "url":"https://pokeapi.co/api/v2/pokemon/1/"
+       },
+       {
+          "name":"ivysaur",
+          "url":"https://pokeapi.co/api/v2/pokemon/2/"
+       },
+       {
+          "name":"venusaur",
+          "url":"https://pokeapi.co/api/v2/pokemon/3/"
+       },
+       {
+          "name":"charmander",
+          "url":"https://pokeapi.co/api/v2/pokemon/4/"
+       },
+ 
+ */
+
+    // 1. Crear los modelos
+
+struct PokemosDataModel: Decodable {
+    // Propiedades
+    let name: String
+    let url: String
+}
+
+struct PokemonResponseDataModel: Decodable {
+    // Propiedades
+    //let count: Int
+    //let next: String
+    //let previous: String?
+    let pokemons: [PokemosDataModel]
+    
+    // 2. Crear el enum
+    enum CodingKeys: String, CodingKey {
+        //case count
+        //case next
+        //case previous
+        case pokemons = "results"
+    }
+    
+    // 3. Inicializar el protocolo Decodable
+    init(from decoder: Decoder) throws {
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        //self.count = try container.decode(Int.self, forKey: .count)
+        //self.next = try container.decode(String.self, forKey: .next)
+        //self.previous = try container.decodeIfPresent(String.self, forKey: .previous)
+        self.pokemons = try container.decode([PokemosDataModel].self, forKey: .pokemons)
+    }
+    
+}
+
+    // 4. Crear la clase con sus respectivos metodos y propiedades
+
+final class ViewModel {
+    
+    // 5. URL del endpoint
+    let url = URL(string: "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151")
+    
+    func getPokemons() {
+        
+        // 6. Singleton de URLSession
+        let session = URLSession.shared
+        
+        // 7. 
+        guard let url = url else {
+            return
+        }
+        
+        session.dataTask(with: url) { data, response, error in
+            if let error = error {
+                print("Ocurrio un error: \(error.localizedDescription)")
+            }
+            
+            if let data = data, let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
+                let pokemonDataModel = try? JSONDecoder().decode(PokemonResponseDataModel.self, from: data)
+                print("Pokemons: \(String(describing: pokemonDataModel))")
+            }
+        }.resume()
+        
+    }
+    
+}
+
+let viewModel: ViewModel = ViewModel()
+viewModel.getPokemons()

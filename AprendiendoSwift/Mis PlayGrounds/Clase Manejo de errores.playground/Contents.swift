@@ -22,7 +22,7 @@ func sum(firstNumber: Int?, secondNumber: Int?) throws -> Int {
 // Definicion de Tipo de errores
                 // Se llama al protocolo de Error
 enum SumError: Error {
-    // Todos los case que se definan a la ENUM van a pertencer a Error
+    // Todos los case que se definan en el ENUM van a pertencer a Error
     case firstNumberNil
     case secondNumberNil
     case numberNegative(firstNumber: Int, secondNumber: Int)
@@ -33,7 +33,7 @@ enum SumError: Error {
         // algun tipo de error
 do {
     // Dentro del do estara la funcion que provocara errores
-    print(try sum(firstNumber: 100, secondNumber: 50))
+    print(try sum(firstNumber: -100, secondNumber: 50))
 } catch SumError.firstNumberNil {
     print("Primer numero es nulo")
 } catch SumError.secondNumberNil {
@@ -44,20 +44,20 @@ do {
 
 
 
-    // Pasos para declarar una funcion que sea capaz de lanzar errores
+    // Pasos para declarar una funcion capaz de lanzar errores
 
         // 1. Seguido de los parametros de entrada, escribir la palabra reservada "throws"
-func doSomething(everythingIsFine: Bool = false) throws -> String {
+func doSomething(_ everythingIsFine: Bool) throws -> String {
 
   if everythingIsFine == true {
             // Bloque con condion True
         // 2. Declarar las condiciones o controles
-      print("Everything is ok")
+      print("Everything is ok \(everythingIsFine)")
       return "Everything is ok"
   } else {
             // Bloque con condion False
-        // 5. Dentrp de este bloque de codigo se lanzara el error mediante la palabra reservada "throw" seguida del tipo de error, por ejemplo:
-                // throw nombreEnum.tipoErro(parametros)
+        // 5. Dentro de este bloque de codigo se lanzara el error mediante la palabra reservada "throw" seguida del tipo de error, por ejemplo:
+                // throw nombreEnum.tipoError(parametros)
       throw ThrowableError.badError(howBad: 4)
   }
 }
@@ -78,18 +78,26 @@ enum ThrowableError: Error {
 
     // 7. Para controlar las funciones se utiliza la clausula do...catch
 do {
-    let result = try doSomething()
+    let result = try doSomething(true)
+    // Cuando usamos try, nuestra función throw tiene que estar envuelta en una instrucción do-catch. Esto nos permite personalizar nuestro manejo de errores y realizar acciones específicas basadas en el error.
+    
 }
 catch ThrowableError.badError(let howBad) {
     
-    // 8. despues de cada catch se escribe el tipo de error y asi sucesivamente. Ademas se piede agregar el codigo que se debe realizar al producirse este error
+    // 8. despues de cada catch se escribe el tipo de error y asi sucesivamente. Ademas se puede agregar el codigo que se debe realizar al producirse este error
     print("Bad Error (How Bad Level: \(howBad))")
 
    
 }
 
 
+// TODO: - Buscar la diferencia entre try, try?, try!
 
+/*
+ try: se usa con una declaración do-catch y permite un enfoque más detallado para el manejo de errores.
+ try?: ignora nuestros errores y los establecerá en nulo si ocurren.
+ try!: fuerza unwraps el código y garantiza que nuestra función nunca encontrará un error. En el caso de que nuestra función arroje un error, nuestra aplicación simplemente fallará.
+ */
 
 
 //*************************************************************************

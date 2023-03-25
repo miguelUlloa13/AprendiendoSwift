@@ -8,12 +8,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    private let otherClass: OtherClass = OtherClass()
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        otherClass.sayHellow()
+        
     }
-
-
+ 
 }
 

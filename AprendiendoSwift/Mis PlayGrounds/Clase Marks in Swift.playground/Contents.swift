@@ -18,8 +18,8 @@ import UIKit
 // MARK: A mark barred down -
 // TODO: A to-do barred down -
 // FIXME: A fix barred down -
-// !!!: A flag barred down
-// ???: A question barred down
+// !!!: A flag barred down -
+// ???: A question barred down -
 
 // MARK: - A mark barred -
 // TODO: - A to-do barred -

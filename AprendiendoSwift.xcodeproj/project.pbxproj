@@ -18,6 +18,7 @@
 		78BD48032988D06C00E9AF4A /* AprendiendoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD48022988D06C00E9AF4A /* AprendiendoSwiftTests.swift */; };
 		78BD480D2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD480C2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift */; };
 		78BD480F2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */; };
+		78F339B929CCE331008FD3C3 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F339B829CCE331008FD3C3 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,15 +63,16 @@
 		78BD4825298A2C1300E9AF4A /* Clase 7.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 7.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4826298A2C8300E9AF4A /* Clase Funciones.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Funciones.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4827298A2C9C00E9AF4A /* Clase POO (Struct y Class).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase POO (Struct y Class).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD4828298A2CB300E9AF4A /* Clase Optional.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Optional.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD4828298A2CB300E9AF4A /* Clase Optional and Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Optional and Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4829298A2CC300E9AF4A /* Clase Manejo de errores.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Manejo de errores.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482A298A2CE600E9AF4A /* Clase 12.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 12.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482B298A2D0300E9AF4A /* Clase 14.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 14.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482C298A2D1300E9AF4A /* Clase 13.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 13.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD483C2991E97F00E9AF4A /* Clase 15.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 15.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD483C2991E97F00E9AF4A /* Clase Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD484F2997617A00E9AF4A /* Clase 16 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase 16 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4850299D75E200E9AF4A /* Clase Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4851299DFBCA00E9AF4A /* Clase Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Clase Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78F339B829CCE331008FD3C3 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -125,6 +127,7 @@
 				78BD47E82988D06B00E9AF4A /* AppDelegate.swift */,
 				78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */,
 				78BD47EC2988D06B00E9AF4A /* ViewController.swift */,
+				78F339B829CCE331008FD3C3 /* OtherViewController.swift */,
 				78BD47EE2988D06B00E9AF4A /* Main.storyboard */,
 				78BD47F42988D06C00E9AF4A /* Assets.xcassets */,
 				78BD47F62988D06C00E9AF4A /* LaunchScreen.storyboard */,
@@ -165,12 +168,12 @@
 				78BD4826298A2C8300E9AF4A /* Clase Funciones.playground */,
 				78BD4850299D75E200E9AF4A /* Clase Closure.playground */,
 				78BD4827298A2C9C00E9AF4A /* Clase POO (Struct y Class).playground */,
-				78BD4828298A2CB300E9AF4A /* Clase Optional.playground */,
+				78BD4828298A2CB300E9AF4A /* Clase Optional and Unwrapping.playground */,
 				78BD4829298A2CC300E9AF4A /* Clase Manejo de errores.playground */,
 				78BD482A298A2CE600E9AF4A /* Clase 12.playground */,
 				78BD482C298A2D1300E9AF4A /* Clase 13.playground */,
 				78BD482B298A2D0300E9AF4A /* Clase 14.playground */,
-				78BD483C2991E97F00E9AF4A /* Clase 15.playground */,
+				78BD483C2991E97F00E9AF4A /* Clase Marks in Swift.playground */,
 				78BD484F2997617A00E9AF4A /* Clase 16 Networking (URLSession).playground */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
@@ -313,6 +316,7 @@
 				78BD47E92988D06B00E9AF4A /* AppDelegate.swift in Sources */,
 				78BD47EB2988D06B00E9AF4A /* SceneDelegate.swift in Sources */,
 				78BD47F32988D06B00E9AF4A /* AprendiendoSwift.xcdatamodeld in Sources */,
+				78F339B929CCE331008FD3C3 /* OtherViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
