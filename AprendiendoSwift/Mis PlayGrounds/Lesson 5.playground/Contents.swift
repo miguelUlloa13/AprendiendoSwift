@@ -1,44 +1,5 @@
 import UIKit
 
-//*************************************************************************
-
-// Tuplas
-//      Los arreglos solo aceptan un solo tipo de valor: int, float, String
-//      Las tuplas es una coleccion de distion tipos de valores
-
-var persona = ("Miguel", "Martinez", 23, 1.68)     // Declarar una tupla
-
-        // Acceder a los datos de una tupla
-
-persona.0
-
-var (nombre, apellido, edad, estatura) = persona
-
-nombre
-
-var personaNamedTuples = (nombre2: "Angel", apellido2: "Ulloa", edad: 24, estatura: 1.70)
-personaNamedTuples.nombre2
-
-
-typealias ConferencePropertiesTuple = (pavilionName: String, auditoryName: String, letterPavilion: String)
-    // Arreglo de pabellones
-var auditoryAndPavilionsValues: [ConferencePropertiesTuple] = [
-    ("Pabellon A", "Auditorio Alfa", "A"),
-    ("Pabellon B", "Auditorio Bravo", "B"),
-    ("Pabellon C", "Auditorio Charlie", "C"),
-    ("Pabellon D", "Auditorio Delta", "D"),
-    ("Pabellon E", "Auditorio Eco", "E"),
-    ("Pabellon F", "Auditorio Foxtrot", "F")
-]
-
-for (pavilion, auditory, letter) in auditoryAndPavilionsValues {
-    
-    print("\(pavilion) --- \(auditory) --- \(letter)")
-    
-}
-
-auditoryAndPavilionsValues[5].auditoryName
-
 
 //*************************************************************************
 

@@ -1,8 +1,8 @@
 import UIKit
 
-//*************************************************************************
 
-//Tipo de dato String
+    // MARK: - Type String -
+        //Tipo de dato String
 
 let myString = "Bienvenido a Swift"
 
@@ -22,9 +22,9 @@ Esta es otra prueba de\
 let mistring2 = ""      //Cadena vacia
 
 
-//*************************************************************************
 
-//Tipo de dato caracter
+    // MARK: - Type Character -
+        //Tipo de dato caracter
 
 let myCharacter: Character = "\u{E9}"
 
@@ -35,6 +35,19 @@ let myString3 = "Probando\ncaracteres\rde\tswift"
 
 // Emojis
 let myEmoji =  "😡" //Se puede poner un emoji con ascii code o con "ctrl + cmd + SPACE"
+
+
+    // MARK: - Type Bool -
+        //Valores booleanos y logicos
+
+var cedulaProfesional = true
+var salario = 0
+
+if cedulaProfesional{
+    salario = 9000
+}else{
+    salario = 8000
+}
 
 //*************************************************************************
 
@@ -88,6 +101,8 @@ for valor in myContent{
 
 }
 
+
+//********************************************************************************
 
 
 

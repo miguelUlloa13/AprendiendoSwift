@@ -359,8 +359,8 @@ let data9 = """
     """.data(using: .utf8)!
 
 struct Source: Decodable {
-    let id: String
-    let name: String
+    let id: String?
+    let name: String?
 }
 
 struct Articles: Decodable {
@@ -375,14 +375,14 @@ struct Articles: Decodable {
 }
 
 struct NewsResponse: Decodable {
-    let status: String
-    let totalResults: Int
+    let status: String?
+    let totalResults: Int?
     let articles: [Articles]
 }
 
-let news = try JSONDecoder().decode(NewsResponse.self, from: data9)
-news.articles.forEach{ new in
-    print("ℹ️: \(new.description ?? "No title")")
+let news = try? JSONDecoder().decode(NewsResponse.self, from: data9)
+news?.articles.forEach{ new in
+    print("ℹ️: \(new.title ?? "No title")")
 }
 
     // Ejemplo
@@ -475,9 +475,139 @@ userInfoTwo.city // Barcelona
 
 
 
+    // MARK: - Ejercicios con distintas formas de recibir un JSON
+
+    // MARK: Simple JSON
+        // Un JSON simple que no tiene ninguna estructura compleja, como matrices.
+
+let simpleJSON = """
+{
+    "id": "1",
+    "employee_name": "Jack Full",
+    "employee_salary": "300800",
+    "employee_age": 61
+}
+
+""".data(using: .utf8)!
+
+struct employee: Decodable {
+    let id: String?
+    let name: String?
+    let salary: String?
+    let age: Int?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name = "employee_name"
+        case salary = "employee_salary"
+        case age = "employee_age"
+    }
+    
+}
+
+let myEmployee = try JSONDecoder().decode(employee.self, from: simpleJSON)
+print(myEmployee)
+
+
+
+    // MARK: Array JSON
+        // La estructura JSON comienza con una matriz y sin clave.
+
+let arrayJSON = """
+[
+    {
+        "id": "1",
+        "employee_name": "Tiger Nixon",
+        "employee_salary": "320800",
+        "employee_age": 61
+    },
+    {
+        "id": "2",
+        "employee_name": "Garrett Winters",
+        "employee_salary": "170750",
+        "employee_age": 63
+    }
+]
+""".data(using: .utf8)!
+
+struct employees: Decodable {
+    let id: String?
+    let name: String?
+    let salary: String?
+    let age: Int?
+    
+    enum CodingKeys: String, CodingKey {
+        case id
+        case name = "employee_name"
+        case salary = "employee_salary"
+        case age = "employee_age"
+    }
+}
+
+let myEmployees = try JSONDecoder().decode([employees].self, from: arrayJSON)
+
+print(myEmployees)
+
+    // MARK: Nested JSON
+        // Cuando un objeto JSON está dentro de otro objeto JSON, se denomina "anidado" o "nested".
+
+let nestedJSON = """
+{
+    "data": [
+        {
+            "id": "1",
+            "employee": {
+                "name": "Tiger Nixon",
+                "salary": {
+                    "usd": 320800,
+                    "eur": 273545
+                },
+                "age": "61"
+            }
+        },
+        {
+            "id": "2",
+            "employee": {
+                "name": "Garrett Winters",
+                "salary": {
+                    "usd": 170750,
+                    "eur": 145598
+                },
+                "age": "63"
+            }
+        },
+    ]
+}
+""".data(using: .utf8)!
+
+struct SalaryDataModel: Decodable {
+    let usd: Int
+    let eur: Int
+}
+
+struct InfoEmployeeDataModel: Decodable {
+    let name: String
+    let salary: SalaryDataModel
+    let age: String
+}
+
+struct EmployeeDataModel: Decodable {
+    let id: String
+    let employee: InfoEmployeeDataModel
+}
+
+struct DataModel: Decodable {
+    let data: [EmployeeDataModel]
+}
+
+let myComplexExployees = try JSONDecoder().decode(DataModel.self, from: nestedJSON)
+print("Mi empleado complejo: \(myComplexExployees)")
+
+
 
     // MARK: - Consumiendo una API
 
+    // Respuesta JSON
 /*
  
  url: https://pokeapi.co/api/v2/pokemon/
@@ -544,27 +674,42 @@ struct PokemonResponseDataModel: Decodable {
 
 final class ViewModel {
     
-    // 5. URL del endpoint
+    // 5. crear el URL
     let url = URL(string: "https://pokeapi.co/api/v2/pokemon/?offset=0&limit=151")
     
+    // Metodo GET
     func getPokemons() {
         
         // 6. Singleton de URLSession
         let session = URLSession.shared
         
-        // 7. 
+        // 7. Se desempaca de forma segura el url
         guard let url = url else {
             return
         }
         
+        // 8. Se realiza la peticion mediante el metodo URLSession
         session.dataTask(with: url) { data, response, error in
+            // 9. Si error es diferente de nulo, ocurrio un error
             if let error = error {
                 print("Ocurrio un error: \(error.localizedDescription)")
             }
             
+            // 10. Se desempaca de forma segura data si existe
             if let data = data, let httpResponse = response as? HTTPURLResponse, httpResponse.statusCode == 200 {
-                let pokemonDataModel = try? JSONDecoder().decode(PokemonResponseDataModel.self, from: data)
-                print("Pokemons: \(String(describing: pokemonDataModel))")
+                
+                // 11. Se procede a decodificar o parsear el JSON. Hay dos formas de parsearlo: con el metodo JSONSerialization o mediante el metodo JSONDecoder
+                
+                    // 11.1 JSONSerialization: Esta es la forma antigua de analizar JSON. Se recomienda solo cuando desea analizar uno o dos objetos JSON.
+                let jsonRes = try? JSONSerialization.jsonObject(with: data)
+                print("Pokemons mediante el metodo JSONSerialization: \(String(describing: jsonRes))")
+                
+                
+                    // 11.2 JSONDecoder: Se decodifica el jsonRes pero se necesita haber creado al modelo de nuestro dominio (PokemonResponseDataModel) con sus respectivos campos o propiedades
+                let jsonRes2 = try? JSONDecoder().decode(PokemonResponseDataModel.self, from: data)
+                print("Pokemons mediante el metodo JSONDecoder: \(String(describing: jsonRes2))")
+
+                
             }
         }.resume()
         
@@ -574,3 +719,57 @@ final class ViewModel {
 
 let viewModel: ViewModel = ViewModel()
 viewModel.getPokemons()
+
+
+    // MARK: - Realizando un GET y un POST
+
+class SocialNetwork {
+    
+    private let url = URL(string: "https://jsonplaceholder.typicode.com/posts")
+    private let session = URLSession.shared
+    private let params = [
+        "title": "Hola soy Miguel",
+        "body": "Mi primer POST"
+    ]
+    
+    func getPosts() {
+        guard let url = url else {
+            return
+        }
+        
+        session.dataTask(with: url) { data, response, error in
+            
+            if let error = error {
+                print("There was an error: \(error.localizedDescription)")
+            } else {
+                let jsonRes = try? JSONSerialization.jsonObject(with: data!, options: [])
+                print("The response: \(jsonRes)")
+            }
+        }.resume()
+    }
+    
+    func postPost() {
+        guard let url = url else {
+            return
+        }
+        var request = URLRequest(url: url)
+        request.httpMethod = "POST"
+        request.setValue("Application/json", forHTTPHeaderField: "Content-Type")
+        request.httpBody = try? JSONSerialization.data(withJSONObject: params, options: [])
+        
+        session.dataTask(with: request) { data, response, error in
+            if let error = error {
+                print("The error was: \(error.localizedDescription)")
+            } else {
+                let jsonRes = try? JSONSerialization.jsonObject(with: data!, options: [])
+                print("Response json is: \(jsonRes)")
+            }
+        }.resume()
+    }
+    
+}
+
+
+let facebook = SocialNetwork()
+facebook.postPost()
+facebook.getPosts()

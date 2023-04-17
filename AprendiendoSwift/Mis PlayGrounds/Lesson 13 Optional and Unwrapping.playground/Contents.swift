@@ -253,7 +253,27 @@ if let roomCount = john.residence?.numberOfRooms {
 
 
 
-    // MARK: - Guard let o Sentencia de salida rapida
+
+    // MARK: - 5. Nil coalescing operator
+
+        // El nil coalescing operator funciona como una declaracion abreviada de if-else. Si se encuentra un valor nulo cuando se desempaca un valor opcional, se proporciona un valor predeterminado adicional que se usará en su lugar.
+
+var text:String?
+var output = text ?? "No hay texto"
+print(output)   // Default value: "No hay texto"
+
+text = "Este es un texo"
+output = text ?? "No hay texto"
+print(output)   // Este es un texo
+
+    // MARK: Ejemplo
+
+var bascula: Float?
+print("Mi peso es de: \(bascula ?? 0.0)")
+
+
+
+    // MARK: - 6. Guard let o Sentencia de salida rapida
         // Guarda let: permite detener la ejecucion del programa
         /*
             Con if let se ejecuta el bloque de codigo cuando una variable es distinta de nula. Pero con Guard let, se ejecuta el bloque de codigo cuando es nula la variable

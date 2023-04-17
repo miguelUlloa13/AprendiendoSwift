@@ -23,6 +23,10 @@ print("Hola mundo")
         // void: no retorno ningun valor
         // Se llama a la funcion por su nombre
 
+var x = 1.5657676754
+var y = (x*100).rounded()/100
+print(y)  // 1.57
+
     // Se crea la funcion 
 func holaMundo(){
     

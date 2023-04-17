@@ -474,3 +474,6 @@ getDataFromBackend(status: "qq", onSuccess: {
 
 
 // El resultado que aparece por pantalla es "Todo OK"
+
+// TODO: - Ejemplo de scaping closure
+    // url : https://www.youtube.com/watch?v=QXYO7xf9xD4
