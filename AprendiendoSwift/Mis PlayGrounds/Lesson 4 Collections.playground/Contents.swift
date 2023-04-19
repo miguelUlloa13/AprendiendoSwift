@@ -211,17 +211,18 @@ print(myIntSet2.subtracting(myIntSet))
     
     // MARK: - Algoritmos en colecciones -
 
-var arrayOne = [3,2,5,1,8,9,7,4,0]
+var arrayOne = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
 let dictionaryOne = [3: "Three",
                      2: "Two",
                      5: "Five",
                      1: "One",
                      8: "Eight",
                      9: "Nine",
-                     7:"Seven",
+                     7: "Seven",
                      4: "Four",
-                     0:"Zero"]
-let setOne: Set = [3,2,5,1,8,9,7,4,0]
+                     0: "Zero",
+                     6: "Six"]
+let setOne: Set = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
 
         // MARK: - Sort
             // El método sort() ordena los elementos de un array en un orden específico (ascendente o descendente).
@@ -239,7 +240,7 @@ arrayOne.sort { intA, IntB in
 print(arrayOne)
 
         // MARK: - Sorted
-let arrayTwo = [3,2,5,1,8,9,7,4,0]
+let arrayTwo = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
 print(arrayTwo)
 
 var myArraySorted = arrayTwo.sorted()
@@ -265,13 +266,196 @@ print(mySortedDictionary)
 
 var mySortedSet = setOne.sorted()
 print(mySortedSet)
-            // Sorted en un set devuelve un arreglo
+            // Ejecutar Sorted en un set devuelve un arreglo
 
 
 mySortedSet = setOne.sorted { intA, intB in
     return intA > intB
 }
 print(mySortedSet)
+
+
+
+
+    // MARK: - filter
+    // El método filter() devuelve todos los elementos de la matriz que cumplen la condición proporcionada.
+
+print(arrayOne)
+var myFilterArray = arrayOne.filter({ $0 > 5})
+print(myFilterArray)
+
+
+print(dictionaryOne)
+var myFilterDictionary = dictionaryOne.filter { myElement in
+    return myElement.value.hasPrefix("T")   // Filtra todos los valores que contengan la letra "T"
+}
+print(myFilterDictionary)
+
+myFilterDictionary = dictionaryOne.filter { myElement in
+    return myElement.value.hasPrefix("O") || myElement.value.hasPrefix("o")
+}
+print(myFilterDictionary)
+
+
+
+    // MARK: - Reversed
+        // Invertir los valores de la coleccion
+print(arrayOne)
+print(arrayOne.reversed() as [Int])
+    // Los diccionarios como el set son colecciones desordenadas, por le que el metodo reset arroja un resultado aleatorio
+
+
+
+
+    // MARK: - Map
+        // Mapeo
+        // El método map() transforma la matriz aplicando la misma operación a cada elemento de la matriz.
+
+var arrayThree = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
+let myMapArray = arrayThree.map { myInt in
+    return myInt + 10
+}
+print(myMapArray)   // A cada elemeto del arreglo se le suma 10
+
+let myMapArray2 = arrayThree.map { myInt in
+    return "Este es el numero \(myInt)"
+}
+print(myMapArray2)  // El arreglo de tipo entero pasa a ser un array de tipo string
+
+print(dictionaryOne)
+let myMapDictionary = dictionaryOne.map { myElement in
+    return myElement.key
+}
+print(myMapDictionary)  // Imprime un array de enteros
+
+let myMapDictionary2 = dictionaryOne.map { myElement in
+    return "\(myElement.key)"
+}
+print(myMapDictionary2) // Imprime un array de strings de las llaves del diccionario
+
+let myMapSet = setOne.map { myElement in
+    myElement
+}
+print(myMapSet) // Imprime un array con los elementos del set
+
+
+var numbers = [1, 2, 3, 4]
+
+var result = numbers.map({ $0 + 2})
+print(result)   // A cada elemento del arreglo se le suma 2
+
+result = numbers.map({ $0 * 2})
+print(result)   // A cada elemento del arreglo se le multiplica por 2
+
+
+var languages = ["swift", "java", "python"]
+
+print("Antes:", languages)
+var uppercasedLanguages = languages.map { $0.uppercased() }
+print("Despues:", uppercasedLanguages)   // Los strings pasan a mayuscula
+
+
+
+    // MARK: - forEach
+        // Iterar sobre una coleccion
+            // Alternativa al ciclo for
+
+arrayOne.forEach { $0
+    return print($0)    // El $0 indica el primer parámetro
+}
+
+print(" ")
+
+arrayOne.forEach { myInt in
+    return print(myInt)     // myInt y $0 son iguales, indican el primer parametro
+}
+
+print(" ")
+
+dictionaryOne.forEach { myElement in
+    return print(myElement.key)
+}
+
+print(" ")
+
+dictionaryOne.forEach { $0
+    print($0)   // Devuelve tanto la llave como el valor
+}
+
+print(" ")
+
+dictionaryOne.forEach { $0
+    print($0.key)   // Devuelve solo la llave
+}
+
+print(" ")
+
+setOne.forEach { $0
+    print($0)   // Devuelve solo la llave
+}
+
+
+    // MARK: - count
+        // Numero de elementos en un arreglo
+arrayOne.count
+dictionaryOne.count
+setOne.count
+
+    // MARK: - isEmpty
+        // Conocer si la coleccion esta vacia
+arrayOne.isEmpty    // False: No esta vacio
+dictionaryOne.isEmpty
+setOne.isEmpty
+
+let otherArray = [Int]()
+let otherdictionary = [Int:String]()
+let otherSet: Set<String> = []
+
+otherArray.isEmpty  // True: Esta vacio
+otherdictionary.isEmpty
+otherSet.isEmpty
+
+
+    // MARK: - first
+        // Retornar el primer elemento de la coleccion
+        // first retorna un opcional en dado que no exista el valor retorna nulo (nil)
+        // En diccionarios y set arroja un valor aleatorio dentro de la coleccion
+print(arrayOne.first != nil)
+print(arrayOne.first)
+
+
+    // MARK: - last
+        // Retornar el ultimo elemento de la coleccion
+        // No se puede ejecutar en diccionarios y set arroja
+print(arrayOne.last != nil)
+print(arrayOne.last)
+
+
+    // MARK: - drop y pop
+        // dropFirst() elimina el primer elemento y devuelve los elementos restantes de la matriz.
+
+
+print(arrayOne)
+print(arrayOne.dropLast())
+
+print(arrayOne)
+print(arrayOne.dropLast(2)) // Elimina los 2 ultimos elementos
+
+print(arrayOne)
+print(arrayOne.dropFirst())
+
+print(arrayOne)
+print(arrayOne.dropFirst(2))    // Elimina los 2 primeros elementos
+
+
+print(arrayOne)
+print(arrayOne.popLast())
+
+
+
+
+
+
 
 
     // MARK: - Array methods -
