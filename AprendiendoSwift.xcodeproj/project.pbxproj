@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78271EC229F9B2BB0080CA2E /* Lesson 17 Documentation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; name = "Lesson 17 Documentation.playground"; path = "../../../../LearningSwiftUI/LearningSwiftUI/Views/Property Wrappers/Lesson 17 Documentation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
 		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -69,10 +70,10 @@
 		78BD482B298A2D0300E9AF4A /* Lesson 15 Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Generics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482C298A2D1300E9AF4A /* Lesson 14 Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 14 Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD483C2991E97F00E9AF4A /* Lesson 16 Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD484F2997617A00E9AF4A /* Lesson 17 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD484F2997617A00E9AF4A /* Lesson 18 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4850299D75E200E9AF4A /* Lesson 9 Closure.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 9 Closure.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78F339B829CCE331008FD3C3 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
-		78F33A0B29D64CA9008FD3C3 /* Lesson 18 Regular expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Regular expressions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78F33A0B29D64CA9008FD3C3 /* Lesson 19 Regular expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Regular expressions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,8 +182,9 @@
 				78BD482C298A2D1300E9AF4A /* Lesson 14 Protocol.playground */,
 				78BD482B298A2D0300E9AF4A /* Lesson 15 Generics.playground */,
 				78BD483C2991E97F00E9AF4A /* Lesson 16 Marks in Swift.playground */,
-				78BD484F2997617A00E9AF4A /* Lesson 17 Networking (URLSession).playground */,
-				78F33A0B29D64CA9008FD3C3 /* Lesson 18 Regular expressions.playground */,
+				78271EC229F9B2BB0080CA2E /* Lesson 17 Documentation.playground */,
+				78BD484F2997617A00E9AF4A /* Lesson 18 Networking (URLSession).playground */,
+				78F33A0B29D64CA9008FD3C3 /* Lesson 19 Regular expressions.playground */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
 			path = Theoria;
