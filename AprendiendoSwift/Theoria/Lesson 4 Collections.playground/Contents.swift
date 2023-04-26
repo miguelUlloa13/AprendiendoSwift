@@ -80,8 +80,10 @@ print(capitalCity)
 
     // MARK: - Tuples
         // Tuplas
+            // una tupla es un grupo de diferentes valores. Y, cada valor dentro de una tupla puede ser de diferentes tipos de datos.
             // Los arreglos solo aceptan un solo tipo de valor: int, float, String
-            // Las tuplas es una coleccion de distion tipos de valores
+            // Las tuplas es una coleccion de distion tipos de valores.
+            // como una matriz, cada elemento de una tupla está representado por números de índice (0, 1, ...) donde el primer elemento está en el índice 0.
 
 var persona = ("Miguel", "Martinez", 23, 1.68)     // Declarar una tupla
 
@@ -93,6 +95,7 @@ var (nombre, apellido, edad, estatura) = persona
 
 nombre
 
+        // Named tuples
 var personaNamedTuples = (nombre2: "Angel", apellido2: "Ulloa", edad: 24, estatura: 1.70)
 personaNamedTuples.nombre2
 
@@ -108,13 +111,25 @@ var auditoryAndPavilionsValues: [ConferencePropertiesTuple] = [
     ("Pabellon F", "Auditorio Foxtrot", "F")
 ]
 
+    // Iterando en una tupla
+
 for (pavilion, auditory, letter) in auditoryAndPavilionsValues {
     
-    print("\(pavilion) --- \(auditory) --- \(letter)")
+    print("\(pavilion) -> \(auditory) -> \(letter)")
     
 }
 
 auditoryAndPavilionsValues[5].auditoryName
+
+var num1 = 1
+var num2 = 2
+
+print("Antes")
+print("Numero 1 -> \(num1), numero 2 -> \(num2)")
+(num1,num2) = (num2,num1)
+
+print("Despues")
+print("Numero 1 -> \(num1), numero 2 -> \(num2)")
 
 
 
@@ -287,15 +302,37 @@ print(myFilterArray)
 
 print(dictionaryOne)
 var myFilterDictionary = dictionaryOne.filter { myElement in
-    return myElement.value.hasPrefix("T")   // Filtra todos los valores que contengan la letra "T"
+    return myElement.value.hasPrefix("T")   // Filtra todos los valores que contengan la letra "T" al inicio del string
 }
 print(myFilterDictionary)
 
 myFilterDictionary = dictionaryOne.filter { myElement in
-    return myElement.value.hasPrefix("O") || myElement.value.hasPrefix("o")
+    return myElement.value.hasPrefix("O")
 }
 print(myFilterDictionary)
 
+    // 
+
+var showFavorites: Bool = false
+
+struct Student {
+    var name:String
+    var favorite: Bool
+}
+
+let students: [Student] = [Student(name: "Alejandra", favorite: true),
+Student(name: "Sara", favorite: false),
+Student(name: "Pablo", favorite: false),
+Student(name: "Sam", favorite: false),
+Student(name: "Miguel", favorite: true)]
+
+var filterStudent: [Student] {
+    return students.filter { myFavoriteStudent in
+        return !showFavorites || myFavoriteStudent.favorite
+    }
+}
+
+print(filterStudent)
 
 
     // MARK: - Reversed

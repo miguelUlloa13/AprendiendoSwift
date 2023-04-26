@@ -102,6 +102,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		78271EA829F469F80080CA2E /* Praxis */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Praxis;
+			sourceTree = "<group>";
+		};
 		78BD47DC2988D06B00E9AF4A = {
 			isa = PBXGroup;
 			children = (
@@ -125,7 +132,8 @@
 		78BD47E72988D06B00E9AF4A /* AprendiendoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				78BD481B2988D36500E9AF4A /* Mis PlayGrounds */,
+				78BD481B2988D36500E9AF4A /* Theoria */,
+				78271EA829F469F80080CA2E /* Praxis */,
 				78BD47E82988D06B00E9AF4A /* AppDelegate.swift */,
 				78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */,
 				78BD47EC2988D06B00E9AF4A /* ViewController.swift */,
@@ -156,7 +164,7 @@
 			path = AprendiendoSwiftUITests;
 			sourceTree = "<group>";
 		};
-		78BD481B2988D36500E9AF4A /* Mis PlayGrounds */ = {
+		78BD481B2988D36500E9AF4A /* Theoria */ = {
 			isa = PBXGroup;
 			children = (
 				7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */,
@@ -181,7 +189,7 @@
 				78F33A0B29D64CA9008FD3C3 /* Lesson 20 Regular expressions.playground */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
-			path = "Mis PlayGrounds";
+			path = Theoria;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

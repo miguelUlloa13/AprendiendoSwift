@@ -140,6 +140,11 @@ let giveAnInt2 = {
 print(2 + giveAnInt2())
 
 
+var sayHello: String {
+return "Hello, everyone!"
+}
+
+
 
     // MARK: - Trailing Closures (Closure como parámetros y valores de Retorno)
 
@@ -174,6 +179,7 @@ func runClosure2(myClosure: () -> Void) {
 }
 
 runClosure2(myClosure: greetingMessage)
+
 
 
 // MARK: Ejemplo 3 Usando scaping closure
