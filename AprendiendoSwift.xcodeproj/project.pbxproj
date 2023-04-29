@@ -40,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		78271F2429FA02750080CA2E /* Lesson 17 Documentation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Documentation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271F8F29FC45600080CA2E /* Lesson Typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Typealias.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271FB029FC98030080CA2E /* Lesson Type casting and Down casting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Type casting and Down casting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
 		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -178,9 +180,11 @@
 				78BD4827298A2C9C00E9AF4A /* Lesson 10 Struct and OOP.playground */,
 				78BD4828298A2CB300E9AF4A /* Lesson 11 Optional and Unwrapping.playground */,
 				78BD4829298A2CC300E9AF4A /* Lesson 12 Error handling.playground */,
+				78271FB029FC98030080CA2E /* Lesson Type casting and Down casting.playground */,
 				78BD482A298A2CE600E9AF4A /* Lesson 13 Nested Types.playground */,
 				78BD482C298A2D1300E9AF4A /* Lesson 14 Protocol.playground */,
 				78BD482B298A2D0300E9AF4A /* Lesson 15 Generics.playground */,
+				78271F8F29FC45600080CA2E /* Lesson Typealias.playground */,
 				78BD483C2991E97F00E9AF4A /* Lesson 16 Marks in Swift.playground */,
 				78271F2429FA02750080CA2E /* Lesson 17 Documentation.playground */,
 				78BD484F2997617A00E9AF4A /* Lesson 18 Networking (URLSession).playground */,

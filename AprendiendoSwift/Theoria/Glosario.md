@@ -1,5 +1,8 @@
 # Glosario
 
+## API Application Programming Interface
+### Interfaz de programación de aplicaciones son traductores cuya función es conectar sistemas, softwares y aplicaciones
+
 ## Completion Handler:
 ### En Swift, el Completion Handler es un bloque de código que se utiliza para realizar y gestionar el estado de finalización de una tarea. Por ejemplo, los controladores de finalización se usan con mucha frecuencia en las solicitudes de red que utilizan la clase URLSession. Básicamente, el Completion Handler se pasa como un argumento de función y se llama cuando se completa la tarea. No afecta si la tarea se completa con éxito o no.
 
@@ -18,6 +21,11 @@
 ## Inferencia de tipos
 ### La inferencia de tipos asigna automáticamente un tipo de datos a una función sin necesidad de que el programador lo escriba, como Swift.
 
+## Inspector
+
+## Instancia
+### Una instancia u objeto de una clase es una representación concreta y específica de una clase y que reside en la memoria del ordenador. Los atributos son las caracterísiticas individuales que diferencian un objeto de otro y determinan su apariencia, estado u otras cualidades.
+
 ## Literales
 ### Una literal es un valor constante formado por una secuencia de caracteres.
     ### Constantes lógicas: true, false
@@ -28,6 +36,10 @@
 
 ## Opcional (Optional)
 ### Un opcional en Swift es un tipo de dato que puede contener o no un valor. Los opcionales se definen agregando un símbolo de interrogación (?) al final de la declaración de la variable
+
+## info plist
+
+## target
 
 ## Programacion declarativa
 

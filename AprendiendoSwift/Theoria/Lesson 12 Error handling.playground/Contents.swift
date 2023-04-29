@@ -100,51 +100,5 @@ catch ThrowableError.badError(let howBad) {
  */
 
 
-//*************************************************************************
-
-// Type casting || validacion de tipos de datos
-        //
-
-let myString = "Miguel"
-let myInt = 23
-
-class Myclass {
-    var name: String!
-    var age: Int!
-}
-
-let myClass = Myclass()
-myClass.name = "Miguel Ulloa"
-myClass.age = 32
-
-let myArray: [Any] = [myString, myInt, myClass]
-
-for item in myArray {
-    if item is String {
-        // Downcasting: transformar un tipo de elemento/dato a otro
-        let myItemString = item as! String
-            // Se pone el desempaquetado en as porque ya se esta seguro que es String
-        print("Item es de tipo String y tiene el valor \(myItemString)")
-    } else if item is Int {
-        // Downcastig
-        let myItemInt = item as! Int
-        print("Item es de tipo Int y tiene el valor \(myItemInt)")
-    } else if item is Myclass {
-        let myItemMyClass = item as! Myclass
-        print("Item es de tipo MyClass y tiene el valor \(myItemMyClass.name!) y \(myItemMyClass.age!)")
-    }
-}
-
-        // Forma mas sencilla de hacer Downcasting
-
-for item in myArray {
-    if let myItemString = item as? String {
-        print("Item es de tipo String y tiene el valor \(myItemString)")
-    } else if let myItemInt = item as? Int {
-        print("Item es de tipo Int y tiene el valor \(myItemInt)")
-    } else if let myItemMyClass = item as? Myclass {
-        print("Item es de tipo MyClass y tiene el valor \(myItemMyClass.name!) y \(myItemMyClass.age!)")
-    }
-}
 
 
