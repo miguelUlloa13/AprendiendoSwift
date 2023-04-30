@@ -36,6 +36,7 @@ arregloNumeros.removeAll()      // Eliminar todos los elementos
 print(arregloNumeros)
 
 var arregloVacio: [Int] = []    // Arreglo vacio de enteros
+var arregloVacio2 = [Int]()
 print(arregloNumeros)
 
 
@@ -490,7 +491,15 @@ print(arrayOne.popLast())
 
 
 
+    // MARK: - firstIndex(of:)
+        // El método indica cual es el índice de un elemento en una matriz si existe, o devuelve nil de lo contrario. Debido a que es un valor opcional, se debe desenvolver con cuidado o al menos verificar el resultado.
 
+let arrayFruits = ["Apples", "Peaches", "Plums"]
+if let index = arrayFruits.firstIndex(of: "Peaches") {
+    print("Found peaches at index \(index)")
+}
+
+arrayFruits.firstIndex(of: "App") ?? 404  // Si no encuentra el valor en el arreglo, arrojara 404
 
 
 

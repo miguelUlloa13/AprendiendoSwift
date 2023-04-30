@@ -38,6 +38,7 @@
 ### Un opcional en Swift es un tipo de dato que puede contener o no un valor. Los opcionales se definen agregando un símbolo de interrogación (?) al final de la declaración de la variable
 
 ## info plist
+### Un archivo PLIST es un archivo de texto especial que contiene datos en formato de lista de propiedades. Las aplicaciones macOS, iOS y iPadOS utilizan el archivo para almacenar configuraciones y otros datos en un formato de clave-valor con una estructura XML. Por ejemplo, cada aplicación de iPhone incluye al menos un archivo PLIST llamado Info.plist que contiene información de configuración básica para la aplicación.
 
 ## target
 

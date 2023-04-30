@@ -1,26 +1,47 @@
 import UIKit
 
-//*************************************************************************
-
-// Protocolo
-        // Sirve para definir un modelo de metodos, propiedades y otros requisitos para que una clase, estructura o una enumeracion se adapten a ellos
+    // MARK: - Protocolo
+        // Sirve para definir un modelo o plantilla de metodos, propiedades y otros requisitos para que una clase, estructura o una enumeracion se adapten a ellos
         // Obliga a la clase, estrucutra o enumeracion a que adopte una serie de propiedades y funciones. Conforme una serie de propiedades que implementara.
+        // Una recomendacion es agregar "protocol" al nombre del protocolo para distinguirlos de las clases
 
-        // Ejemplo de un protocolo que obligara que las clases o estructuras tengan una serie de variables y funciones
+    // MARK: - Sintaxis:
+
+/*
+
+    protocol nombreProtocolo {
+ 
+        var atributoUno: Tipo { get }
+        var atributoDos: Tipo { set }
+        var atributoTres: Tipo { get set }
+
+        func metodoUno() -> tipoDeRetorno
+
+    }
+ 
+get: solo se puede acceder a la propiedad (leer el valor de la variable)
+set: solo se puede asignar a la propiedad (escribir el valor de la variable)
+get set: se puede acceder y asignar a la propiedad
+
+*/
+
+    // MARK: Ejemplo
+
+    // MARK: - PersonProtocol
 protocol PersonProtocol {
-    // Propiedades
-        // Todas las personas tienen nombre y edad
-    var name: String { get set}    // La propiedad name se puede obtener con get y con set se le puede asignar un valor. Se puede escribir y leer la propiedad
-    var age: Int { get set }
-    /*
-     var name: String { get }   // solo se puede acceder a esta propiedad (leer el valor de la variable)
-     var name: String { set }   // solo se puede asignar a esta propiedad (escribir el valor de la variable)
-     */
     
-    // Metodos
+    // MARK: - Properties
+    var name: String { get set}
+    var age: Int { get set }
+
+    
+    // MARK: - Methods
     func fullName() -> String
 }
 
+
+    // MARK: - Programmer
+/// Programmer struct that implements the PersonProtocol protocol
 struct Programmer: PersonProtocol {
     var name: String
     var age: Int
@@ -32,6 +53,9 @@ struct Programmer: PersonProtocol {
     }
 }
 
+
+    // MARK: - Teacher
+/// Teacher struct that implements the PersonProtocol protocol
 struct Teacher: PersonProtocol {
     var name: String
     var age: Int
@@ -43,13 +67,19 @@ struct Teacher: PersonProtocol {
     }
 }
 
+
+    // Instanciando las structs (crear los objetos)
 let myProgrammer = Programmer(name: "Miguel", age: 23, language: "Swift")
 let myTeacher = Teacher(name: "Juan", age: 35, subject: "Programacion")
 
 print(myProgrammer.fullName())
 print(myTeacher.fullName())
 
-            // Ejemplo de protocolo con extencion
+
+
+    // MARK: Ejemplo de un protocolo con extensión
+        // Sirve para agregar mas metodos a un protocolo sin agregarlo necesariamente a la clase que implementa ese protocolo.
+        // Se extiende un protocolo para que los que lo conformen (class, struct, etc) no lo tengan que implementar
 
 protocol Animatable {
     func animate()
@@ -61,48 +91,21 @@ extension Animatable {
     }
 }
 
-class MyCustomView: Animatable{ }
+class MyCustomView: Animatable{
+    // No se agrego el metodo animate() a la clase pero se puede invocar
+}
+
+class MyCustomView2: Animatable{
+    // Se agrego el metodo animate()
+    func animate() {
+        print("Hola")
+    }
+}
+
 let myView = MyCustomView()
 myView.animate()
 
-        // Se puede extender un protocolo para que los que lo conformen (class, struct, etc) no lo tengan que implementar
+let myView2 = MyCustomView2()
+myView2.animate()
 
-//*************************************************************************
-
-// Protocolo delegado
-        // Permite comunicar dos clases en sentido inverso
-        // Delegar es encomendar la tarea a otro elemento
-
-class FirsClass: SecondClassProtocol {
-    
-    func callSecond () {
-        // La primera clase va a ser la encargada de llamar la segunda clase
-        let secondClass = SecondClass() // Se instancia la segunda clase
-        secondClass.delegate = self     // Se delega el protocolo
-        secondClass.callFirst()         // Se llama la operacion de la segunda clase
-    }
-    func call() {
-        print("Estoy de vuelta!")
-    }
-}
-
-protocol SecondClassProtocol {
-    
-    func call ()
-}
-
-class SecondClass {
-    
-    var delegate: SecondClassProtocol?
-    
-    func callFirst () {
-        
-        sleep(5)            // Dormir o se ejecutara despues de 5 segundos
-        
-        delegate?.call()    // Con esto se simula una operacion asincrona, el cual no se ejecutara al momento de ejecutar call first
-    }
-}
-
-let firstClass = FirsClass () // Se instancia la primera clase
-firstClass.callSecond() // La primera clase va a instanciar a la segunda
 
