@@ -47,6 +47,11 @@
 		78271FCC29FDE9540080CA2E /* Lesson 15 Weak and strong references.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Weak and strong references.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78271FF92A0095A80080CA2E /* Lesson 1 Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Comments.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827200E2A00B4980080CA2E /* Lesson 18 Async Await.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Async Await.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7827202F2A01B2030080CA2E /* Lesson 3 Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Dictionary.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		782720302A01B29C0080CA2E /* Lesson 20 Shortcuts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Shortcuts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		782720312A01B3A10080CA2E /* Lesson 3 Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Tuple.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		782720322A01B45C0080CA2E /* Lesson 3 Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Set.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		782720382A01B6CC0080CA2E /* Lesson 9 Higher Order Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 9 Higher Order Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
 		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,10 +70,10 @@
 		78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		78BD481D2988D3D800E9AF4A /* Lesson 2 Variables, Constants and Literals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2 Variables, Constants and Literals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD481E298A29B400E9AF4A /* Lesson 2 Literals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2 Literals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD4821298A2A7800E9AF4A /* Lesson 3 Collections.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Collections.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD4821298A2A7800E9AF4A /* Lesson 3 Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4822298A2ACB00E9AF4A /* Lesson 4 Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 4 Enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4823298A2B3300E9AF4A /* Lesson 5 Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 5 Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD4824298A2BAE00E9AF4A /* Lesson 6 Control Flow.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 6 Control Flow.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD4824298A2BAE00E9AF4A /* Lesson 6 Flow Control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 6 Flow Control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4826298A2C8300E9AF4A /* Lesson 7 Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 7 Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4827298A2C9C00E9AF4A /* Lesson 10 Struct and OOP.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 10 Struct and OOP.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4828298A2CB300E9AF4A /* Lesson 11 Optional and Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 11 Optional and Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -136,7 +141,10 @@
 		78271FFC2A0096350080CA2E /* Lesson 3 Collections */ = {
 			isa = PBXGroup;
 			children = (
-				78BD4821298A2A7800E9AF4A /* Lesson 3 Collections.playground */,
+				782720332A01B5700080CA2E /* Lesson 3 Array */,
+				782720362A01B58F0080CA2E /* Lesson 3 Dicctionary */,
+				782720352A01B58B0080CA2E /* Lesson 3 Tuple */,
+				782720342A01B5850080CA2E /* Lesson 3 Set */,
 			);
 			path = "Lesson 3 Collections";
 			sourceTree = "<group>";
@@ -160,7 +168,7 @@
 		78271FFF2A0096B70080CA2E /* Lesson 6 Control Flow */ = {
 			isa = PBXGroup;
 			children = (
-				78BD4824298A2BAE00E9AF4A /* Lesson 6 Control Flow.playground */,
+				78BD4824298A2BAE00E9AF4A /* Lesson 6 Flow Control.playground */,
 			);
 			path = "Lesson 6 Control Flow";
 			sourceTree = "<group>";
@@ -181,28 +189,28 @@
 			path = "Lesson 8 Closure";
 			sourceTree = "<group>";
 		};
-		782720022A00971D0080CA2E /* Lesson 9 Struct and OOP */ = {
+		782720022A00971D0080CA2E /* Lesson 10 Struct and OOP */ = {
 			isa = PBXGroup;
 			children = (
 				78BD4827298A2C9C00E9AF4A /* Lesson 10 Struct and OOP.playground */,
 			);
-			path = "Lesson 9 Struct and OOP";
+			path = "Lesson 10 Struct and OOP";
 			sourceTree = "<group>";
 		};
-		782720032A0097480080CA2E /* Lesson 10 Optional and Unwrapping */ = {
+		782720032A0097480080CA2E /* Lesson 11 Optional and Unwrapping */ = {
 			isa = PBXGroup;
 			children = (
 				78BD4828298A2CB300E9AF4A /* Lesson 11 Optional and Unwrapping.playground */,
 			);
-			path = "Lesson 10 Optional and Unwrapping";
+			path = "Lesson 11 Optional and Unwrapping";
 			sourceTree = "<group>";
 		};
-		782720042A0097640080CA2E /* Lesson 11 Error handling */ = {
+		782720042A0097640080CA2E /* Lesson 12 Error handling */ = {
 			isa = PBXGroup;
 			children = (
 				78BD4829298A2CC300E9AF4A /* Lesson 11 Error handling.playground */,
 			);
-			path = "Lesson 11 Error handling";
+			path = "Lesson 12 Error handling";
 			sourceTree = "<group>";
 		};
 		782720052A00978B0080CA2E /* Lesson 12 Type casting and Down casting */ = {
@@ -213,72 +221,113 @@
 			path = "Lesson 12 Type casting and Down casting";
 			sourceTree = "<group>";
 		};
-		782720062A0097C00080CA2E /* Lesson 13 Nested Types */ = {
+		782720062A0097C00080CA2E /* Lesson 14 Nested Types */ = {
 			isa = PBXGroup;
 			children = (
 				78BD482A298A2CE600E9AF4A /* Lesson 13 Nested Types.playground */,
 			);
-			path = "Lesson 13 Nested Types";
+			path = "Lesson 14 Nested Types";
 			sourceTree = "<group>";
 		};
-		782720072A0097E00080CA2E /* Lesson 14 Protocol */ = {
+		782720072A0097E00080CA2E /* Lesson 15 Protocol */ = {
 			isa = PBXGroup;
 			children = (
 				78BD482C298A2D1300E9AF4A /* Lesson 14 Protocol.playground */,
 			);
-			path = "Lesson 14 Protocol";
+			path = "Lesson 15 Protocol";
 			sourceTree = "<group>";
 		};
-		782720082A0098100080CA2E /* Lesson 15 Weak and strong references */ = {
+		782720082A0098100080CA2E /* Lesson 16 Weak and strong references */ = {
 			isa = PBXGroup;
 			children = (
 				78271FCC29FDE9540080CA2E /* Lesson 15 Weak and strong references.playground */,
 			);
-			path = "Lesson 15 Weak and strong references";
+			path = "Lesson 16 Weak and strong references";
 			sourceTree = "<group>";
 		};
-		782720092A0098D90080CA2E /* Lesson 16 Design patterns */ = {
+		782720092A0098D90080CA2E /* Lesson 17 Design patterns */ = {
 			isa = PBXGroup;
 			children = (
 				78271FBB29FD8BDE0080CA2E /* Lesson Design pattern - Delegate and Retain Cycle.playground */,
 				78271FBC29FD8BF30080CA2E /* Lesson Design pattern - Singleton.playground */,
 			);
-			path = "Lesson 16 Design patterns";
+			path = "Lesson 17 Design patterns";
 			sourceTree = "<group>";
 		};
-		7827200A2A0099AA0080CA2E /* Lesson 17 Generics */ = {
+		7827200A2A0099AA0080CA2E /* Lesson 18 Generics */ = {
 			isa = PBXGroup;
 			children = (
 				78BD482B298A2D0300E9AF4A /* Lesson 17 Generics.playground */,
 			);
-			path = "Lesson 17 Generics";
+			path = "Lesson 18 Generics";
 			sourceTree = "<group>";
 		};
-		7827200B2A0099C40080CA2E /* Lesson 20 Adittional Lessons */ = {
+		7827200B2A0099C40080CA2E /* Lesson 21 Adittional Lessons */ = {
 			isa = PBXGroup;
 			children = (
 				78271F8F29FC45600080CA2E /* Lesson 20 Typealias.playground */,
 				78BD483C2991E97F00E9AF4A /* Lesson 20 Marks in Swift.playground */,
 				78271F2429FA02750080CA2E /* Lesson 20 Documentation.playground */,
+				782720302A01B29C0080CA2E /* Lesson 20 Shortcuts.playground */,
 			);
-			path = "Lesson 20 Adittional Lessons";
+			path = "Lesson 21 Adittional Lessons";
 			sourceTree = "<group>";
 		};
-		7827200C2A009A420080CA2E /* Lesson 18 Networking (URLSession) */ = {
+		7827200C2A009A420080CA2E /* Lesson 19 Networking (URLSession) */ = {
 			isa = PBXGroup;
 			children = (
 				78BD484F2997617A00E9AF4A /* Lesson 18 Networking (URLSession).playground */,
 				7827200E2A00B4980080CA2E /* Lesson 18 Async Await.playground */,
 			);
-			path = "Lesson 18 Networking (URLSession)";
+			path = "Lesson 19 Networking (URLSession)";
 			sourceTree = "<group>";
 		};
-		7827200D2A009A6A0080CA2E /* Lesson 19 Regular expressions */ = {
+		7827200D2A009A6A0080CA2E /* Lesson 20 Regular expressions */ = {
 			isa = PBXGroup;
 			children = (
 				78F33A0B29D64CA9008FD3C3 /* Lesson 19 Regular expressions.playground */,
 			);
-			path = "Lesson 19 Regular expressions";
+			path = "Lesson 20 Regular expressions";
+			sourceTree = "<group>";
+		};
+		782720332A01B5700080CA2E /* Lesson 3 Array */ = {
+			isa = PBXGroup;
+			children = (
+				78BD4821298A2A7800E9AF4A /* Lesson 3 Array.playground */,
+			);
+			path = "Lesson 3 Array";
+			sourceTree = "<group>";
+		};
+		782720342A01B5850080CA2E /* Lesson 3 Set */ = {
+			isa = PBXGroup;
+			children = (
+				782720322A01B45C0080CA2E /* Lesson 3 Set.playground */,
+			);
+			path = "Lesson 3 Set";
+			sourceTree = "<group>";
+		};
+		782720352A01B58B0080CA2E /* Lesson 3 Tuple */ = {
+			isa = PBXGroup;
+			children = (
+				782720312A01B3A10080CA2E /* Lesson 3 Tuple.playground */,
+			);
+			path = "Lesson 3 Tuple";
+			sourceTree = "<group>";
+		};
+		782720362A01B58F0080CA2E /* Lesson 3 Dicctionary */ = {
+			isa = PBXGroup;
+			children = (
+				7827202F2A01B2030080CA2E /* Lesson 3 Dictionary.playground */,
+			);
+			path = "Lesson 3 Dicctionary";
+			sourceTree = "<group>";
+		};
+		782720372A01B6A20080CA2E /* Lesson 9 Higher Order Functions */ = {
+			isa = PBXGroup;
+			children = (
+				782720382A01B6CC0080CA2E /* Lesson 9 Higher Order Functions.playground */,
+			);
+			path = "Lesson 9 Higher Order Functions";
 			sourceTree = "<group>";
 		};
 		78BD47DC2988D06B00E9AF4A = {
@@ -347,18 +396,19 @@
 				78271FFF2A0096B70080CA2E /* Lesson 6 Control Flow */,
 				782720002A0096DB0080CA2E /* Lesson 7 Functions */,
 				782720012A0096F60080CA2E /* Lesson 8 Closure */,
-				782720022A00971D0080CA2E /* Lesson 9 Struct and OOP */,
-				782720032A0097480080CA2E /* Lesson 10 Optional and Unwrapping */,
-				782720042A0097640080CA2E /* Lesson 11 Error handling */,
+				782720372A01B6A20080CA2E /* Lesson 9 Higher Order Functions */,
+				782720022A00971D0080CA2E /* Lesson 10 Struct and OOP */,
+				782720032A0097480080CA2E /* Lesson 11 Optional and Unwrapping */,
+				782720042A0097640080CA2E /* Lesson 12 Error handling */,
 				782720052A00978B0080CA2E /* Lesson 12 Type casting and Down casting */,
-				782720062A0097C00080CA2E /* Lesson 13 Nested Types */,
-				782720072A0097E00080CA2E /* Lesson 14 Protocol */,
-				782720082A0098100080CA2E /* Lesson 15 Weak and strong references */,
-				782720092A0098D90080CA2E /* Lesson 16 Design patterns */,
-				7827200A2A0099AA0080CA2E /* Lesson 17 Generics */,
-				7827200C2A009A420080CA2E /* Lesson 18 Networking (URLSession) */,
-				7827200D2A009A6A0080CA2E /* Lesson 19 Regular expressions */,
-				7827200B2A0099C40080CA2E /* Lesson 20 Adittional Lessons */,
+				782720062A0097C00080CA2E /* Lesson 14 Nested Types */,
+				782720072A0097E00080CA2E /* Lesson 15 Protocol */,
+				782720082A0098100080CA2E /* Lesson 16 Weak and strong references */,
+				782720092A0098D90080CA2E /* Lesson 17 Design patterns */,
+				7827200A2A0099AA0080CA2E /* Lesson 18 Generics */,
+				7827200C2A009A420080CA2E /* Lesson 19 Networking (URLSession) */,
+				7827200D2A009A6A0080CA2E /* Lesson 20 Regular expressions */,
+				7827200B2A0099C40080CA2E /* Lesson 21 Adittional Lessons */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
 			path = Theoria;

@@ -55,7 +55,7 @@ let myClosure2 = { (value: Int) -> Int in
     
 }
 
-    // MARK: - Closure que recibe y no retorna nada (Void)
+    // MARK: - Closure que recibe un parametro y no retorna nada (Void)
 
 let myClosure3 = { (value: Int) -> Void in
     

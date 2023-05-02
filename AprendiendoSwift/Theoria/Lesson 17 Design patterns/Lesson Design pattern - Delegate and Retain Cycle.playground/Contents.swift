@@ -9,7 +9,7 @@ class FirstClass: SecondClassProtocol {
     
     func callSecond() {
         let secondClass = SecondClass()
-        secondClass.delegate = self
+        secondClass.delegate = self // La variable delegate se inicializa con la actual instancia o FirstClass() y es necesario implementar que conforme el protocolo
         secondClass.callFirst()
     }
     
@@ -38,6 +38,7 @@ class SecondClass {
 let firstClass = FirstClass ()
 firstClass.callSecond()
 
+    
 
 
 
@@ -88,15 +89,18 @@ user.addNewUserName()
 
 
 
-    // MARK: - Ejemplo Dos Con parametros
+    // MARK: - Ejemplo Dos
 
-class FirstViewController: APIClientProtocol {
+class FirstViewController {
     func getAPI() {
         let apiClient = APIClient()
         apiClient.delegate = self
         apiClient.getData()
     }
-    
+
+}
+    // Es una buena practica separar la conformacion del procolo en la clase con una extension
+extension FirstViewController: APIClientProtocol{
     func updateUser(_ user: String) {
         print(user)
     }
@@ -122,5 +126,6 @@ firstViewController.getAPI()
  
  1. apiClient se encargara de obtener la api de usuarios. Es decir, delegaremos esta responsabilidad a APIClient.
  2. Cuando el apiClient ya recibe el JSON de usuarios, llama a delegate (ó FirstViewController) con el método de updateUser() para que la vista FirstViewController muestre el JSON recibido.
+ 3. El protocolo permite la interaccion entre las dos clases
  
  */

@@ -702,6 +702,27 @@
 			<key>orderHint</key>
 			<integer>69</integer>
 		</dict>
+		<key>Lesson 10 Struct and OOP (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>199</integer>
+		</dict>
+		<key>Lesson 10 Struct and OOP (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>200</integer>
+		</dict>
+		<key>Lesson 10 Struct and OOP (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>201</integer>
+		</dict>
 		<key>Lesson 10 Struct and OOP (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -737,6 +758,27 @@
 			<key>orderHint</key>
 			<integer>3</integer>
 		</dict>
+		<key>Lesson 11 Error handling (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>206</integer>
+		</dict>
+		<key>Lesson 11 Error handling (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>207</integer>
+		</dict>
+		<key>Lesson 11 Error handling (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>205</integer>
+		</dict>
 		<key>Lesson 11 Optional and Unwrapping (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -757,6 +799,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>72</integer>
+		</dict>
+		<key>Lesson 11 Optional and Unwrapping (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>202</integer>
+		</dict>
+		<key>Lesson 11 Optional and Unwrapping (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>203</integer>
+		</dict>
+		<key>Lesson 11 Optional and Unwrapping (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>204</integer>
 		</dict>
 		<key>Lesson 11 Optional and Unwrapping (Playground).xcscheme</key>
 		<dict>
@@ -863,6 +926,27 @@
 			<key>orderHint</key>
 			<integer>87</integer>
 		</dict>
+		<key>Lesson 13 Nested Types (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>208</integer>
+		</dict>
+		<key>Lesson 13 Nested Types (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>209</integer>
+		</dict>
+		<key>Lesson 13 Nested Types (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>210</integer>
+		</dict>
 		<key>Lesson 13 Nested Types (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -947,6 +1031,27 @@
 			<key>orderHint</key>
 			<integer>90</integer>
 		</dict>
+		<key>Lesson 14 Protocol (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>211</integer>
+		</dict>
+		<key>Lesson 14 Protocol (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>212</integer>
+		</dict>
+		<key>Lesson 14 Protocol (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>213</integer>
+		</dict>
 		<key>Lesson 14 Protocol (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1030,6 +1135,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>Lesson 15 Weak and strong references (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>215</integer>
+		</dict>
+		<key>Lesson 15 Weak and strong references (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>216</integer>
+		</dict>
+		<key>Lesson 15 Weak and strong references (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>214</integer>
 		</dict>
 		<key>Lesson 16 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1220,6 +1346,27 @@
 			<key>orderHint</key>
 			<integer>135</integer>
 		</dict>
+		<key>Lesson 17 Generics (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>223</integer>
+		</dict>
+		<key>Lesson 17 Generics (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>224</integer>
+		</dict>
+		<key>Lesson 17 Generics (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>225</integer>
+		</dict>
 		<key>Lesson 17 Generics (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1261,6 +1408,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>150</integer>
+		</dict>
+		<key>Lesson 18 Async Await (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>229</integer>
+		</dict>
+		<key>Lesson 18 Async Await (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>230</integer>
+		</dict>
+		<key>Lesson 18 Async Await (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>231</integer>
 		</dict>
 		<key>Lesson 18 Async Await (Playground).xcscheme</key>
 		<dict>
@@ -1317,6 +1485,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>120</integer>
+		</dict>
+		<key>Lesson 18 Networking (URLSession) (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>226</integer>
+		</dict>
+		<key>Lesson 18 Networking (URLSession) (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>227</integer>
+		</dict>
+		<key>Lesson 18 Networking (URLSession) (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>228</integer>
 		</dict>
 		<key>Lesson 18 Networking (URLSession) (Playground).xcscheme</key>
 		<dict>
@@ -1416,6 +1605,27 @@
 			<key>orderHint</key>
 			<integer>126</integer>
 		</dict>
+		<key>Lesson 19 Regular expressions (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>232</integer>
+		</dict>
+		<key>Lesson 19 Regular expressions (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>233</integer>
+		</dict>
+		<key>Lesson 19 Regular expressions (Playground) 9.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>234</integer>
+		</dict>
 		<key>Lesson 19 Regular expressions (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1451,6 +1661,48 @@
 			<key>orderHint</key>
 			<integer>1</integer>
 		</dict>
+		<key>Lesson 20 Documentation (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>242</integer>
+		</dict>
+		<key>Lesson 20 Documentation (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>243</integer>
+		</dict>
+		<key>Lesson 20 Documentation (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>241</integer>
+		</dict>
+		<key>Lesson 20 Marks in Swift (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>239</integer>
+		</dict>
+		<key>Lesson 20 Marks in Swift (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>240</integer>
+		</dict>
+		<key>Lesson 20 Marks in Swift (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>238</integer>
+		</dict>
 		<key>Lesson 20 Regular expressions (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1479,6 +1731,237 @@
 			<key>orderHint</key>
 			<integer>8</integer>
 		</dict>
+		<key>Lesson 20 Shortcuts (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>155</integer>
+		</dict>
+		<key>Lesson 20 Shortcuts (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>156</integer>
+		</dict>
+		<key>Lesson 20 Shortcuts (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>244</integer>
+		</dict>
+		<key>Lesson 20 Shortcuts (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>245</integer>
+		</dict>
+		<key>Lesson 20 Shortcuts (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>246</integer>
+		</dict>
+		<key>Lesson 20 Shortcuts (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>154</integer>
+		</dict>
+		<key>Lesson 20 Typealias (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>236</integer>
+		</dict>
+		<key>Lesson 20 Typealias (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>237</integer>
+		</dict>
+		<key>Lesson 20 Typealias (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>235</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>164</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>165</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>166</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>167</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>168</integer>
+		</dict>
+		<key>Lesson 3 Array (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>163</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>152</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>153</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>169</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>170</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>171</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>178</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>179</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>180</integer>
+		</dict>
+		<key>Lesson 3 Dictionary (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>151</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>188</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>189</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>193</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>194</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>195</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>196</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>197</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>198</integer>
+		</dict>
+		<key>Lesson 3 Higher Order Functions (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>187</integer>
+		</dict>
 		<key>Lesson 3 Literals (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1506,6 +1989,132 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>3</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>158</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>159</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>175</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>176</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>177</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>184</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>185</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>186</integer>
+		</dict>
+		<key>Lesson 3 Set (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>157</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>173</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>174</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>181</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>182</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>183</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>247</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>248</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>249</integer>
+		</dict>
+		<key>Lesson 3 Tuples (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>172</integer>
 		</dict>
 		<key>Lesson 4 Collections (Playground) 1.xcscheme</key>
 		<dict>
@@ -1618,6 +2227,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>Lesson 6 Flow Control (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>191</integer>
+		</dict>
+		<key>Lesson 6 Flow Control (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>192</integer>
+		</dict>
+		<key>Lesson 6 Flow Control (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>190</integer>
 		</dict>
 		<key>Lesson 6 Operators (Playground) 1.xcscheme</key>
 		<dict>
@@ -1878,6 +2508,27 @@
 			<key>orderHint</key>
 			<integer>22</integer>
 		</dict>
+		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>218</integer>
+		</dict>
+		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>219</integer>
+		</dict>
+		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>217</integer>
+		</dict>
 		<key>Lesson Design pattern - Singleton (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1912,6 +2563,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>102</integer>
+		</dict>
+		<key>Lesson Design pattern - Singleton (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>220</integer>
+		</dict>
+		<key>Lesson Design pattern - Singleton (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>221</integer>
+		</dict>
+		<key>Lesson Design pattern - Singleton (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>222</integer>
 		</dict>
 		<key>Lesson Design pattern - Singleton (Playground).xcscheme</key>
 		<dict>
@@ -2127,6 +2799,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>15</integer>
+		</dict>
+		<key>Set (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>161</integer>
+		</dict>
+		<key>Set (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>162</integer>
+		</dict>
+		<key>Set (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>160</integer>
 		</dict>
 		<key>Strong and Weak References (Playground) 1.xcscheme</key>
 		<dict>
