@@ -6,6 +6,8 @@ import UIKit
 
         // MARK: - Arreglos (Array)
             // Un arreglo o matriz es una colección de tipos de datos similares.
+            // Es una coleccion de tipo ordenada
+            // Los arreglos solo aceptan un solo tipo de valor: int, float, String
 
 var arregloNumeros = [1,2,3]    // Declarar un arreglo
 let arregloNumerosInmutable = [1,2,3]
@@ -77,14 +79,46 @@ myModernDictionary[002] = nil
 var capitalCity = ["Nepal": "Kathmandu", "Italy": "Rome", "England": "London"]  // Diccionario de solo tipo String
 print(capitalCity)
 
+    // Iterando en un diccionario
+
+        // Iterando atraves del keys-values
+print("Iterando atraves de los keys-values")
+for (key, value) in capitalCity {
+    print("Key: \(key) ->", "Value: \(value)")
+}
+
+        // Iterando solo atraves en keys
+print("Iterando solo atraves en keys 1ra forma")
+for (key, _) in capitalCity {
+    print("Key: \(key)")
+}
+
+print("Iterando solo atraves en keys 2a forma")
+for key in capitalCity.keys {
+    print("Key: \(key)")
+}
+
+        // Iterando solo atraves en values
+print("Iterando solo atraves en values 1ra forma")
+for (_ ,value) in capitalCity {
+    print("Value: \(value)")
+}
+
+print("Iterando solo atraves en values 2a forma")
+for value in capitalCity.values {
+    print("Value: \(value)")
+}
+
+
+
+
 
 
     // MARK: - Tuples
         // Tuplas
             // una tupla es un grupo de diferentes valores. Y, cada valor dentro de una tupla puede ser de diferentes tipos de datos.
-            // Los arreglos solo aceptan un solo tipo de valor: int, float, String
             // Las tuplas es una coleccion de distion tipos de valores.
-            // como una matriz, cada elemento de una tupla está representado por números de índice (0, 1, ...) donde el primer elemento está en el índice 0.
+            // como una matriz, cada elemento de una tupla está representado por números de índice (0, 1, ...) donde el primer elemento está en el índice 0; coleccion tipo ordenada
 
 var persona = ("Miguel", "Martinez", 23, 1.68)     // Declarar una tupla
 
@@ -500,6 +534,55 @@ if let index = arrayFruits.firstIndex(of: "Peaches") {
 }
 
 arrayFruits.firstIndex(of: "App") ?? 404  // Si no encuentra el valor en el arreglo, arrojara 404
+
+
+    // MARK: - enumerated()
+
+    // enumerated() devuelve una secuencia de pares (n, x), donde n representa un número entero consecutivo que comienza en cero y x representa un elemento de la secuencia.
+    // Sirve para indicar la posicion de cada elemento en la colecction
+    // Enumerar una matriz en Swift es útil al recorrer matrices. A veces, necesita saber el índice de cada elemento al realizar un bucle.
+
+let cars = ["Vocho", "Tsuru", "Sedan"]
+
+for (index, item) in cars.enumerated() {
+    print("Auto \(item) en posición \(index)")
+}
+
+var swiftArray = "Swift".enumerated()
+for (n, c) in "Swift".enumerated() {
+    print("\(n): '\(c)'")
+}
+
+
+let abecedario = ["a", "b", "c", "d", "e", "f", "g"]
+for par in abecedario.enumerated() {
+    print(par) // Imprimira el indice (offset) y el elemento (element)
+}
+
+
+
+var information = ["Charlie": 54, "Harvey": 38, "Donna": 34]
+
+// use enumerated() to iterate through a dictionary
+for (index, key_value) in information.enumerated() {
+   print("\(index): \(key_value)")
+}
+
+
+    // Con enumerate sustituye crear un index (i) separado y tenerlo que actualizarlo en cada iteracion, como en el ejemplo de abajo:
+
+let friendsArray = ["Alice", "Bob", "Charlie"]
+var i = 0
+for name in friendsArray {
+    print(name, i)
+    i += 1
+}
+
+    // Con enumerated ya indica la posicion de cada elemento en el arreglo
+let namesWithIndex = friendsArray.enumerated()
+for (index, name) in namesWithIndex {
+    print("\(name) is at position \(index)")
+}
 
 
 

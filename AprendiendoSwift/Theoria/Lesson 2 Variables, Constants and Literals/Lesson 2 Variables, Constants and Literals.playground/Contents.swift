@@ -44,20 +44,6 @@ let num2 = 2, miApellido = "Martinez"
         // var 2b = "Hola"  // Invalido
 
 
-    // MARK: - Literals -
-    // Una literal es un valor constante formado por una secuencia de caracteres.
-        // Constantes lógicas: true, false
-            let isTrue = true
-        // Constantes de tipo entero: Decimal (123, -23745), Hexadecimal (0x1fa), Octal (0125)
-            let myInt = 24, myHex = 0x13, myOct = 0o13, myBin = 0b101
-        // Constantes reales: Punto fijo (14.487, -.234), Exponencial (12.5e8, 1.2e-15)
-            let myFloat = 3.1416
-        // Constantes de tipo carácter: Rodeadas de comillas simples. Su valor se corresponde con su código ASCII. 'A', '\n'
-            let myChar = "C"
-        // Constantes de tipo cadena de caracteres: Se representan entre comillas. "Hola mundo\n"
-            let hellowWorld = "Hello, world!"
-
-
 
     // MARK: - Explicit and implicit declaration -
         // Asignacion Explicita e Implicita

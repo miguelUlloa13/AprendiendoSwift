@@ -42,7 +42,7 @@ firstClass.callSecond()
 
 
 
-    // MARK: - Ejemplo Uno
+    // MARK: - Ejemplo con Retain cycle
 
 class ProfileView: ProfileUIProtocol {
     
@@ -102,12 +102,12 @@ class FirstViewController: APIClientProtocol {
     }
 }
 
-protocol APIClientProtocol {
+protocol APIClientProtocol: AnyObject {
     func updateUser(_ user: String)
 }
 
 class APIClient {
-    var delegate: APIClientProtocol?  // por convencion la variable se llama delegate
+    weak var delegate: APIClientProtocol?  // por convencion la variable se llama delegate
     
     func getData() {
         sleep(2)

@@ -29,8 +29,7 @@ enum SumError: Error {
 }
 
 // Propagacion de errores
-        // Para controlar los errores, es decir controlar que la funcion puede dar
-        // algun tipo de error
+        // Para controlar los errores, es decir controlar que la funcion puede dar algun tipo de error
 do {
     // Dentro del do estara la funcion que provocara errores
     print(try sum(firstNumber: -100, secondNumber: 50))

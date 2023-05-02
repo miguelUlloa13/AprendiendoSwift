@@ -1,5 +1,13 @@
 import UIKit
 
+    // MARK: - Retain Cycles
+
+    // En Swift, ARC (recuento automático de referencias) maneja automáticamente la asignación y desasignación de memoria.
+
+//Sin embargo, podemos evitar que ARC asigne memoria automáticamente especificando el tipo de referencia. Por ejemplo, una referencia sólida mantiene un control firme sobre las instancias y no permite la desasignación por parte de ARC.
+
+// Del mismo modo, una referencia débil no puede evitar que ARC desasigne las instancias.
+
 // declare a class
 class  Employee {
     
