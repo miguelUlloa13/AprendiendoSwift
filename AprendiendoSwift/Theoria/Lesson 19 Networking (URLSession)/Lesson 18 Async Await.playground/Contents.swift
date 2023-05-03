@@ -115,7 +115,7 @@ viewModel.executeRequest()
         // 1. El primer dataTask es para conseguir un personaje
         // 2. El segundo es para conseguir el episodio del personaje
         // 3. Y el ultimo es para conseguir la locacion
-// En la 1ra peticion se realiza la 2a peticion y dentra de esta se encuentra la 3ra peticion, tiene la apariencia de una piramide ,a esto se le conoce como: "Pyramid of Doom"
+// En la 1ra peticion se realiza la 2a peticion y dentro de esta se encuentra la 3ra peticion, tiene la apariencia de una piramide ,a esto se le conoce como: "Pyramid of Doom"
 
 
 

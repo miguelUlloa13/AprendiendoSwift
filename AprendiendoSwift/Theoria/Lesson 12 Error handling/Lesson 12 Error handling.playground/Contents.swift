@@ -1,5 +1,7 @@
 import UIKit
 
+// MARK: - Error handling -
+
 // Manejo de errores
 
     // Para que una funcion pueda lanzar errores se escribe la palabra reservada "throws"

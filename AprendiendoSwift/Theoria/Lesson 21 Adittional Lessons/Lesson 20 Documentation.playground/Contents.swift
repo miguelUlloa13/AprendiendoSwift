@@ -30,6 +30,33 @@ calculateBMI(67.4, 1.70)
 
 
 
+
+class User {
+    let firstName = "Miguel"
+    let lastName = "Ulloa"
+}
+
+/// A way that this user greets others.
+///
+/// Use this method to get the greeting for the user. The person you specify don't affect the way user greet, just the first name, and last name will be used.
+/// - Warning: The greeting is always in the caller localization.
+/// - Throws:
+///     - `MyError.invalidPerson`
+///     if `person` is not known by the caller.
+///     - `MyError.hardToPronounce`
+///     if `person` name is longer than 20 characters.
+/// - Parameter person: `User` you want to greet
+/// - Returns: A greeting of the current `User`.
+func greeting(person: User) throws -> String {
+  return "Hello \(person.firstName) \(person.lastName)"
+}
+
+let myUser: User = User()
+try greeting(person: myUser)
+
+
+
+
 /// Class to create objects type Person
 class Person {
     

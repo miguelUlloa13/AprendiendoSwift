@@ -8,3 +8,8 @@ import UIKit
     // Para colocar emojis se debe presionar:
     // control + command + space
     // 😆🤪💚
+
+// MARK: - Multicursor -
+    // Para colocar varios cursores en la pantalla, hay 2 formas:
+    // 1. control + shift 
+    // 2. option + arrastrar el cursor
