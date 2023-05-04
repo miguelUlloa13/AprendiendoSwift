@@ -4,7 +4,9 @@ import UIKit
     // Result Type, brinda una forma más simple y clara de manejar los errores en código complejo, como las API asíncronas.
     // Result Type se implementa como un enum que tiene dos casos: success y failure. Ambos se implementan usando generics para que puedan tener un valor asociado de nuestra eleccion, pero la falla debe ser algo que se ajuste al tipo de Error de Swift. Si lo desea, puede usar un tipo de error específico por ejemplo, como NetworkError, AuthenticationError o DivError.
     // Sintaxis de Result Type:
-        // Result<TypeToReturn, ErrorEnum>
+        // Result<Success, Failure>
+            // Succes: Valor satisfactorio. Tipo de valor: Int, String, [Int], etc.
+            // Failure: Valor fallido. Tipo de valor: Error o Error Enum
 
     // MARK: Primera forma sin utilizar Result type
 
@@ -35,7 +37,7 @@ func divide(dividend: Float?, divisor: Float?) throws -> Float {
         throw DivError.divisorZero(dividend!, divisor!)
     }
     
-    var quotient = Float(dividend! / divisor!)
+    let quotient = Float(dividend! / divisor!)
     
    return quotient
     
@@ -77,7 +79,7 @@ func divide2(dividend: Float?, divisor: Float?) -> Result<Float, DivError> {
 let result = divide2(dividend: 2, divisor: 0)
 switch result {
 case .success(let answer):
-    print("The answer is \(answer)")
+    print("La respuesta es: \(answer)")
 case .failure(let error):
     switch error {
     case .dividendNil:
