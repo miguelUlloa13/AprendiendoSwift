@@ -1192,6 +1192,27 @@
 			<key>orderHint</key>
 			<integer>11</integer>
 		</dict>
+		<key>Lesson 16  (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
+		<key>Lesson 16  (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>50</integer>
+		</dict>
+		<key>Lesson 16  (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
 		<key>Lesson 16 (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1289,6 +1310,48 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>136</integer>
+		</dict>
+		<key>Lesson 16 Value type and Reference Type (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>Lesson 16 Value type and Reference Type (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>Lesson 16 Value type and Reference Type (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>Lesson 16 Weak and strong references (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>Lesson 16 Weak and strong references (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
+		<key>Lesson 16 Weak and strong references (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
 		</dict>
 		<key>Lesson 17 (Playground) 1.xcscheme</key>
 		<dict>

@@ -56,6 +56,8 @@
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
 		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454232A043970003761B3 /* Lesson 16 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD47E82988D06B00E9AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -241,12 +243,14 @@
 			path = "Lesson 15 Protocol";
 			sourceTree = "<group>";
 		};
-		782720082A0098100080CA2E /* Lesson 16 Weak and strong references */ = {
+		782720082A0098100080CA2E /* Lesson 16 Automatic Reference Counting */ = {
 			isa = PBXGroup;
 			children = (
+				787454232A043970003761B3 /* Lesson 16 Value type and Reference Type.playground */,
 				78271FCC29FDE9540080CA2E /* Lesson 16 Weak and strong references.playground */,
+				787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */,
 			);
-			path = "Lesson 16 Weak and strong references";
+			path = "Lesson 16 Automatic Reference Counting";
 			sourceTree = "<group>";
 		};
 		782720092A0098D90080CA2E /* Lesson 17 Design patterns */ = {
@@ -407,7 +411,7 @@
 				782720052A00978B0080CA2E /* Lesson 13 Type casting and Down casting */,
 				782720062A0097C00080CA2E /* Lesson 14 Nested Types */,
 				782720072A0097E00080CA2E /* Lesson 15 Protocol */,
-				782720082A0098100080CA2E /* Lesson 16 Weak and strong references */,
+				782720082A0098100080CA2E /* Lesson 16 Automatic Reference Counting */,
 				782720092A0098D90080CA2E /* Lesson 17 Design patterns */,
 				7827200A2A0099AA0080CA2E /* Lesson 18 Generics */,
 				7827200C2A009A420080CA2E /* Lesson 19 Networking (URLSession) */,

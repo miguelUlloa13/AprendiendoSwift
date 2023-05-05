@@ -13,7 +13,7 @@ import UIKit
 
 /*
  
- func someFunction(closure: @escaping (Int) -> Void) {
+ func someFunction(closure: @escaping (Type) -> Void) {
  
  // Código
  
@@ -81,9 +81,6 @@ print("¡Punto de referencia 2!")
 // Cada vez que necesitemos que un closure pasado como parámetro sea almacenado fuera del ambito de la función (o método) lo establecemos como @escaping, o algo mucho más común:
 
 
-
-
-// El resultado que aparece por pantalla es "Todo OK"
 
 // TODO: - Ejemplo de scaping closure
 // url : https://www.youtube.com/watch?v=QXYO7xf9xD4

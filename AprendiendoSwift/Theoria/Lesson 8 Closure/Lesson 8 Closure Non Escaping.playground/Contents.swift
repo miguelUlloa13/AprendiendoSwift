@@ -392,6 +392,7 @@ getDataFromBackend(status: "qq", onSuccess: {
     print("Error \(error)")
 }
 
+// El resultado que aparece por pantalla es "Todo OK"
 
 
 
