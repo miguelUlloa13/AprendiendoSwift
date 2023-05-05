@@ -1,8 +1,6 @@
 import UIKit
 
-//*************************************************************************
-
-// MARK: - Generics -
+// MARK: - Generics Functions -
     // Codigo generigo permite escribir funciones y tipos flexibles que son reutilizables y serviran para tipos que se adapten a ciertos requisitos.
     // Swift Generics nos permite crear una sola función y clase (o cualquier otro tipo) que se puede usar con diferentes tipos de datos. Esto nos ayuda a reutilizar nuestro código.
 
@@ -10,11 +8,11 @@ import UIKit
     // MARK: Generic function
 /*
  
- func someFunction<T>(data: T){
+ func someFunction<T>(value: T){
     declaraciones...
  }
  
- La <T> se denomina "type parameter". Se le puede dar cualquier nombre al type parameter, por ejemplo: <S>, <Elemento>, etc. Pero por convención, usamos T.
+ La <T> se denomina "type parameter". Se le puede dar cualquier nombre al type parameter, por ejemplo: <S>, <Elemento>, etc. Pero por convención, se usa T.
  Y según el tipo de valor pasado a la función, la T se reemplaza por ese tipo de datos (Int, String, etc.).
  
  */
@@ -59,26 +57,14 @@ print("Mi nombre es \(nombre) y mi apellido es \(apellido)")
 
 
 
+// La funcion puede tener mas de un tipo generico
 
-/*
- 
- La funcion puede tener mas de un tipo generico
- 
- func swapTwoGenerics<T, U>(a: inout T, b: inout T, c: inout U) {
-     let tempA = a
-     a = b
-     b = tempA
- }
- 
- Se puede limitar los genericos a cierto tipo, por ejemplo de una clase(SomeClass) y un protocolo(SomeProtocol)
- 
- func swapTwoGenerics<T: SomeClass, U: SomeProtocol>(a: inout T, b: inout T, c: inout U) {
-     let tempA = a
-     a = b
-     b = tempA
- }
- */
+func displayData2<T, S, U>(a: T, b: S, c: U) {
+    print("Data Passed:", a, b, c)
+}
 
+displayData2(a: "Hola", b: 24, c: true)
+displayData2(a: 3.1416, b: "Miguel Ulloa", c: 32)
 
 
 

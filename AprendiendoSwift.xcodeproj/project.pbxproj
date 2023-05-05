@@ -60,6 +60,8 @@
 		787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Access control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454312A04D4A0003761B3 /* Lesson 18 Generic Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generic Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454322A04D638003761B3 /* Lesson 18 Type Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Type Constraints.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD47E82988D06B00E9AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -85,7 +87,7 @@
 		78BD4828298A2CB300E9AF4A /* Lesson 11 Optional and Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 11 Optional and Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4829298A2CC300E9AF4A /* Lesson 12 Error handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 12 Error handling.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482A298A2CE600E9AF4A /* Lesson 14 Nested Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 14 Nested Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD482B298A2D0300E9AF4A /* Lesson 18 Generics.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generics.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD482B298A2D0300E9AF4A /* Lesson 18 Generics Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generics Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482C298A2D1300E9AF4A /* Lesson 15 Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD483C2991E97F00E9AF4A /* Lesson 21 Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD484F2997617A00E9AF4A /* Lesson 19 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -267,7 +269,9 @@
 		7827200A2A0099AA0080CA2E /* Lesson 18 Generics */ = {
 			isa = PBXGroup;
 			children = (
-				78BD482B298A2D0300E9AF4A /* Lesson 18 Generics.playground */,
+				78BD482B298A2D0300E9AF4A /* Lesson 18 Generics Functions.playground */,
+				787454312A04D4A0003761B3 /* Lesson 18 Generic Class.playground */,
+				787454322A04D638003761B3 /* Lesson 18 Type Constraints.playground */,
 			);
 			path = "Lesson 18 Generics";
 			sourceTree = "<group>";

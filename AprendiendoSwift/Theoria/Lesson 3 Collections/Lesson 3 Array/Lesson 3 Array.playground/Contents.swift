@@ -1,16 +1,27 @@
 import UIKit
 
 
-    // MARK: - Collections -
-        // Colecciones
+// MARK: - Collections -
+// Colecciones
 
-        // MARK: - Arreglos (Array)
-            // Un arreglo o matriz es una colección de tipos de datos similares.
-            // Es una coleccion de tipo ordenada
-            // Los arreglos solo aceptan un solo tipo de valor: int, float, String
+    // MARK: - Arreglos (Array)
+    // Un arreglo o matriz es una colección de tipos de datos similares.
+    // Es una coleccion de tipo ordenada
+    // Los arreglos solo aceptan un solo tipo de valor: int, float, String
 
-var arregloNumeros = [1,2,3]    // Declarar un arreglo
+    // MARK: - Declarar un arreglo
+// Arreglo variable
+var arregloNumeros = [1,2,3]
+
+// Arreglo constante
 let arregloNumerosInmutable = [1,2,3]
+
+// Arreglo vacio
+var arregloVacioUno: Array<Int> = []
+
+// Otra forma de declara un rreglo vacio
+var arregloVacioDos = [String]()
+
 
 print(arregloNumeros)
 
