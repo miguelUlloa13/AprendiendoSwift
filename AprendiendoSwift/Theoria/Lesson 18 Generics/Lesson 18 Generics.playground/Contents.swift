@@ -2,40 +2,63 @@ import UIKit
 
 //*************************************************************************
 
-// Generics
-// Codigo generigo permite escribir funciones y tipos flexibles que son reutilizables y serviran para tipos que se adapten a ciertos requisitos
+// MARK: - Generics -
+    // Codigo generigo permite escribir funciones y tipos flexibles que son reutilizables y serviran para tipos que se adapten a ciertos requisitos.
+    // Swift Generics nos permite crear una sola función y clase (o cualquier otro tipo) que se puede usar con diferentes tipos de datos. Esto nos ayuda a reutilizar nuestro código.
 
-    // Sin genericos
+// MARK: - Sintaxis:
+    // MARK: Generic function
+/*
+ 
+ func someFunction<T>(data: T){
+    declaraciones...
+ }
+ 
+ La <T> se denomina "type parameter". Se le puede dar cualquier nombre al type parameter, por ejemplo: <S>, <Elemento>, etc. Pero por convención, usamos T.
+ Y según el tipo de valor pasado a la función, la T se reemplaza por ese tipo de datos (Int, String, etc.).
+ 
+ */
 
-func swapTwoInts(a: inout Int, b: inout Int) {
-    let tempA = a
-    a = b
-    b = tempA
+// MARK: - Ejemplo
+
+func displayData<T>(data: T) {
+    print("Generic Function:")
+    print("Data Passed:", data)
 }
 
-var myFirstInt = 5
-var mySecondInt = 10
-print("El primer valor es \(myFirstInt) y el segundo valor es \(mySecondInt)")
-swapTwoInts(a: &myFirstInt, b: &mySecondInt)
-print("El primer valor es \(myFirstInt) y el segundo valor es \(mySecondInt)")
+// Pasar al argumento valor tipo String
+displayData(data: "Swift")
 
-    // Con Genericos
+// Pasar al argumento valor tipo Int
+displayData(data: 5)
 
+
+
+    // MARK: - Ejemplo dos
 func swapTwoGenerics<T>(a: inout T, b: inout T) {
     let tempA = a
     a = b
     b = tempA
 }
 
+    // Los parametros son tipo Int
 var myFirstGeneric = 5
 var mySecondGeneric = 10
-/*
- var myFirstGeneric = "Miguel"
- var mySecondGeneric = "Angel"
- */
-print("El primer valor es \(myFirstGeneric) y el segundo valor es \(mySecondGeneric)")
-swapTwoInts(a: &myFirstGeneric, b: &mySecondGeneric)
-print("El primer valor es \(myFirstGeneric) y el segundo valor es \(mySecondGeneric)")
+ 
+print("Primer valor \(myFirstGeneric) y segundo valor \(mySecondGeneric)")
+swapTwoGenerics(a: &myFirstGeneric, b: &mySecondGeneric)
+print("Primer valor \(myFirstGeneric) y segundo valor \(mySecondGeneric)")
+
+    // Los parametros son tipo String
+var nombre = "Miguel"
+var apellido = "Ulloa"
+
+print("Mi nombre es \(nombre) y mi apellido es \(apellido)")
+swapTwoGenerics(a: &nombre, b: &apellido)
+print("Mi nombre es \(nombre) y mi apellido es \(apellido)")
+
+
+
 
 /*
  
@@ -56,35 +79,8 @@ print("El primer valor es \(myFirstGeneric) y el segundo valor es \(mySecondGene
  }
  */
 
-//*************************************************************************
 
 
-
-/*
- Control de acceso en Swift:
- Sirve para que el odigo sea mas seguro, se oculta la implentacion o
- funcionamiento de diferentes partes del programa de los usuario.
- Hay distintos tipos de control acceso:
- 
-    open: Se puede acceder a ese objeto en cualquier parte del codigo
-    public: Se puede acceder a ese objeto en cualquier parte del codigo
-    internal: Solo se puede acceder al objeto dentro del modulo/App
-    fileprivate: Solo se puede acceder al objeto dentro del fichero
-    private: Restringe el uso del objeto solo al contexto que esta definido.
- 
- Un control de acceso se puede aplicar a:
-    class
-    struct
-    enum
-    var
-    let
-    func
- 
- Por ejemplo:
-    public class ejemploClase
-    private let ejemploConstante
- 
- */
 
 
 

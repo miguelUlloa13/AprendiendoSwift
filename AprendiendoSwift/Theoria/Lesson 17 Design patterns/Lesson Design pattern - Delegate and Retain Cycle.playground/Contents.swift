@@ -27,7 +27,7 @@ protocol SecondClassProtocol {
 
 class SecondClass {
     
-    var delegate: SecondClassProtocol?  // por convencion la variable se llama delegate
+    var delegate: SecondClassProtocol?  // por convención la variable se llama delegate
     
     func callFirst() {
         sleep(5)

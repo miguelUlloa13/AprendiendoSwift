@@ -58,6 +58,8 @@
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 16 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Access control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD47E82988D06B00E9AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -274,6 +276,8 @@
 			isa = PBXGroup;
 			children = (
 				78271F8F29FC45600080CA2E /* Lesson 21 Typealias.playground */,
+				7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */,
+				787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */,
 				78BD483C2991E97F00E9AF4A /* Lesson 21 Marks in Swift.playground */,
 				78271F2429FA02750080CA2E /* Lesson 21 Documentation.playground */,
 				782720302A01B29C0080CA2E /* Lesson 21 Shortcuts.playground */,
