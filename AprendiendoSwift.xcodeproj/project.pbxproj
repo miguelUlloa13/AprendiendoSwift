@@ -62,6 +62,7 @@
 		787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454312A04D4A0003761B3 /* Lesson 18 Generic Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generic Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454322A04D638003761B3 /* Lesson 18 Type Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Type Constraints.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454332A059B0C003761B3 /* Lesson 21 Metatypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Metatypes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD47E82988D06B00E9AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -282,6 +283,7 @@
 				78271F8F29FC45600080CA2E /* Lesson 21 Typealias.playground */,
 				7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */,
 				787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */,
+				787454332A059B0C003761B3 /* Lesson 21 Metatypes.playground */,
 				78BD483C2991E97F00E9AF4A /* Lesson 21 Marks in Swift.playground */,
 				78271F2429FA02750080CA2E /* Lesson 21 Documentation.playground */,
 				782720302A01B29C0080CA2E /* Lesson 21 Shortcuts.playground */,

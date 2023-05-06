@@ -25,6 +25,7 @@ import UIKit
     
     // MARK: - Type String -
         //Tipo de dato String
+        // Cadena de caracteres
 
 let myString = "Bienvenido a Swift"
 

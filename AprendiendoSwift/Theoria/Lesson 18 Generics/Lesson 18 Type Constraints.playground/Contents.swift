@@ -2,7 +2,7 @@ import UIKit
 
 // MARK: - Types contraints -
 
-// si queremos limitar los genéricos para algunos tipos específicos por ejemplo: una clase, protocolo o solo aceptar datos de tipos de números (Numeric), entonces podemos usar Types contraints.
+// Si queremos limitar los genéricos para algunos tipos específicos, por ejemplo: una clase, protocolo o solo aceptar datos de tipos de números (Numeric), entonces podemos usar Types contraints.
 
 
     // MARK: - Ejemplo
@@ -36,7 +36,7 @@ addition(num1: 5, num2: 10)
 // Pasar valores tipo float
 addition(num1: 5.5, num2: 10.8)
 
-    // Numeric es el protocolo incorporado para valores numéricos como Int y Double.
+    // Numeric es el protocolo incorporado para valores numéricos como Int, Float y Double.
 
 
 
@@ -53,7 +53,7 @@ struct CommentsModel: Decodable {
 }
 
 class Networking {
-    func getUsers<T: Decodable>(model: T.Type) {
+    func getData<T: Decodable>(model: T.Type) {
         
     }
 }
@@ -62,7 +62,7 @@ class Networking {
 var networking = Networking()
 
 // Pasar el modelo PostsModel
-networking.getUsers(model: PostsModel.self)
+networking.getData(model: PostsModel.self)
 
 // Pasar el modelo CommentsModel
-networking.getUsers(model: CommentsModel.self)
+networking.getData(model: CommentsModel.self)
