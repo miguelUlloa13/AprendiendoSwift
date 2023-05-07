@@ -51,11 +51,14 @@ MyModel.executeApi()
     // MARK: - Decodable
 
 /*
+Decodable es un protocolo se define como un tipo capaz de llevar a cabo su decodificación, partiendo de una representación externa (por ejemplo JSON), por lo que pasa de bytes a objetos de cierto tipo.
  
 Decodable en Swift se usa para parsear (parsing) el JSON recibido de backend a objetos de nuestro dominio (El modelo struct).
     El objeto es capaz de decodificar la respuesta en diferentes parametros entendibles por swift
  
 Parsing o parsear es el proceso de convertir algún tipo de datos en otro tipo de datos.
+ 
+ Un ejemplo simple de JSON: { "name":"rudrank" } Este JSON se puede decodificar en una estructura que se ajuste al protocolo Decodable: struct Information: Decodable { let name: String }
  
  */
 
@@ -416,10 +419,10 @@ struct UserInfo: Decodable {
     }
     
     init(from decoder: Decoder) throws {
-        let conainer = try decoder.container(keyedBy: CodingKeys.self)
-        self.name = try conainer.decode(String.self, forKey: .name)
-        self.age = try conainer.decode(Int.self, forKey: .age)
-        self.address = try conainer.decode(Address.self, forKey: .address)
+        let container = try decoder.container(keyedBy: CodingKeys.self)
+        self.name = try container.decode(String.self, forKey: .name)
+        self.age = try container.decode(Int.self, forKey: .age)
+        self.address = try container.decode(Address.self, forKey: .address)
     }
 }
 

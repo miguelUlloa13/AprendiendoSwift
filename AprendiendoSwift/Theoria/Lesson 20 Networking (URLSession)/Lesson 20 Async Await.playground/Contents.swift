@@ -1,6 +1,7 @@
 import UIKit
 
     // MARK: - Async/Await
+        // Async/Await es una nueva forma para realizar peticiones a servicios
         // Callbacks vs Async/Await en Swift
 
 

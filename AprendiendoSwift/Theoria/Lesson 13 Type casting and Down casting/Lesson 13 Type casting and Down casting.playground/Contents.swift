@@ -26,7 +26,6 @@ for item in myArray {
             // Se pone el desempaquetado en as porque ya se esta seguro que es String
         print("Item es de tipo String y tiene el valor \(myItemString)")
     } else if item is Int {
-        // Downcastig
         let myItemInt = item as! Int
         print("Item es de tipo Int y tiene el valor \(myItemInt)")
     } else if item is Myclass {

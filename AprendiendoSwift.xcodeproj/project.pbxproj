@@ -39,30 +39,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		78271F2429FA02750080CA2E /* Lesson 21 Documentation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Documentation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78271F8F29FC45600080CA2E /* Lesson 21 Typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Typealias.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271F2429FA02750080CA2E /* Lesson 22 Documentation.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Documentation.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271F8F29FC45600080CA2E /* Lesson 22 Typealias.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Typealias.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78271FB029FC98030080CA2E /* Lesson 13 Type casting and Down casting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 13 Type casting and Down casting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78271FBB29FD8BDE0080CA2E /* Lesson Design pattern - Delegate and Retain Cycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Design pattern - Delegate and Retain Cycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78271FBC29FD8BF30080CA2E /* Lesson Design pattern - Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Design pattern - Singleton.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78271FCC29FDE9540080CA2E /* Lesson 16 Weak and strong references.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Weak and strong references.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271FBB29FD8BDE0080CA2E /* Lesson 18 Design pattern - Delegate and Retain Cycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Design pattern - Delegate and Retain Cycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271FBC29FD8BF30080CA2E /* Lesson 18 Design pattern - Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Design pattern - Singleton.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271FCC29FDE9540080CA2E /* Lesson 17 Weak and strong references.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Weak and strong references.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78271FF92A0095A80080CA2E /* Lesson 1 Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Comments.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7827200E2A00B4980080CA2E /* Lesson 19 Async Await.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Async Await.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7827200E2A00B4980080CA2E /* Lesson 20 Async Await.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Async Await.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827202F2A01B2030080CA2E /* Lesson 3 Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Dictionary.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		782720302A01B29C0080CA2E /* Lesson 21 Shortcuts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Shortcuts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		782720302A01B29C0080CA2E /* Lesson 22 Shortcuts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Shortcuts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782720312A01B3A10080CA2E /* Lesson 3 Tuple.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Tuple.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782720322A01B45C0080CA2E /* Lesson 3 Set.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Set.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782720382A01B6CC0080CA2E /* Lesson 9 Higher Order Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 9 Higher Order Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827203F2A01E41C0080CA2E /* Lesson 12 Result Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 12 Result Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
 		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235702A08513600234426 /* Lesson 8 Lazy var.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Lazy var.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235722A086FEB00234426 /* Lesson 15 Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Extension.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454232A043970003761B3 /* Lesson 16 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Access control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454312A04D4A0003761B3 /* Lesson 18 Generic Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generic Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454322A04D638003761B3 /* Lesson 18 Type Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Type Constraints.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		787454332A059B0C003761B3 /* Lesson 21 Metatypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Metatypes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7874542F2A04BF5D003761B3 /* Lesson 22 Access control.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Access control.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454302A04C152003761B3 /* Lesson 22 inout parameters.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 inout parameters.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454312A04D4A0003761B3 /* Lesson 19 Generic Class.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Generic Class.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454322A04D638003761B3 /* Lesson 19 Type Constraints.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Type Constraints.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		787454332A059B0C003761B3 /* Lesson 22 Metatypes.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Metatypes.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD47E52988D06B00E9AF4A /* AprendiendoSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AprendiendoSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD47E82988D06B00E9AF4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -88,13 +90,13 @@
 		78BD4828298A2CB300E9AF4A /* Lesson 11 Optional and Unwrapping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 11 Optional and Unwrapping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4829298A2CC300E9AF4A /* Lesson 12 Error handling.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 12 Error handling.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD482A298A2CE600E9AF4A /* Lesson 14 Nested Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 14 Nested Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD482B298A2D0300E9AF4A /* Lesson 18 Generics Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Generics Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD482C298A2D1300E9AF4A /* Lesson 15 Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD483C2991E97F00E9AF4A /* Lesson 21 Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD484F2997617A00E9AF4A /* Lesson 19 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD482B298A2D0300E9AF4A /* Lesson 19 Generics Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 19 Generics Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD482C298A2D1300E9AF4A /* Lesson 16 Protocol.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 16 Protocol.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD483C2991E97F00E9AF4A /* Lesson 22 Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD484F2997617A00E9AF4A /* Lesson 20 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4850299D75E200E9AF4A /* Lesson 8 Closure Non Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Non Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78F339B829CCE331008FD3C3 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
-		78F33A0B29D64CA9008FD3C3 /* Lesson 20 Regular expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Regular expressions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78F33A0B29D64CA9008FD3C3 /* Lesson 21 Regular expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Regular expressions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -195,6 +197,7 @@
 			children = (
 				78BD4850299D75E200E9AF4A /* Lesson 8 Closure Non Escaping.playground */,
 				787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */,
+				786235702A08513600234426 /* Lesson 8 Lazy var.playground */,
 			);
 			path = "Lesson 8 Closure";
 			sourceTree = "<group>";
@@ -240,72 +243,72 @@
 			path = "Lesson 14 Nested Types";
 			sourceTree = "<group>";
 		};
-		782720072A0097E00080CA2E /* Lesson 15 Protocol */ = {
+		782720072A0097E00080CA2E /* Lesson 16 Protocol */ = {
 			isa = PBXGroup;
 			children = (
-				78BD482C298A2D1300E9AF4A /* Lesson 15 Protocol.playground */,
+				78BD482C298A2D1300E9AF4A /* Lesson 16 Protocol.playground */,
 			);
-			path = "Lesson 15 Protocol";
+			path = "Lesson 16 Protocol";
 			sourceTree = "<group>";
 		};
-		782720082A0098100080CA2E /* Lesson 16 Automatic Reference Counting */ = {
+		782720082A0098100080CA2E /* Lesson 17 Automatic Reference Counting */ = {
 			isa = PBXGroup;
 			children = (
-				787454232A043970003761B3 /* Lesson 16 Value type and Reference Type.playground */,
-				78271FCC29FDE9540080CA2E /* Lesson 16 Weak and strong references.playground */,
-				787454242A0439B9003761B3 /* Lesson 16 Automatic Reference Counting.playground */,
+				787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */,
+				78271FCC29FDE9540080CA2E /* Lesson 17 Weak and strong references.playground */,
+				787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */,
 			);
-			path = "Lesson 16 Automatic Reference Counting";
+			path = "Lesson 17 Automatic Reference Counting";
 			sourceTree = "<group>";
 		};
-		782720092A0098D90080CA2E /* Lesson 17 Design patterns */ = {
+		782720092A0098D90080CA2E /* Lesson 18 Design patterns */ = {
 			isa = PBXGroup;
 			children = (
-				78271FBB29FD8BDE0080CA2E /* Lesson Design pattern - Delegate and Retain Cycle.playground */,
-				78271FBC29FD8BF30080CA2E /* Lesson Design pattern - Singleton.playground */,
+				78271FBB29FD8BDE0080CA2E /* Lesson 18 Design pattern - Delegate and Retain Cycle.playground */,
+				78271FBC29FD8BF30080CA2E /* Lesson 18 Design pattern - Singleton.playground */,
 			);
-			path = "Lesson 17 Design patterns";
+			path = "Lesson 18 Design patterns";
 			sourceTree = "<group>";
 		};
-		7827200A2A0099AA0080CA2E /* Lesson 18 Generics */ = {
+		7827200A2A0099AA0080CA2E /* Lesson 19 Generics */ = {
 			isa = PBXGroup;
 			children = (
-				78BD482B298A2D0300E9AF4A /* Lesson 18 Generics Functions.playground */,
-				787454312A04D4A0003761B3 /* Lesson 18 Generic Class.playground */,
-				787454322A04D638003761B3 /* Lesson 18 Type Constraints.playground */,
+				78BD482B298A2D0300E9AF4A /* Lesson 19 Generics Functions.playground */,
+				787454312A04D4A0003761B3 /* Lesson 19 Generic Class.playground */,
+				787454322A04D638003761B3 /* Lesson 19 Type Constraints.playground */,
 			);
-			path = "Lesson 18 Generics";
+			path = "Lesson 19 Generics";
 			sourceTree = "<group>";
 		};
-		7827200B2A0099C40080CA2E /* Lesson 21 Adittional Lessons */ = {
+		7827200B2A0099C40080CA2E /* Lesson 22 Adittional Lessons */ = {
 			isa = PBXGroup;
 			children = (
-				78271F8F29FC45600080CA2E /* Lesson 21 Typealias.playground */,
-				7874542F2A04BF5D003761B3 /* Lesson 21 Access control.playground */,
-				787454302A04C152003761B3 /* Lesson 21 inout parameters.playground */,
-				787454332A059B0C003761B3 /* Lesson 21 Metatypes.playground */,
-				78BD483C2991E97F00E9AF4A /* Lesson 21 Marks in Swift.playground */,
-				78271F2429FA02750080CA2E /* Lesson 21 Documentation.playground */,
-				782720302A01B29C0080CA2E /* Lesson 21 Shortcuts.playground */,
+				78271F8F29FC45600080CA2E /* Lesson 22 Typealias.playground */,
+				7874542F2A04BF5D003761B3 /* Lesson 22 Access control.playground */,
+				787454302A04C152003761B3 /* Lesson 22 inout parameters.playground */,
+				787454332A059B0C003761B3 /* Lesson 22 Metatypes.playground */,
+				78BD483C2991E97F00E9AF4A /* Lesson 22 Marks in Swift.playground */,
+				78271F2429FA02750080CA2E /* Lesson 22 Documentation.playground */,
+				782720302A01B29C0080CA2E /* Lesson 22 Shortcuts.playground */,
 			);
-			path = "Lesson 21 Adittional Lessons";
+			path = "Lesson 22 Adittional Lessons";
 			sourceTree = "<group>";
 		};
-		7827200C2A009A420080CA2E /* Lesson 19 Networking (URLSession) */ = {
+		7827200C2A009A420080CA2E /* Lesson 20 Networking (URLSession) */ = {
 			isa = PBXGroup;
 			children = (
-				78BD484F2997617A00E9AF4A /* Lesson 19 Networking (URLSession).playground */,
-				7827200E2A00B4980080CA2E /* Lesson 19 Async Await.playground */,
+				78BD484F2997617A00E9AF4A /* Lesson 20 Networking (URLSession).playground */,
+				7827200E2A00B4980080CA2E /* Lesson 20 Async Await.playground */,
 			);
-			path = "Lesson 19 Networking (URLSession)";
+			path = "Lesson 20 Networking (URLSession)";
 			sourceTree = "<group>";
 		};
-		7827200D2A009A6A0080CA2E /* Lesson 20 Regular expressions */ = {
+		7827200D2A009A6A0080CA2E /* Lesson 21 Regular expressions */ = {
 			isa = PBXGroup;
 			children = (
-				78F33A0B29D64CA9008FD3C3 /* Lesson 20 Regular expressions.playground */,
+				78F33A0B29D64CA9008FD3C3 /* Lesson 21 Regular expressions.playground */,
 			);
-			path = "Lesson 20 Regular expressions";
+			path = "Lesson 21 Regular expressions";
 			sourceTree = "<group>";
 		};
 		782720332A01B5700080CA2E /* Lesson 3 Array */ = {
@@ -346,6 +349,14 @@
 				782720382A01B6CC0080CA2E /* Lesson 9 Higher Order Functions.playground */,
 			);
 			path = "Lesson 9 Higher Order Functions";
+			sourceTree = "<group>";
+		};
+		786235712A086FBC00234426 /* Lesson 15 Extension */ = {
+			isa = PBXGroup;
+			children = (
+				786235722A086FEB00234426 /* Lesson 15 Extension.playground */,
+			);
+			path = "Lesson 15 Extension";
 			sourceTree = "<group>";
 		};
 		78BD47DC2988D06B00E9AF4A = {
@@ -420,13 +431,14 @@
 				782720042A0097640080CA2E /* Lesson 12 Error handling */,
 				782720052A00978B0080CA2E /* Lesson 13 Type casting and Down casting */,
 				782720062A0097C00080CA2E /* Lesson 14 Nested Types */,
-				782720072A0097E00080CA2E /* Lesson 15 Protocol */,
-				782720082A0098100080CA2E /* Lesson 16 Automatic Reference Counting */,
-				782720092A0098D90080CA2E /* Lesson 17 Design patterns */,
-				7827200A2A0099AA0080CA2E /* Lesson 18 Generics */,
-				7827200C2A009A420080CA2E /* Lesson 19 Networking (URLSession) */,
-				7827200D2A009A6A0080CA2E /* Lesson 20 Regular expressions */,
-				7827200B2A0099C40080CA2E /* Lesson 21 Adittional Lessons */,
+				786235712A086FBC00234426 /* Lesson 15 Extension */,
+				782720072A0097E00080CA2E /* Lesson 16 Protocol */,
+				782720082A0098100080CA2E /* Lesson 17 Automatic Reference Counting */,
+				782720092A0098D90080CA2E /* Lesson 18 Design patterns */,
+				7827200A2A0099AA0080CA2E /* Lesson 19 Generics */,
+				7827200C2A009A420080CA2E /* Lesson 20 Networking (URLSession) */,
+				7827200D2A009A6A0080CA2E /* Lesson 21 Regular expressions */,
+				7827200B2A0099C40080CA2E /* Lesson 22 Adittional Lessons */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
 			path = Theoria;

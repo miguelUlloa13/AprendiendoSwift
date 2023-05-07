@@ -7,7 +7,7 @@
 		<key>AprendiendoSwift.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>1</integer>
 		</dict>
 		<key>Clase 1 (Playground) 1.xcscheme</key>
 		<dict>
@@ -583,6 +583,27 @@
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
+		<key>Extension (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>45</integer>
+		</dict>
+		<key>Extension (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>46</integer>
+		</dict>
+		<key>Extension (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>44</integer>
+		</dict>
 		<key>Hello, playgroung (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -623,7 +644,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>7</integer>
+			<integer>40</integer>
 		</dict>
 		<key>Lesson 1 Hello, playgroung (Playground) 1.xcscheme</key>
 		<dict>
@@ -651,7 +672,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>15</integer>
+			<integer>0</integer>
 		</dict>
 		<key>Lesson 10 Functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -728,7 +749,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>22</integer>
+			<integer>39</integer>
 		</dict>
 		<key>Lesson 11 Closure (Playground) 1.xcscheme</key>
 		<dict>
@@ -826,7 +847,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>29</integer>
+			<integer>11</integer>
 		</dict>
 		<key>Lesson 12 Error handling (Playground) 1.xcscheme</key>
 		<dict>
@@ -875,7 +896,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>25</integer>
+			<integer>12</integer>
 		</dict>
 		<key>Lesson 12 POO (Struct y Class) (Playground) 1.xcscheme</key>
 		<dict>
@@ -910,7 +931,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>20</integer>
+			<integer>26</integer>
 		</dict>
 		<key>Lesson 12 Type casting and Down casting (Playground) 1.xcscheme</key>
 		<dict>
@@ -1022,7 +1043,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>23</integer>
+			<integer>24</integer>
 		</dict>
 		<key>Lesson 14 Manejo de errores (Playground) 1.xcscheme</key>
 		<dict>
@@ -1057,7 +1078,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>13</integer>
+			<integer>23</integer>
 		</dict>
 		<key>Lesson 14 Protocol (Playground) 1.xcscheme</key>
 		<dict>
@@ -1185,12 +1206,33 @@
 			<key>orderHint</key>
 			<integer>20</integer>
 		</dict>
+		<key>Lesson 15 Protocol (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>47</integer>
+		</dict>
+		<key>Lesson 15 Protocol (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>48</integer>
+		</dict>
+		<key>Lesson 15 Protocol (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>49</integer>
+		</dict>
 		<key>Lesson 15 Protocol (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>12</integer>
+			<integer>32</integer>
 		</dict>
 		<key>Lesson 15 Weak and strong references (Playground) 1.xcscheme</key>
 		<dict>
@@ -1262,12 +1304,33 @@
 			<key>orderHint</key>
 			<integer>19</integer>
 		</dict>
+		<key>Lesson 16 Automatic Reference Counting (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>56</integer>
+		</dict>
+		<key>Lesson 16 Automatic Reference Counting (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>57</integer>
+		</dict>
+		<key>Lesson 16 Automatic Reference Counting (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>58</integer>
+		</dict>
 		<key>Lesson 16 Automatic Reference Counting (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>18</integer>
+			<integer>25</integer>
 		</dict>
 		<key>Lesson 16 Marks in Swift (Playground) 1.xcscheme</key>
 		<dict>
@@ -1344,42 +1407,56 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>50</integer>
 		</dict>
 		<key>Lesson 16 Value type and Reference Type (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>51</integer>
+		</dict>
+		<key>Lesson 16 Value type and Reference Type (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>52</integer>
 		</dict>
 		<key>Lesson 16 Value type and Reference Type (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>10</integer>
+			<integer>21</integer>
 		</dict>
 		<key>Lesson 16 Weak and strong references (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>53</integer>
 		</dict>
 		<key>Lesson 16 Weak and strong references (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>54</integer>
+		</dict>
+		<key>Lesson 16 Weak and strong references (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>55</integer>
 		</dict>
 		<key>Lesson 16 Weak and strong references (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>8</integer>
+			<integer>29</integer>
 		</dict>
 		<key>Lesson 17 (Playground) 1.xcscheme</key>
 		<dict>
@@ -1568,21 +1645,28 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>43</integer>
+			<integer>68</integer>
 		</dict>
 		<key>Lesson 18 Generic Class (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>44</integer>
+			<integer>69</integer>
+		</dict>
+		<key>Lesson 18 Generic Class (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>70</integer>
 		</dict>
 		<key>Lesson 18 Generic Class (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>42</integer>
+			<integer>2</integer>
 		</dict>
 		<key>Lesson 18 Generics (Playground).xcscheme</key>
 		<dict>
@@ -1590,6 +1674,34 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>19</integer>
+		</dict>
+		<key>Lesson 18 Generics Functions (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>65</integer>
+		</dict>
+		<key>Lesson 18 Generics Functions (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>66</integer>
+		</dict>
+		<key>Lesson 18 Generics Functions (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>67</integer>
+		</dict>
+		<key>Lesson 18 Generics Functions (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>14</integer>
 		</dict>
 		<key>Lesson 18 Marks in Swift (Playground) 1.xcscheme</key>
 		<dict>
@@ -1694,56 +1806,84 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>46</integer>
+			<integer>71</integer>
 		</dict>
 		<key>Lesson 18 Type Constraints (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>47</integer>
+			<integer>72</integer>
+		</dict>
+		<key>Lesson 18 Type Constraints (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>73</integer>
 		</dict>
 		<key>Lesson 18 Type Constraints (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>45</integer>
+			<integer>30</integer>
 		</dict>
-		<key>Lesson 19 Async Await (Playground).xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>26</integer>
-		</dict>
-		<key>Lesson 19 Networking (URLSession) (Playground) 1.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>75</integer>
-		</dict>
-		<key>Lesson 19 Networking (URLSession) (Playground) 2.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-			<key>orderHint</key>
-			<integer>76</integer>
-		</dict>
-		<key>Lesson 19 Networking (URLSession) (Playground) 3.xcscheme</key>
+		<key>Lesson 19 Async Await (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>77</integer>
 		</dict>
+		<key>Lesson 19 Async Await (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>78</integer>
+		</dict>
+		<key>Lesson 19 Async Await (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>79</integer>
+		</dict>
+		<key>Lesson 19 Async Await (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
+		<key>Lesson 19 Networking (URLSession) (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>74</integer>
+		</dict>
+		<key>Lesson 19 Networking (URLSession) (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>75</integer>
+		</dict>
+		<key>Lesson 19 Networking (URLSession) (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>76</integer>
+		</dict>
 		<key>Lesson 19 Networking (URLSession) (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>33</integer>
+			<integer>27</integer>
 		</dict>
 		<key>Lesson 19 Regular expressions (Playground) 1.xcscheme</key>
 		<dict>
@@ -1820,7 +1960,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>28</integer>
+			<integer>37</integer>
 		</dict>
 		<key>Lesson 2 Variables, Constants and Literals (Playground) 1.xcscheme</key>
 		<dict>
@@ -1848,7 +1988,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>4</integer>
+			<integer>19</integer>
 		</dict>
 		<key>Lesson 20 Documentation (Playground) 1.xcscheme</key>
 		<dict>
@@ -1897,28 +2037,28 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>78</integer>
+			<integer>80</integer>
 		</dict>
 		<key>Lesson 20 Regular expressions (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>79</integer>
+			<integer>81</integer>
 		</dict>
 		<key>Lesson 20 Regular expressions (Playground) 3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>80</integer>
+			<integer>82</integer>
 		</dict>
 		<key>Lesson 20 Regular expressions (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>31</integer>
 		</dict>
 		<key>Lesson 20 Shortcuts (Playground) 1.xcscheme</key>
 		<dict>
@@ -1988,105 +2128,196 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>37</integer>
+			<integer>86</integer>
 		</dict>
 		<key>Lesson 21 Access control (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>38</integer>
+			<integer>87</integer>
+		</dict>
+		<key>Lesson 21 Access control (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>88</integer>
 		</dict>
 		<key>Lesson 21 Access control (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>36</integer>
+			<integer>38</integer>
 		</dict>
 		<key>Lesson 21 Documentation (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>98</integer>
 		</dict>
 		<key>Lesson 21 Documentation (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>35</integer>
+			<integer>99</integer>
+		</dict>
+		<key>Lesson 21 Documentation (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>100</integer>
 		</dict>
 		<key>Lesson 21 Documentation (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>17</integer>
+			<integer>36</integer>
+		</dict>
+		<key>Lesson 21 Marks in Swift (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>95</integer>
+		</dict>
+		<key>Lesson 21 Marks in Swift (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>96</integer>
+		</dict>
+		<key>Lesson 21 Marks in Swift (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>97</integer>
 		</dict>
 		<key>Lesson 21 Marks in Swift (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>32</integer>
+			<integer>20</integer>
 		</dict>
 		<key>Lesson 21 Metatypes (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>49</integer>
+			<integer>92</integer>
 		</dict>
 		<key>Lesson 21 Metatypes (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>50</integer>
+			<integer>93</integer>
+		</dict>
+		<key>Lesson 21 Metatypes (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>94</integer>
 		</dict>
 		<key>Lesson 21 Metatypes (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>48</integer>
+			<integer>3</integer>
+		</dict>
+		<key>Lesson 21 Shortcuts (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>101</integer>
+		</dict>
+		<key>Lesson 21 Shortcuts (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>102</integer>
+		</dict>
+		<key>Lesson 21 Shortcuts (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>103</integer>
 		</dict>
 		<key>Lesson 21 Shortcuts (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>30</integer>
+			<integer>28</integer>
+		</dict>
+		<key>Lesson 21 Typealias (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>83</integer>
+		</dict>
+		<key>Lesson 21 Typealias (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>84</integer>
+		</dict>
+		<key>Lesson 21 Typealias (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>85</integer>
 		</dict>
 		<key>Lesson 21 Typealias (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>34</integer>
+			<integer>10</integer>
 		</dict>
 		<key>Lesson 21 inout parameters (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>40</integer>
+			<integer>89</integer>
 		</dict>
 		<key>Lesson 21 inout parameters (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>41</integer>
+			<integer>90</integer>
+		</dict>
+		<key>Lesson 21 inout parameters (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>91</integer>
 		</dict>
 		<key>Lesson 21 inout parameters (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>39</integer>
+			<integer>35</integer>
 		</dict>
 		<key>Lesson 3 Array (Playground) 1.xcscheme</key>
 		<dict>
@@ -2128,7 +2359,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>6</integer>
+			<integer>16</integer>
 		</dict>
 		<key>Lesson 3 Dictionary (Playground) 1.xcscheme</key>
 		<dict>
@@ -2191,7 +2422,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>5</integer>
+			<integer>18</integer>
 		</dict>
 		<key>Lesson 3 Higher Order Functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -2345,14 +2576,14 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>16</integer>
+			<integer>33</integer>
 		</dict>
 		<key>Lesson 3 Tuple (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>3</integer>
+			<integer>13</integer>
 		</dict>
 		<key>Lesson 3 Tuples (Playground) 1.xcscheme</key>
 		<dict>
@@ -2450,7 +2681,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>9</integer>
+			<integer>15</integer>
 		</dict>
 		<key>Lesson 5 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2513,7 +2744,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>24</integer>
+			<integer>4</integer>
 		</dict>
 		<key>Lesson 6 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2562,7 +2793,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>14</integer>
+			<integer>5</integer>
 		</dict>
 		<key>Lesson 6 Operators (Playground) 1.xcscheme</key>
 		<dict>
@@ -2674,7 +2905,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>1</integer>
+			<integer>34</integer>
 		</dict>
 		<key>Lesson 8 (Playground) 1.xcscheme</key>
 		<dict>
@@ -2730,14 +2961,14 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>17</integer>
 		</dict>
 		<key>Lesson 8 Closure Non Escaping (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>21</integer>
+			<integer>8</integer>
 		</dict>
 		<key>Lesson 8 Functions (Playground) 1.xcscheme</key>
 		<dict>
@@ -2766,6 +2997,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>2</integer>
+		</dict>
+		<key>Lesson 8 Lazy var (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>42</integer>
+		</dict>
+		<key>Lesson 8 Lazy var (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>43</integer>
+		</dict>
+		<key>Lesson 8 Lazy var (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>41</integer>
 		</dict>
 		<key>Lesson 9 Closure (Playground) 1.xcscheme</key>
 		<dict>
@@ -2800,7 +3052,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>11</integer>
+			<integer>6</integer>
 		</dict>
 		<key>Lesson 9 Operators (Playground) 1.xcscheme</key>
 		<dict>
@@ -2877,42 +3129,49 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>218</integer>
+			<integer>59</integer>
 		</dict>
 		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>219</integer>
+			<integer>60</integer>
+		</dict>
+		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>61</integer>
 		</dict>
 		<key>Lesson Design pattern - Delegate and Retain Cycle (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>31</integer>
+			<integer>7</integer>
 		</dict>
 		<key>Lesson Design pattern - Singleton (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>26</integer>
+			<integer>62</integer>
 		</dict>
 		<key>Lesson Design pattern - Singleton (Playground) 2.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>27</integer>
+			<integer>63</integer>
 		</dict>
 		<key>Lesson Design pattern - Singleton (Playground) 3.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>100</integer>
+			<integer>64</integer>
 		</dict>
 		<key>Lesson Design pattern - Singleton (Playground) 4.xcscheme</key>
 		<dict>
@@ -2954,7 +3213,7 @@
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
-			<integer>2</integer>
+			<integer>22</integer>
 		</dict>
 		<key>Lesson Retain Cycles (Playground) 1.xcscheme</key>
 		<dict>

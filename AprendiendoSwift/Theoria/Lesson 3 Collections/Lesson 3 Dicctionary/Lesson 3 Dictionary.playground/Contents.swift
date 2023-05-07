@@ -4,8 +4,15 @@ import UIKit
     // Diccionario
     // El diccionario es una colección desordenada de elementos. Almacena elementos en pares clave/valor. Aquí, las claves son identificadores únicos que están asociados con cada valor.
 
-let myClassicDictionary = Dictionary<Int, String>()     // Primera forma de declarar un diccionario
+// Primera forma de declarar un diccionario vacio
+let myClassicDictionary = Dictionary<Int, String>()
+// Segunda forma de declarar un diccionario vacio
 var myModernDictionary = [Int:String]()
+// Tercera forma de declarar un diccionario vacio
+var emptyDict: [String: String] = [:]
+
+// Inicializar un diccionario
+var populatedDictionary = ["key1": "value1", "key2": "value2"]
 
 // Agregar datos
 
