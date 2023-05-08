@@ -2,6 +2,10 @@ import UIKit
 
 // MARK: - Algoritmos en colecciones -
 
+// Las funciones de orden superior son simplemente funciones que operan en otras funciones tomando una función como argumento o devolviendo una función.
+// Estos metodos tienen Rethrows porque aceptan funciones que tambien pueden lanzar errores
+// Rethrows en Swift permite reenviar un error lanzado por un parámetro de función dado. Se usa mucho en métodos como map, filter y forEach y ayuda al compilador a determinar si se necesita o no un prefijo de prueba.
+
 var arrayOne = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
 let dictionaryOne = [3: "Three",
                      2: "Two",
@@ -14,6 +18,52 @@ let dictionaryOne = [3: "Three",
                      0: "Zero",
                      6: "Six"]
 let setOne: Set = [3, 2, 5, 1, 8, 9, 7, 4, 0, 6]
+
+// MARK: - forEach
+// Iterar sobre una coleccion
+// Alternativa al ciclo for
+
+arrayOne.forEach { $0
+    return print($0)    // El $0 indica el primer parámetro
+}
+
+print(" ")
+
+arrayOne.forEach { myInt in
+    return print(myInt)     // myInt y $0 son iguales, indican el primer parametro o elemento
+}
+
+print(" ")
+
+dictionaryOne.forEach { myElement in
+    return print(myElement.key)
+}
+
+print(" ")
+
+dictionaryOne.forEach { $0
+    print($0)   // Devuelve tanto la llave como el valor
+}
+
+print(" ")
+
+dictionaryOne.forEach { $0
+    print($0.key)   // Devuelve solo la llave
+}
+
+print(" ")
+
+setOne.forEach { $0
+    print($0)   // Devuelve solo la llave
+}
+
+
+let helloString = "Hello"
+helloString.forEach { element in
+    print(element)  // Devuelve cada caracter del string
+}
+
+
 
 // MARK: - Sort
 // El método sort() ordena los elementos de un array en un orden específico (ascendente o descendente).
@@ -69,7 +119,9 @@ print(mySortedSet)
 
 
 // MARK: - filter
-// El método filter() devuelve todos los elementos de la matriz que cumplen la condición proporcionada.
+// El método filter() devuelve todos los elementos de la array que cumplen la condición proporcionada.
+// filter acepta un closure que acepta una condición y devuelve un valor Bool.
+// Devuelve todos los elementos del array que satisfacen la condición proporcionada
 
 print(arrayOne)
 var myFilterArray = arrayOne.filter({ $0 > 5})
@@ -161,40 +213,4 @@ print("Despues:", uppercasedLanguages)   // Los strings pasan a mayuscula
 
 
 
-// MARK: - forEach
-// Iterar sobre una coleccion
-// Alternativa al ciclo for
 
-arrayOne.forEach { $0
-    return print($0)    // El $0 indica el primer parámetro
-}
-
-print(" ")
-
-arrayOne.forEach { myInt in
-    return print(myInt)     // myInt y $0 son iguales, indican el primer parametro
-}
-
-print(" ")
-
-dictionaryOne.forEach { myElement in
-    return print(myElement.key)
-}
-
-print(" ")
-
-dictionaryOne.forEach { $0
-    print($0)   // Devuelve tanto la llave como el valor
-}
-
-print(" ")
-
-dictionaryOne.forEach { $0
-    print($0.key)   // Devuelve solo la llave
-}
-
-print(" ")
-
-setOne.forEach { $0
-    print($0)   // Devuelve solo la llave
-}

@@ -42,13 +42,4 @@ for (pavilion, auditory, letter) in auditoryAndPavilionsValues {
 
 auditoryAndPavilionsValues[5].auditoryName
 
-var num1 = 1
-var num2 = 2
-
-print("Antes")
-print("Numero 1 -> \(num1), numero 2 -> \(num2)")
-(num1,num2) = (num2,num1)
-
-print("Despues")
-print("Numero 1 -> \(num1), numero 2 -> \(num2)")
 
