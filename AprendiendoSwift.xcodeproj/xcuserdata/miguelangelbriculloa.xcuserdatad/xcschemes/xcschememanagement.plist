@@ -2319,6 +2319,27 @@
 			<key>orderHint</key>
 			<integer>35</integer>
 		</dict>
+		<key>Lesson 22 Hashable (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>111</integer>
+		</dict>
+		<key>Lesson 22 Hashable (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>112</integer>
+		</dict>
+		<key>Lesson 22 Hashable (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>110</integer>
+		</dict>
 		<key>Lesson 3 Array (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -2773,6 +2794,48 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>20</integer>
+		</dict>
+		<key>Lesson 6 Break statement (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>105</integer>
+		</dict>
+		<key>Lesson 6 Break statement (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>106</integer>
+		</dict>
+		<key>Lesson 6 Break statement (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>104</integer>
+		</dict>
+		<key>Lesson 6 Continue Statement (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>108</integer>
+		</dict>
+		<key>Lesson 6 Continue Statement (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>109</integer>
+		</dict>
+		<key>Lesson 6 Continue Statement (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>107</integer>
 		</dict>
 		<key>Lesson 6 Flow Control (Playground) 1.xcscheme</key>
 		<dict>

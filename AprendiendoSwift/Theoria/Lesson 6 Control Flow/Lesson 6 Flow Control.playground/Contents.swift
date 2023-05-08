@@ -3,9 +3,10 @@ import UIKit
 //*************************************************************************
 
 
-// Estructuras condicionales
+// MARK: - Estructuras condicionales -
 
-        // If else
+    // MARK: - If else -
+
 
 var edad = 18
 var dinero = 1000
@@ -48,7 +49,7 @@ if isTrue {
 
 
 
-// Switch
+    // MARK: - Switch -
 
 let country = "MX"
 
@@ -162,6 +163,42 @@ case "EEUU":
 default:
     print("No conocemos el idioma")
 }
+
+
+// MARK: - Switch Statement with fallthrough -
+
+//Si usamos la palabra clave fallthrough dentro de la declaración del case, el control continúa con el siguiente case, incluso si el valor del caso no coincide con la expresión de cambio.
+
+// Programa para buscar un dia en la semana
+let dayOfWeek = 4
+
+switch dayOfWeek {
+  case 1:
+    print("Sunday")
+        
+  case 2:
+    print("Monday")
+        
+  case 3:
+    print("Tuesday")
+        
+  case 4:
+    print("Wednesday")
+    fallthrough
+        
+  case 5:
+    print("Thursday")
+        
+  case 6:
+    print("Friday")
+        
+  case 7:
+    print("Saturday")
+        
+  default:
+    print("Invalid day")
+}
+// Se imprimira Wednesday y Thursday porque fallthrough continua con el siguiente caso
 
 
     // MARK: - Loops
