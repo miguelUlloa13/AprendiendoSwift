@@ -4,7 +4,7 @@ import UIKit
     // Tuplas
     // Una tupla es un grupo de diferentes valores. Y, cada valor dentro de una tupla puede ser de diferentes tipos de datos.
     // Las tuplas es una coleccion de distion tipos de valores.
-    // como una matriz, cada elemento de una tupla está representado por números de índice (0, 1, ...) donde el primer elemento está en el índice 0; coleccion tipo ordenada
+    // Como un array, cada elemento de una tupla está representado por números de índice (0, 1, ...) donde el primer elemento está en el índice 0; coleccion tipo ordenada
 
 var persona = ("Miguel", "Martinez", 23, 1.68)     // Declarar una tupla
 

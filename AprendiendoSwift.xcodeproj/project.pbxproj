@@ -63,6 +63,11 @@
 		786235762A0894CD00234426 /* Exercise One.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise One.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235772A0895E500234426 /* Exercise Two.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Two.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235782A089D0A00234426 /* Exercise Three.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Three.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235792A0ADDC400234426 /* Exercise Four.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Four.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7862357C2A0ECBE400234426 /* Lesson Serial Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Serial Queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7862357D2A0F35BB00234426 /* Lesson Concurrent Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Concurrent Queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7862357E2A13235300234426 /* Concurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Concurrency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7862357F2A14ABAA00234426 /* Serial Queue vs Concurrent Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Serial Queue vs Concurrent Queue.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -130,14 +135,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		78271EA829F469F80080CA2E /* Praxis */ = {
+		78271EA829F469F80080CA2E /* Challenges */ = {
 			isa = PBXGroup;
 			children = (
 				786235762A0894CD00234426 /* Exercise One.playground */,
 				786235772A0895E500234426 /* Exercise Two.playground */,
 				786235782A089D0A00234426 /* Exercise Three.playground */,
+				786235792A0ADDC400234426 /* Exercise Four.playground */,
 			);
-			path = Praxis;
+			path = Challenges;
 			sourceTree = "<group>";
 		};
 		78271FF72A0095410080CA2E /* Lesson 1 Hello, playground! */ = {
@@ -371,6 +377,24 @@
 			path = "Lesson 15 Extension";
 			sourceTree = "<group>";
 		};
+		7862357A2A0ADF8100234426 /* Algorithms and Data Structures */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "Algorithms and Data Structures";
+			sourceTree = "<group>";
+		};
+		7862357B2A0DE4D800234426 /* Lesson Concurrency */ = {
+			isa = PBXGroup;
+			children = (
+				7862357E2A13235300234426 /* Concurrency.playground */,
+				7862357F2A14ABAA00234426 /* Serial Queue vs Concurrent Queue.playground */,
+				7862357C2A0ECBE400234426 /* Lesson Serial Queues.playground */,
+				7862357D2A0F35BB00234426 /* Lesson Concurrent Queues.playground */,
+			);
+			path = "Lesson Concurrency";
+			sourceTree = "<group>";
+		};
 		78BD47DC2988D06B00E9AF4A = {
 			isa = PBXGroup;
 			children = (
@@ -395,7 +419,8 @@
 			isa = PBXGroup;
 			children = (
 				78BD481B2988D36500E9AF4A /* Theoria */,
-				78271EA829F469F80080CA2E /* Praxis */,
+				7862357A2A0ADF8100234426 /* Algorithms and Data Structures */,
+				78271EA829F469F80080CA2E /* Challenges */,
 				78BD47E82988D06B00E9AF4A /* AppDelegate.swift */,
 				78BD47EA2988D06B00E9AF4A /* SceneDelegate.swift */,
 				78BD47EC2988D06B00E9AF4A /* ViewController.swift */,
@@ -437,6 +462,7 @@
 				78271FFF2A0096B70080CA2E /* Lesson 6 Control Flow */,
 				782720002A0096DB0080CA2E /* Lesson 7 Functions */,
 				782720012A0096F60080CA2E /* Lesson 8 Closure */,
+				7862357B2A0DE4D800234426 /* Lesson Concurrency */,
 				782720372A01B6A20080CA2E /* Lesson 9 Higher Order Functions */,
 				782720022A00971D0080CA2E /* Lesson 10 Struct and OOP */,
 				782720032A0097480080CA2E /* Lesson 11 Optional and Unwrapping */,

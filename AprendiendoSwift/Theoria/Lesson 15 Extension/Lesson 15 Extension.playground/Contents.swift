@@ -1,7 +1,7 @@
 import UIKit
 
 // MARK: - Extension -
-        // la ectenssion sirve para añadir funcionalidad a una clase. struct, enum o un protocolo
+        // la extension sirve para añadir funcionalidad a una clase, struct, enum o un protocolo.
         // Añadir caracteristicas al nivel del tipo de datos. Se añadira una caracteristica nueva y todos los datos de ese tipo pasaran a poseerla. Por ej: agregar propiedades de distancia, definicion de funcion, nuevos inicializadores, subindices, tipos de datos anidados, o adaptar que cual tipo se adapte a un protocolo
 
 let MyMeter: Double = 5000

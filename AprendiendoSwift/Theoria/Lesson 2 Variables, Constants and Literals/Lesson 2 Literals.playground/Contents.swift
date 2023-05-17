@@ -16,7 +16,7 @@ import UIKit
         let myFloat = 3.1416
 
     // Constantes de tipo carácter: Rodeadas de comillas simples. Su valor se corresponde con su código ASCII. 'A', '\n'
-        let myChar = "C"
+        let myChar: Character = "C"
 
     // Constantes de tipo cadena de caracteres: Se representan entre comillas. "Hola mundo\n"
         let hellowWorld = "Hello, world!"

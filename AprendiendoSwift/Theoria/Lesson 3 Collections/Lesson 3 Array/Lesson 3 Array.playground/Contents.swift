@@ -7,7 +7,7 @@ import UIKit
     // MARK: - Arreglos (Array)
     // Un arreglo o matriz es una colección de tipos de datos similares.
     // Es una coleccion de tipo ordenada
-    // Los arreglos solo aceptan un solo tipo de valor: int, float, String
+    // Los arreglos solo aceptan un solo tipo de valor: int, float, String, etc.
 
     // MARK: - Declarar un arreglo
 // Arreglo variable
