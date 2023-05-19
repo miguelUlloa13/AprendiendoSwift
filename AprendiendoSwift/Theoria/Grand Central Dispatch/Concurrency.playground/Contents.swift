@@ -1,5 +1,11 @@
 import UIKit
 
+// GCD
+// A DispatchQueue is an abstraction layer on top of the GCD queue that allows you to perform tasks asynchronously and concurrently in your application. Tasks are always executed in the order they’re added to the queue.
+// Every iOS application has a main thread, which is there to display your user interface and listen for events.
+// Complex computations may slow down the main thread and freeze the app. Here is where multithreading comes into play. We must move all the heavy lifting to a background thread, and then move the result back to the main.
+// The API responsible for managing your queues.
+
 // MARK: - Concurency -
 // El hecho de dos o más eventos o circunstancias estan ocurriendo o existiendo en el mismo tiempo. En programación, la concurrencia es la ejecución de múltiples secuencias de instrucciones en el mismo tiempo. Se habla de concurrencia cuando multiples secuencias de instrucciones (conjunto ordenado de instrucciones o tareas) estan siendo ejecutadas al mismo tiempo.
 
@@ -41,3 +47,4 @@ import UIKit
 
 // • Serial/Concurrente: afecta a la queue de destino a la que está despachando.
 // • Sync/Async afecta el threat actual desde el que está despachando.
+

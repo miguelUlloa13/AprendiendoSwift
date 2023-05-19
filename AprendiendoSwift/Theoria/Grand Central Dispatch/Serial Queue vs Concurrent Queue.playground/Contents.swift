@@ -9,20 +9,29 @@ import UIKit
 // • Sync/Async afecta el threat actual desde el que está despachando.
 
 
-// DispatchQueue.main: es una serial queue (cola en serie)
+// DispatchQueue.main: por defecto es una serial queue (cola en serie)
 
 var counter = 1
 
 // MARK: - Bloque 1
 // Bloque de codigo para ser ejecutado de manera asincrona en cola en serie
-DispatchQueue.main.async {
-    // No se bloquea la ejecucion actual, este bloque se ejecuta por separado
-    for i in 0...3{
-        counter = i
-        print("\(counter)")
+DispatchQueue.global().async(execute: {
+    // Lo que está tratando de hacer aquí es iniciar el subproceso principal sincrónicamente desde un subproceso de fondo antes de que salga. Este es un error lógico.
+    print("teste")
+    DispatchQueue.main.sync{
+        for i in 0...3{
+            counter = i
+            print("\(counter)")
+        }
     }
-}
+})
+/*
+DispatchQueue.main.async {
+    //sleep(9)
+    // No se bloquea la ejecucion actual, este bloque se ejecuta por separado
 
+}
+*/
 // MARK: - Bloque 2
 // Este bloque no esta asociado a ningun dispatch queue o sync o async bloque, asi que ejecuta directamente
 for i in 4...6 {

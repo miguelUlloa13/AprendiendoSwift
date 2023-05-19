@@ -64,10 +64,16 @@
 		786235772A0895E500234426 /* Exercise Two.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Two.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235782A089D0A00234426 /* Exercise Three.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Three.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235792A0ADDC400234426 /* Exercise Four.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Four.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7862357C2A0ECBE400234426 /* Lesson Serial Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Serial Queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		7862357D2A0F35BB00234426 /* Lesson Concurrent Queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Concurrent Queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7862357E2A13235300234426 /* Concurrency.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = Concurrency.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7862357F2A14ABAA00234426 /* Serial Queue vs Concurrent Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Serial Queue vs Concurrent Queue.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235802A16B57B00234426 /* GCD Serial Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Serial Queue.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235812A16BF0300234426 /* GCD Concurrent Queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Concurrent Queue.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235822A16C74F00234426 /* GCD 1. Main queue.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD 1. Main queue.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235852A16C98700234426 /* GCD 2. Global queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD 2. Global queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235862A16C99C00234426 /* GCD 3. Custom queues.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD 3. Custom queues.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235872A1803F100234426 /* GCD Synchronous.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Synchronous.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235882A1806B400234426 /* GCD Delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Delay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7862358B2A180F0700234426 /* GCD Asynchronous.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Asynchronous.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -384,15 +390,45 @@
 			path = "Algorithms and Data Structures";
 			sourceTree = "<group>";
 		};
-		7862357B2A0DE4D800234426 /* Lesson Concurrency */ = {
+		7862357B2A0DE4D800234426 /* Grand Central Dispatch */ = {
 			isa = PBXGroup;
 			children = (
 				7862357E2A13235300234426 /* Concurrency.playground */,
 				7862357F2A14ABAA00234426 /* Serial Queue vs Concurrent Queue.playground */,
-				7862357C2A0ECBE400234426 /* Lesson Serial Queues.playground */,
-				7862357D2A0F35BB00234426 /* Lesson Concurrent Queues.playground */,
+				786235892A180E7800234426 /* GCD Serial Queue Vs Concurrent Queue */,
+				786235832A16C95700234426 /* GCD Different Queues */,
+				7862358A2A180EAF00234426 /* GCD Synchronous vs Asynchronous */,
+				786235882A1806B400234426 /* GCD Delay.playground */,
 			);
-			path = "Lesson Concurrency";
+			path = "Grand Central Dispatch";
+			sourceTree = "<group>";
+		};
+		786235832A16C95700234426 /* GCD Different Queues */ = {
+			isa = PBXGroup;
+			children = (
+				786235822A16C74F00234426 /* GCD 1. Main queue.playground */,
+				786235852A16C98700234426 /* GCD 2. Global queues.playground */,
+				786235862A16C99C00234426 /* GCD 3. Custom queues.playground */,
+			);
+			path = "GCD Different Queues";
+			sourceTree = "<group>";
+		};
+		786235892A180E7800234426 /* GCD Serial Queue Vs Concurrent Queue */ = {
+			isa = PBXGroup;
+			children = (
+				786235802A16B57B00234426 /* GCD Serial Queue.playground */,
+				786235812A16BF0300234426 /* GCD Concurrent Queue.playground */,
+			);
+			path = "GCD Serial Queue Vs Concurrent Queue";
+			sourceTree = "<group>";
+		};
+		7862358A2A180EAF00234426 /* GCD Synchronous vs Asynchronous */ = {
+			isa = PBXGroup;
+			children = (
+				786235872A1803F100234426 /* GCD Synchronous.playground */,
+				7862358B2A180F0700234426 /* GCD Asynchronous.playground */,
+			);
+			path = "GCD Synchronous vs Asynchronous";
 			sourceTree = "<group>";
 		};
 		78BD47DC2988D06B00E9AF4A = {
@@ -462,7 +498,7 @@
 				78271FFF2A0096B70080CA2E /* Lesson 6 Control Flow */,
 				782720002A0096DB0080CA2E /* Lesson 7 Functions */,
 				782720012A0096F60080CA2E /* Lesson 8 Closure */,
-				7862357B2A0DE4D800234426 /* Lesson Concurrency */,
+				7862357B2A0DE4D800234426 /* Grand Central Dispatch */,
 				782720372A01B6A20080CA2E /* Lesson 9 Higher Order Functions */,
 				782720022A00971D0080CA2E /* Lesson 10 Struct and OOP */,
 				782720032A0097480080CA2E /* Lesson 11 Optional and Unwrapping */,
