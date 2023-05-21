@@ -723,6 +723,27 @@
 			<key>orderHint</key>
 			<integer>111</integer>
 		</dict>
+		<key>Concurrency (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>151</integer>
+		</dict>
+		<key>Concurrency (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>152</integer>
+		</dict>
+		<key>Concurrency (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>153</integer>
+		</dict>
 		<key>Concurrency (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -771,6 +792,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>55</integer>
+		</dict>
+		<key>Exercise Five (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>182</integer>
+		</dict>
+		<key>Exercise Five (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>183</integer>
+		</dict>
+		<key>Exercise Five (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>181</integer>
 		</dict>
 		<key>Exercise Four (Playground) 1.xcscheme</key>
 		<dict>
@@ -919,6 +961,69 @@
 			<key>orderHint</key>
 			<integer>44</integer>
 		</dict>
+		<key>GCD 1. Main queue (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>164</integer>
+		</dict>
+		<key>GCD 1. Main queue (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>165</integer>
+		</dict>
+		<key>GCD 1. Main queue (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>163</integer>
+		</dict>
+		<key>GCD 2. Global queues (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>167</integer>
+		</dict>
+		<key>GCD 2. Global queues (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>168</integer>
+		</dict>
+		<key>GCD 2. Global queues (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>166</integer>
+		</dict>
+		<key>GCD 3. Custom queues (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>170</integer>
+		</dict>
+		<key>GCD 3. Custom queues (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>171</integer>
+		</dict>
+		<key>GCD 3. Custom queues (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>169</integer>
+		</dict>
 		<key>GCD Asynchronous (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -933,6 +1038,27 @@
 			<key>orderHint</key>
 			<integer>150</integer>
 		</dict>
+		<key>GCD Asynchronous (Playground) 3.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>175</integer>
+		</dict>
+		<key>GCD Asynchronous (Playground) 4.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>176</integer>
+		</dict>
+		<key>GCD Asynchronous (Playground) 5.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>177</integer>
+		</dict>
 		<key>GCD Asynchronous (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -946,6 +1072,20 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>86</integer>
+		</dict>
+		<key>GCD Concurrent Queue (Playground) 10.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>161</integer>
+		</dict>
+		<key>GCD Concurrent Queue (Playground) 11.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>162</integer>
 		</dict>
 		<key>GCD Concurrent Queue (Playground) 2.xcscheme</key>
 		<dict>
@@ -996,6 +1136,13 @@
 			<key>orderHint</key>
 			<integer>144</integer>
 		</dict>
+		<key>GCD Concurrent Queue (Playground) 9.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>160</integer>
+		</dict>
 		<key>GCD Concurrent Queue (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -1037,6 +1184,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>138</integer>
+		</dict>
+		<key>GCD Delay (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>178</integer>
+		</dict>
+		<key>GCD Delay (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>179</integer>
+		</dict>
+		<key>GCD Delay (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>180</integer>
 		</dict>
 		<key>GCD Delay (Playground).xcscheme</key>
 		<dict>
@@ -1122,12 +1290,54 @@
 			<key>orderHint</key>
 			<integer>141</integer>
 		</dict>
+		<key>GCD Serial Queue (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>157</integer>
+		</dict>
+		<key>GCD Serial Queue (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>158</integer>
+		</dict>
+		<key>GCD Serial Queue (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>159</integer>
+		</dict>
 		<key>GCD Serial Queue (Playground).xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 			<key>orderHint</key>
 			<integer>118</integer>
+		</dict>
+		<key>GCD Synchronous (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>173</integer>
+		</dict>
+		<key>GCD Synchronous (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>174</integer>
+		</dict>
+		<key>GCD Synchronous (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>172</integer>
 		</dict>
 		<key>GCD Synchronous vs Asynchronous (Playground) 1.xcscheme</key>
 		<dict>
@@ -4374,6 +4584,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>114</integer>
+		</dict>
+		<key>Serial Queue vs Concurrent Queue (Playground) 6.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>154</integer>
+		</dict>
+		<key>Serial Queue vs Concurrent Queue (Playground) 7.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>155</integer>
+		</dict>
+		<key>Serial Queue vs Concurrent Queue (Playground) 8.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>156</integer>
 		</dict>
 		<key>Serial Queue vs Concurrent Queue (Playground).xcscheme</key>
 		<dict>

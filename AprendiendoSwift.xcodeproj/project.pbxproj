@@ -74,6 +74,7 @@
 		786235872A1803F100234426 /* GCD Synchronous.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Synchronous.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235882A1806B400234426 /* GCD Delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Delay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7862358B2A180F0700234426 /* GCD Asynchronous.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Asynchronous.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CA2A1AB64700234426 /* Exercise Five.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Five.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -148,6 +149,7 @@
 				786235772A0895E500234426 /* Exercise Two.playground */,
 				786235782A089D0A00234426 /* Exercise Three.playground */,
 				786235792A0ADDC400234426 /* Exercise Four.playground */,
+				786235CA2A1AB64700234426 /* Exercise Five.playground */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -390,7 +392,7 @@
 			path = "Algorithms and Data Structures";
 			sourceTree = "<group>";
 		};
-		7862357B2A0DE4D800234426 /* Grand Central Dispatch */ = {
+		7862357B2A0DE4D800234426 /* Lesson Grand Central Dispatch */ = {
 			isa = PBXGroup;
 			children = (
 				7862357E2A13235300234426 /* Concurrency.playground */,
@@ -400,7 +402,7 @@
 				7862358A2A180EAF00234426 /* GCD Synchronous vs Asynchronous */,
 				786235882A1806B400234426 /* GCD Delay.playground */,
 			);
-			path = "Grand Central Dispatch";
+			path = "Lesson Grand Central Dispatch";
 			sourceTree = "<group>";
 		};
 		786235832A16C95700234426 /* GCD Different Queues */ = {
@@ -498,7 +500,7 @@
 				78271FFF2A0096B70080CA2E /* Lesson 6 Control Flow */,
 				782720002A0096DB0080CA2E /* Lesson 7 Functions */,
 				782720012A0096F60080CA2E /* Lesson 8 Closure */,
-				7862357B2A0DE4D800234426 /* Grand Central Dispatch */,
+				7862357B2A0DE4D800234426 /* Lesson Grand Central Dispatch */,
 				782720372A01B6A20080CA2E /* Lesson 9 Higher Order Functions */,
 				782720022A00971D0080CA2E /* Lesson 10 Struct and OOP */,
 				782720032A0097480080CA2E /* Lesson 11 Optional and Unwrapping */,
