@@ -212,5 +212,47 @@ var uppercasedLanguages = languages.map { $0.uppercased() }
 print("Despues:", uppercasedLanguages)   // Los strings pasan a mayuscula
 
 
+// MARK: Reduce
+// Reduce is a simple way to perform an operation over each element in a collection and condense down to a single value. It is commonly used on a list of numeric values to add up all the values.
+
+    // Sum
+let nums = [1, 2, 3, 4, 5]
+
+let total1 = nums.reduce(0, { x, y in
+    x + y
+})
 
 
+let total2 = nums.reduce(0) { x, y in x + y }
+
+let total3 = nums.reduce(0) { $0 + $1 }
+let total4 = nums.reduce(0, +)
+
+// Mult
+print("Product 1 = \(nums.reduce(1, *))")
+print("Product 0 = \(nums.reduce(0, *))")
+
+
+// Concatenate strings together
+
+let stringsArray = ["Red",
+                    "uce",
+                    " ",
+                    "in",
+                    " ",
+                    "Swi",
+                    "ft",
+                    "UI"]
+
+let string1 = stringsArray.reduce("", +)
+print("string1 = \(string1)")
+
+// string1 = Reduce in SwiftUI
+
+
+// Removing repeating elements with Reduce into
+let fullList = [1, 1, 2, 2, 2, 3, 4, 4, 5, 5, 6]
+
+let unique = fullList.reduce(into: [Int]()) {
+    if $0.last != $1 { $0.append($1) }
+}

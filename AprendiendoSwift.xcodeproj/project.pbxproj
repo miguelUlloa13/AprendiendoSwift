@@ -75,6 +75,13 @@
 		786235882A1806B400234426 /* GCD Delay.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Delay.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7862358B2A180F0700234426 /* GCD Asynchronous.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "GCD Asynchronous.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235CA2A1AB64700234426 /* Exercise Five.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Five.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CB2A1ACF7100234426 /* Exercise Six.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Six.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CC2A1AD5C300234426 /* Exercise Seven.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Seven.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CD2A1AE04B00234426 /* Exercise Eight.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Eight.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CE2A1AE59200234426 /* Exercise Nine.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Nine.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235CF2A1AE70700234426 /* Exercise Ten.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Ten.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235D02A1B1CD300234426 /* Exercise Eleven.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Eleven.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235D12A1B276B00234426 /* Exercise Twelve.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Twelve.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -150,6 +157,13 @@
 				786235782A089D0A00234426 /* Exercise Three.playground */,
 				786235792A0ADDC400234426 /* Exercise Four.playground */,
 				786235CA2A1AB64700234426 /* Exercise Five.playground */,
+				786235CB2A1ACF7100234426 /* Exercise Six.playground */,
+				786235CC2A1AD5C300234426 /* Exercise Seven.playground */,
+				786235CD2A1AE04B00234426 /* Exercise Eight.playground */,
+				786235CE2A1AE59200234426 /* Exercise Nine.playground */,
+				786235CF2A1AE70700234426 /* Exercise Ten.playground */,
+				786235D02A1B1CD300234426 /* Exercise Eleven.playground */,
+				786235D12A1B276B00234426 /* Exercise Twelve.playground */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";

@@ -36,6 +36,7 @@ numeroConstante + numeroVariable
 numeroConstante - numeroVariable
 numeroConstante * numeroVariable
 numeroConstante / numeroVariable
+numeroConstante % numeroVariable
 
 // Operador compuestos
 

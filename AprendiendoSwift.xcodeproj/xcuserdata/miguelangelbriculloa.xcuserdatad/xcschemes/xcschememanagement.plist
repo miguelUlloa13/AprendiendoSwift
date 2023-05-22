@@ -793,6 +793,48 @@
 			<key>orderHint</key>
 			<integer>55</integer>
 		</dict>
+		<key>Exercise Eight (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>191</integer>
+		</dict>
+		<key>Exercise Eight (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>192</integer>
+		</dict>
+		<key>Exercise Eight (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>190</integer>
+		</dict>
+		<key>Exercise Eleven (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>200</integer>
+		</dict>
+		<key>Exercise Eleven (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>201</integer>
+		</dict>
+		<key>Exercise Eleven (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>199</integer>
+		</dict>
 		<key>Exercise Five (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -856,6 +898,27 @@
 			<key>orderHint</key>
 			<integer>49</integer>
 		</dict>
+		<key>Exercise Nine (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>194</integer>
+		</dict>
+		<key>Exercise Nine (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>195</integer>
+		</dict>
+		<key>Exercise Nine (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>193</integer>
+		</dict>
 		<key>Exercise One (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -884,6 +947,69 @@
 			<key>orderHint</key>
 			<integer>12</integer>
 		</dict>
+		<key>Exercise Seven (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>188</integer>
+		</dict>
+		<key>Exercise Seven (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>189</integer>
+		</dict>
+		<key>Exercise Seven (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>187</integer>
+		</dict>
+		<key>Exercise Six (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>185</integer>
+		</dict>
+		<key>Exercise Six (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>186</integer>
+		</dict>
+		<key>Exercise Six (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>184</integer>
+		</dict>
+		<key>Exercise Ten (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>197</integer>
+		</dict>
+		<key>Exercise Ten (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>198</integer>
+		</dict>
+		<key>Exercise Ten (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>196</integer>
+		</dict>
 		<key>Exercise Three (Playground) 1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -911,6 +1037,27 @@
 			<false/>
 			<key>orderHint</key>
 			<integer>28</integer>
+		</dict>
+		<key>Exercise Twelve (Playground) 1.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>203</integer>
+		</dict>
+		<key>Exercise Twelve (Playground) 2.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>204</integer>
+		</dict>
+		<key>Exercise Twelve (Playground).xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+			<key>orderHint</key>
+			<integer>202</integer>
 		</dict>
 		<key>Exercise Two (Playground) 1.xcscheme</key>
 		<dict>

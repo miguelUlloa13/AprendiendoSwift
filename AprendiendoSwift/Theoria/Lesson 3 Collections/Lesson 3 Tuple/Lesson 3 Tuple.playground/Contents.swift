@@ -43,3 +43,23 @@ for (pavilion, auditory, letter) in auditoryAndPavilionsValues {
 auditoryAndPavilionsValues[5].auditoryName
 
 
+// MARK: Recorrer una tupla
+
+let arrayTupe : [(Int, String)] = [
+    (5, "test123"),
+    (2, "test443"),
+    (3, "test663"),
+    (1, "test123")
+]
+
+// 1ra manera
+for element in arrayTupe {
+    print(element.0)    // Solo un dato del diccionario
+    print(element.1)
+    print(element)
+}
+
+// 2a manera
+for (i,j) in arrayTupe {
+    print(i, j)
+}
