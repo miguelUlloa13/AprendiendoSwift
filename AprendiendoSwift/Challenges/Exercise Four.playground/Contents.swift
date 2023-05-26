@@ -4,3 +4,9 @@ import UIKit
 // Programa para comprobar si un número es palíndromo o no.
 
 // Un palíndromo, también llamado palíndroma o palindroma, es una palabra o frase que se lee igual en un sentido que en otro.
+
+func isPalindrome(_ input: String) -> Bool {
+    return input == String(input.reversed())
+}
+
+isPalindrome("miguel")

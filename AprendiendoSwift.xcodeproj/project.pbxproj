@@ -45,7 +45,7 @@
 		78271FBB29FD8BDE0080CA2E /* Lesson 18 Design pattern - Delegate and Retain Cycle.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Design pattern - Delegate and Retain Cycle.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78271FBC29FD8BF30080CA2E /* Lesson 18 Design pattern - Singleton.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 18 Design pattern - Singleton.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78271FCC29FDE9540080CA2E /* Lesson 17 Weak and strong references.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Weak and strong references.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78271FF92A0095A80080CA2E /* Lesson 1 Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Comments.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78271FF92A0095A80080CA2E /* Lesson 1.2 Comments.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1.2 Comments.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827200E2A00B4980080CA2E /* Lesson 20 Async Await.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Async Await.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827202F2A01B2030080CA2E /* Lesson 3 Dictionary.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Dictionary.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782720302A01B29C0080CA2E /* Lesson 22 Shortcuts.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Shortcuts.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -54,7 +54,7 @@
 		782720382A01B6CC0080CA2E /* Lesson 9 Higher Order Functions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 9 Higher Order Functions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		7827203F2A01E41C0080CA2E /* Lesson 12 Result Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 12 Result Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		782817D229B82D01001035C7 /* Glosario.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Glosario.md; sourceTree = "<group>"; };
-		7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		7853F63529E20FF6009D511C /* Lesson 1.1 Hello, playgroung.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 1.1 Hello, playgroung.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235702A08513600234426 /* Lesson 8 Lazy var.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Lazy var.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235722A086FEB00234426 /* Lesson 15 Extension.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 15 Extension.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235732A0875CB00234426 /* Lesson 6 Break statement.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 6 Break statement.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -82,6 +82,10 @@
 		786235CF2A1AE70700234426 /* Exercise Ten.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Ten.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235D02A1B1CD300234426 /* Exercise Eleven.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Eleven.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235D12A1B276B00234426 /* Exercise Twelve.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Twelve.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235F62A1C74E200234426 /* Exercise Thirteen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Thirteen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235F72A1C843000234426 /* Exercise Fourteen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Fourteen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235F82A1D5E0600234426 /* Lesson 2.2 Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2.2 Constants.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786235FA2A1D608E00234426 /* Lesson Data Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Data Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -104,8 +108,8 @@
 		78BD48082988D06C00E9AF4A /* AprendiendoSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AprendiendoSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BD480C2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoSwiftUITests.swift; sourceTree = "<group>"; };
 		78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AprendiendoSwiftUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		78BD481D2988D3D800E9AF4A /* Lesson 2 Variables, Constants and Literals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2 Variables, Constants and Literals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
-		78BD481E298A29B400E9AF4A /* Lesson 2 Literals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2 Literals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD481D2988D3D800E9AF4A /* Lesson 2.1 Variables.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2.1 Variables.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78BD481E298A29B400E9AF4A /* Lesson 2.3 Literals.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2.3 Literals.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4821298A2A7800E9AF4A /* Lesson 3 Array.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 3 Array.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4822298A2ACB00E9AF4A /* Lesson 4 Enum.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 4 Enum.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4823298A2B3300E9AF4A /* Lesson 5 Operators.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 5 Operators.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -164,6 +168,8 @@
 				786235CF2A1AE70700234426 /* Exercise Ten.playground */,
 				786235D02A1B1CD300234426 /* Exercise Eleven.playground */,
 				786235D12A1B276B00234426 /* Exercise Twelve.playground */,
+				786235F62A1C74E200234426 /* Exercise Thirteen.playground */,
+				786235F72A1C843000234426 /* Exercise Fourteen.playground */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -171,8 +177,8 @@
 		78271FF72A0095410080CA2E /* Lesson 1 Hello, playground! */ = {
 			isa = PBXGroup;
 			children = (
-				7853F63529E20FF6009D511C /* Lesson 1 Hello, playgroung.playground */,
-				78271FF92A0095A80080CA2E /* Lesson 1 Comments.playground */,
+				7853F63529E20FF6009D511C /* Lesson 1.1 Hello, playgroung.playground */,
+				78271FF92A0095A80080CA2E /* Lesson 1.2 Comments.playground */,
 			);
 			path = "Lesson 1 Hello, playground!";
 			sourceTree = "<group>";
@@ -180,8 +186,9 @@
 		78271FFB2A0095E20080CA2E /* Lesson 2 Variables, Constants and Literals */ = {
 			isa = PBXGroup;
 			children = (
-				78BD481D2988D3D800E9AF4A /* Lesson 2 Variables, Constants and Literals.playground */,
-				78BD481E298A29B400E9AF4A /* Lesson 2 Literals.playground */,
+				78BD481D2988D3D800E9AF4A /* Lesson 2.1 Variables.playground */,
+				786235F82A1D5E0600234426 /* Lesson 2.2 Constants.playground */,
+				78BD481E298A29B400E9AF4A /* Lesson 2.3 Literals.playground */,
 			);
 			path = "Lesson 2 Variables, Constants and Literals";
 			sourceTree = "<group>";
@@ -447,6 +454,14 @@
 			path = "GCD Synchronous vs Asynchronous";
 			sourceTree = "<group>";
 		};
+		786235F92A1D607300234426 /* Lesson Data Types */ = {
+			isa = PBXGroup;
+			children = (
+				786235FA2A1D608E00234426 /* Lesson Data Types.playground */,
+			);
+			path = "Lesson Data Types";
+			sourceTree = "<group>";
+		};
 		78BD47DC2988D06B00E9AF4A = {
 			isa = PBXGroup;
 			children = (
@@ -508,6 +523,7 @@
 			children = (
 				78271FF72A0095410080CA2E /* Lesson 1 Hello, playground! */,
 				78271FFB2A0095E20080CA2E /* Lesson 2 Variables, Constants and Literals */,
+				786235F92A1D607300234426 /* Lesson Data Types */,
 				78271FFC2A0096350080CA2E /* Lesson 3 Collections */,
 				78271FFD2A00965C0080CA2E /* Lesson 4 Enum */,
 				78271FFE2A00968E0080CA2E /* Lesson 5 Operators */,
