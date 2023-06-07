@@ -18,6 +18,7 @@
 		78BD48032988D06C00E9AF4A /* AprendiendoSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD48022988D06C00E9AF4A /* AprendiendoSwiftTests.swift */; };
 		78BD480D2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD480C2988D06C00E9AF4A /* AprendiendoSwiftUITests.swift */; };
 		78BD480F2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BD480E2988D06C00E9AF4A /* AprendiendoSwiftUITestsLaunchTests.swift */; };
+		78DD38262A3004BE00A81688 /* Node.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78DD38252A3004BE00A81688 /* Node.swift */; };
 		78F339B929CCE331008FD3C3 /* OtherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78F339B829CCE331008FD3C3 /* OtherViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -86,6 +87,9 @@
 		786235F72A1C843000234426 /* Exercise Fourteen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Fourteen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235F82A1D5E0600234426 /* Lesson 2.2 Constants.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 2.2 Constants.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		786235FA2A1D608E00234426 /* Lesson Data Types.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Data Types.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786236362A2968E400234426 /* Exercise Fifteen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Fifteen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786236372A2970F200234426 /* Lesson Recursion.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson Recursion.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		786236382A2986DC00234426 /* Exercise Sixteen.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Exercise Sixteen.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454132A036A2D003761B3 /* Lesson 8 Closure Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454232A043970003761B3 /* Lesson 17 Value type and Reference Type.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Value type and Reference Type.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		787454242A0439B9003761B3 /* Lesson 17 Automatic Reference Counting.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 17 Automatic Reference Counting.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
@@ -124,6 +128,8 @@
 		78BD483C2991E97F00E9AF4A /* Lesson 22 Marks in Swift.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 22 Marks in Swift.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD484F2997617A00E9AF4A /* Lesson 20 Networking (URLSession).playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 20 Networking (URLSession).playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78BD4850299D75E200E9AF4A /* Lesson 8 Closure Non Escaping.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 8 Closure Non Escaping.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		78DD38252A3004BE00A81688 /* Node.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Node.swift; sourceTree = "<group>"; };
+		78DD38272A30054200A81688 /* LinkedList.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = LinkedList.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		78F339B829CCE331008FD3C3 /* OtherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherViewController.swift; sourceTree = "<group>"; };
 		78F33A0B29D64CA9008FD3C3 /* Lesson 21 Regular expressions.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = "Lesson 21 Regular expressions.playground"; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 /* End PBXFileReference section */
@@ -170,6 +176,8 @@
 				786235D12A1B276B00234426 /* Exercise Twelve.playground */,
 				786235F62A1C74E200234426 /* Exercise Thirteen.playground */,
 				786235F72A1C843000234426 /* Exercise Fourteen.playground */,
+				786236362A2968E400234426 /* Exercise Fifteen.playground */,
+				786236382A2986DC00234426 /* Exercise Sixteen.playground */,
 			);
 			path = Challenges;
 			sourceTree = "<group>";
@@ -234,6 +242,7 @@
 			isa = PBXGroup;
 			children = (
 				78BD4826298A2C8300E9AF4A /* Lesson 7 Functions.playground */,
+				786236372A2970F200234426 /* Lesson Recursion.playground */,
 			);
 			path = "Lesson 7 Functions";
 			sourceTree = "<group>";
@@ -409,6 +418,8 @@
 		7862357A2A0ADF8100234426 /* Algorithms and Data Structures */ = {
 			isa = PBXGroup;
 			children = (
+				78DD38252A3004BE00A81688 /* Node.swift */,
+				78DD38272A30054200A81688 /* LinkedList.playground */,
 			);
 			path = "Algorithms and Data Structures";
 			sourceTree = "<group>";
@@ -485,7 +496,7 @@
 		78BD47E72988D06B00E9AF4A /* AprendiendoSwift */ = {
 			isa = PBXGroup;
 			children = (
-				78BD481B2988D36500E9AF4A /* Theoria */,
+				78BD481B2988D36500E9AF4A /* Foundation */,
 				7862357A2A0ADF8100234426 /* Algorithms and Data Structures */,
 				78271EA829F469F80080CA2E /* Challenges */,
 				78BD47E82988D06B00E9AF4A /* AppDelegate.swift */,
@@ -518,7 +529,7 @@
 			path = AprendiendoSwiftUITests;
 			sourceTree = "<group>";
 		};
-		78BD481B2988D36500E9AF4A /* Theoria */ = {
+		78BD481B2988D36500E9AF4A /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
 				78271FF72A0095410080CA2E /* Lesson 1 Hello, playground! */,
@@ -547,7 +558,7 @@
 				7827200B2A0099C40080CA2E /* Lesson 22 Adittional Lessons */,
 				782817D229B82D01001035C7 /* Glosario.md */,
 			);
-			path = Theoria;
+			path = Foundation;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -685,6 +696,7 @@
 				78BD47ED2988D06B00E9AF4A /* ViewController.swift in Sources */,
 				78BD47E92988D06B00E9AF4A /* AppDelegate.swift in Sources */,
 				78BD47EB2988D06B00E9AF4A /* SceneDelegate.swift in Sources */,
+				78DD38262A3004BE00A81688 /* Node.swift in Sources */,
 				78BD47F32988D06B00E9AF4A /* AprendiendoSwift.xcdatamodeld in Sources */,
 				78F339B929CCE331008FD3C3 /* OtherViewController.swift in Sources */,
 			);
